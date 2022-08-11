@@ -61,7 +61,7 @@ namespace Form_list
             Grid1.Columns["MAKEDATE"].HeaderText = "수량";
             Grid1.Columns["MAKER"].HeaderText = "작업장";
             Grid1.Columns["EDITDATE"].HeaderText = "설비";
-            Grid1.Columns["EDITOR"].HeaderText = "작업내용";
+            Grid1.Columns["EDITOR"].HeaderText = "테스트";
 
             // 컬럼의 폭 지정
             Grid1.Columns["USERID"].Width = 100;
