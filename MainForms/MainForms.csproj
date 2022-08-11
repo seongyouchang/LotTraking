@@ -122,5 +122,8 @@
   <ItemGroup>
     <None Include="Resources\BtcExit.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\조회.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

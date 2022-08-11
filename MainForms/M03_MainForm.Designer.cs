@@ -58,12 +58,14 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.M_TEST,
             this.S_MENU});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(872, 24);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(997, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -73,20 +75,20 @@
             this.Form01_MDITest,
             this.Form01_MDITest2});
             this.M_TEST.Name = "M_TEST";
-            this.M_TEST.Size = new System.Drawing.Size(83, 20);
+            this.M_TEST.Size = new System.Drawing.Size(103, 24);
             this.M_TEST.Text = "테스트 메뉴";
             this.M_TEST.DropDownItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.M_TEST_DropDownItemClicked);
             // 
             // Form01_MDITest
             // 
             this.Form01_MDITest.Name = "Form01_MDITest";
-            this.Form01_MDITest.Size = new System.Drawing.Size(130, 22);
+            this.Form01_MDITest.Size = new System.Drawing.Size(162, 26);
             this.Form01_MDITest.Text = "MDI_Test";
             // 
             // Form01_MDITest2
             // 
             this.Form01_MDITest2.Name = "Form01_MDITest2";
-            this.Form01_MDITest2.Size = new System.Drawing.Size(130, 22);
+            this.Form01_MDITest2.Size = new System.Drawing.Size(162, 26);
             this.Form01_MDITest2.Text = "MDI_Test2";
             // 
             // S_MENU
@@ -95,25 +97,26 @@
             this.Form03_UserMaster,
             this.Form04_SystemMaster});
             this.S_MENU.Name = "S_MENU";
-            this.S_MENU.Size = new System.Drawing.Size(67, 20);
+            this.S_MENU.Size = new System.Drawing.Size(83, 24);
             this.S_MENU.Text = "기준정보";
             this.S_MENU.DropDownItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.M_TEST_DropDownItemClicked);
             // 
             // Form03_UserMaster
             // 
             this.Form03_UserMaster.Name = "Form03_UserMaster";
-            this.Form03_UserMaster.Size = new System.Drawing.Size(134, 22);
+            this.Form03_UserMaster.Size = new System.Drawing.Size(167, 26);
             this.Form03_UserMaster.Text = "사용자관리";
             // 
             // Form04_SystemMaster
             // 
             this.Form04_SystemMaster.Name = "Form04_SystemMaster";
-            this.Form04_SystemMaster.Size = new System.Drawing.Size(134, 22);
+            this.Form04_SystemMaster.Size = new System.Drawing.Size(167, 26);
             this.Form04_SystemMaster.Text = "시스템관리";
             // 
             // toolStrip1
             // 
             this.toolStrip1.AutoSize = false;
+            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsbSearch,
             this.tsbAdd,
@@ -122,19 +125,19 @@
             this.toolStripSeparator1,
             this.tsbClose,
             this.tsbExit});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 24);
+            this.toolStrip1.Location = new System.Drawing.Point(0, 28);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(872, 94);
+            this.toolStrip1.Size = new System.Drawing.Size(997, 118);
             this.toolStrip1.TabIndex = 1;
             this.toolStrip1.Text = "toolStrip1";
             // 
             // tsbSearch
             // 
-            this.tsbSearch.Image = global::MainForms.Properties.Resources.BtnSearch;
+            this.tsbSearch.Image = global::MainForms.Properties.Resources.조회;
             this.tsbSearch.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.tsbSearch.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbSearch.Name = "tsbSearch";
-            this.tsbSearch.Size = new System.Drawing.Size(54, 91);
+            this.tsbSearch.Size = new System.Drawing.Size(58, 115);
             this.tsbSearch.Text = "조회";
             this.tsbSearch.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.tsbSearch.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -146,7 +149,7 @@
             this.tsbAdd.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.tsbAdd.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbAdd.Name = "tsbAdd";
-            this.tsbAdd.Size = new System.Drawing.Size(54, 91);
+            this.tsbAdd.Size = new System.Drawing.Size(54, 115);
             this.tsbAdd.Text = "추가";
             this.tsbAdd.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.tsbAdd.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -158,7 +161,7 @@
             this.tsbDelete.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.tsbDelete.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbDelete.Name = "tsbDelete";
-            this.tsbDelete.Size = new System.Drawing.Size(54, 91);
+            this.tsbDelete.Size = new System.Drawing.Size(54, 115);
             this.tsbDelete.Text = "삭제";
             this.tsbDelete.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.tsbDelete.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -170,7 +173,7 @@
             this.tsbSave.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.tsbSave.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbSave.Name = "tsbSave";
-            this.tsbSave.Size = new System.Drawing.Size(54, 91);
+            this.tsbSave.Size = new System.Drawing.Size(54, 115);
             this.tsbSave.Text = "저장";
             this.tsbSave.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.tsbSave.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -179,7 +182,7 @@
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 94);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 118);
             // 
             // tsbClose
             // 
@@ -187,7 +190,7 @@
             this.tsbClose.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.tsbClose.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbClose.Name = "tsbClose";
-            this.tsbClose.Size = new System.Drawing.Size(54, 91);
+            this.tsbClose.Size = new System.Drawing.Size(54, 115);
             this.tsbClose.Text = "닫기";
             this.tsbClose.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.tsbClose.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -199,7 +202,7 @@
             this.tsbExit.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.tsbExit.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbExit.Name = "tsbExit";
-            this.tsbExit.Size = new System.Drawing.Size(54, 91);
+            this.tsbExit.Size = new System.Drawing.Size(54, 115);
             this.tsbExit.Text = "종료";
             this.tsbExit.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.tsbExit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -212,61 +215,65 @@
             // 
             // statusStrip1
             // 
+            this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.sts,
             this.toolStripStatusLabel2,
             this.stsUserName,
             this.stsNowDateTime});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 428);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 536);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(872, 22);
+            this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 16, 0);
+            this.statusStrip1.Size = new System.Drawing.Size(997, 26);
             this.statusStrip1.TabIndex = 6;
             this.statusStrip1.Text = "statusStrip1";
             // 
             // sts
             // 
             this.sts.Name = "sts";
-            this.sts.Size = new System.Drawing.Size(67, 17);
+            this.sts.Size = new System.Drawing.Size(83, 20);
             this.sts.Text = "FormName";
             // 
             // toolStripStatusLabel2
             // 
             this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
-            this.toolStripStatusLabel2.Size = new System.Drawing.Size(645, 17);
+            this.toolStripStatusLabel2.Size = new System.Drawing.Size(713, 20);
             this.toolStripStatusLabel2.Spring = true;
             // 
             // stsUserName
             // 
             this.stsUserName.Name = "stsUserName";
-            this.stsUserName.Size = new System.Drawing.Size(62, 17);
+            this.stsUserName.Size = new System.Drawing.Size(79, 20);
             this.stsUserName.Text = "UserName";
             // 
             // stsNowDateTime
             // 
             this.stsNowDateTime.Name = "stsNowDateTime";
-            this.stsNowDateTime.Size = new System.Drawing.Size(83, 17);
+            this.stsNowDateTime.Size = new System.Drawing.Size(105, 20);
             this.stsNowDateTime.Text = "NowDateTime";
             // 
             // tacMyTab
             // 
             this.tacMyTab.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tacMyTab.Location = new System.Drawing.Point(0, 118);
+            this.tacMyTab.Location = new System.Drawing.Point(0, 146);
+            this.tacMyTab.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tacMyTab.Name = "tacMyTab";
             this.tacMyTab.SelectedIndex = 0;
-            this.tacMyTab.Size = new System.Drawing.Size(872, 310);
+            this.tacMyTab.Size = new System.Drawing.Size(997, 390);
             this.tacMyTab.TabIndex = 7;
             // 
             // M03_MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(872, 450);
+            this.ClientSize = new System.Drawing.Size(997, 562);
             this.Controls.Add(this.tacMyTab);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "M03_MainForm";
             this.Text = "EZ DEV 1.0";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
