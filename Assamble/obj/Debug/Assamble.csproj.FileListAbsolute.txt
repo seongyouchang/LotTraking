@@ -1,0 +1,24 @@
+C:\Users\user\Desktop\성유창\youchang\windowsformsapp\Assamble\bin\Debug\Assamble.dll
+C:\Users\user\Desktop\성유창\youchang\windowsformsapp\Assamble\bin\Debug\Assamble.pdb
+C:\Users\user\Desktop\성유창\youchang\windowsformsapp\Assamble\obj\Debug\Assamble.csprojAssemblyReference.cache
+C:\Users\user\Desktop\성유창\youchang\windowsformsapp\Assamble\obj\Debug\Assamble.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\성유창\youchang\windowsformsapp\Assamble\obj\Debug\Assamble.dll
+C:\Users\user\Desktop\성유창\youchang\windowsformsapp\Assamble\obj\Debug\Assamble.pdb
+C:\Users\user\Desktop\성유창\youchang\windowsformsapp\Assamble\obj\Debug\Assamble.BaseChlidForm.resources
+C:\Users\user\Desktop\성유창\youchang\windowsformsapp\Assamble\obj\Debug\Assamble.csproj.GenerateResource.cache
+C:\Users\syc\Desktop\프로젝트 (1)\Assamble\bin\Debug\Assamble.dll
+C:\Users\syc\Desktop\프로젝트 (1)\Assamble\bin\Debug\Assamble.pdb
+C:\Users\syc\Desktop\프로젝트 (1)\Assamble\obj\Debug\Assamble.csproj.AssemblyReference.cache
+C:\Users\syc\Desktop\프로젝트 (1)\Assamble\obj\Debug\Assamble.BaseChlidForm.resources
+C:\Users\syc\Desktop\프로젝트 (1)\Assamble\obj\Debug\Assamble.csproj.GenerateResource.cache
+C:\Users\syc\Desktop\프로젝트 (1)\Assamble\obj\Debug\Assamble.csproj.CoreCompileInputs.cache
+C:\Users\syc\Desktop\프로젝트 (1)\Assamble\obj\Debug\Assamble.dll
+C:\Users\syc\Desktop\프로젝트 (1)\Assamble\obj\Debug\Assamble.pdb
+C:\Users\user\Desktop\프로젝트 (1)\Assamble\bin\Debug\Assamble.dll
+C:\Users\user\Desktop\프로젝트 (1)\Assamble\bin\Debug\Assamble.pdb
+C:\Users\user\Desktop\프로젝트 (1)\Assamble\obj\Debug\Assamble.csprojAssemblyReference.cache
+C:\Users\user\Desktop\프로젝트 (1)\Assamble\obj\Debug\Assamble.BaseChlidForm.resources
+C:\Users\user\Desktop\프로젝트 (1)\Assamble\obj\Debug\Assamble.csproj.GenerateResource.cache
+C:\Users\user\Desktop\프로젝트 (1)\Assamble\obj\Debug\Assamble.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\프로젝트 (1)\Assamble\obj\Debug\Assamble.dll
+C:\Users\user\Desktop\프로젝트 (1)\Assamble\obj\Debug\Assamble.pdb

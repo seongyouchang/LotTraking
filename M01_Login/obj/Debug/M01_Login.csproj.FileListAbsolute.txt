@@ -1,0 +1,10 @@
+C:\Users\user\Desktop\youchang\windowsformsapp\M01_Login\bin\Debug\M01_Login.exe.config
+C:\Users\user\Desktop\youchang\windowsformsapp\M01_Login\bin\Debug\M01_Login.exe
+C:\Users\user\Desktop\youchang\windowsformsapp\M01_Login\bin\Debug\M01_Login.pdb
+C:\Users\user\Desktop\youchang\windowsformsapp\M01_Login\obj\Debug\M01_Login.csprojAssemblyReference.cache
+C:\Users\user\Desktop\youchang\windowsformsapp\M01_Login\obj\Debug\M01_Login.Form1.resources
+C:\Users\user\Desktop\youchang\windowsformsapp\M01_Login\obj\Debug\M01_Login.Properties.Resources.resources
+C:\Users\user\Desktop\youchang\windowsformsapp\M01_Login\obj\Debug\M01_Login.csproj.GenerateResource.cache
+C:\Users\user\Desktop\youchang\windowsformsapp\M01_Login\obj\Debug\M01_Login.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\youchang\windowsformsapp\M01_Login\obj\Debug\M01_Login.exe
+C:\Users\user\Desktop\youchang\windowsformsapp\M01_Login\obj\Debug\M01_Login.pdb
