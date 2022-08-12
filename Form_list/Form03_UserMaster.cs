@@ -41,43 +41,39 @@ namespace Form_list
         {
             /*****************기본 그리드 내역 셋팅 *******************/
             DataTable dtGrid = new DataTable();
-            dtGrid.Columns.Add("USERID", typeof(string));   //작업지시 번호
-            dtGrid.Columns.Add("USERNAME", typeof(string)); //Lot 번호
-            dtGrid.Columns.Add("PW", typeof(string));       //품명
-            dtGrid.Columns.Add("DEPTCODE", typeof(string)); //원자재 Lot
-            dtGrid.Columns.Add("MAKEDATE", typeof(DateTime));//수량
-            dtGrid.Columns.Add("MAKER", typeof(string));    //작업장
-            dtGrid.Columns.Add("EDITDATE", typeof(DateTime));//설비
-            dtGrid.Columns.Add("EDITOR", typeof(string));   //작업내용
+            dtGrid.Columns.Add("WID", typeof(string));   //작업지시 번호
+            dtGrid.Columns.Add("WSTART", typeof(DateTime)); //Lot 번호
+            dtGrid.Columns.Add("WFINISH", typeof(DateTime));       //품명
+            dtGrid.Columns.Add("WPLAN", typeof(string)); //원자재 Lot
+            dtGrid.Columns.Add("ILROW", typeof(string));//수량
+            dtGrid.Columns.Add("FSPACE", typeof(string));    //작업장
+            
 
             // 빈 컬럼 테이블 그리드에 매칭. (DataSource : 테이블 형식의 데이터를 표현하는 속성)
             Grid1.DataSource = dtGrid;
 
             // 그리드 컬럼 명칭(Text) 설정 // 번호로 지정 가능
-            Grid1.Columns["USERID"].HeaderText = "작업지시번호";
-            Grid1.Columns["USERNAME"].HeaderText = "Lot 번호";
-            Grid1.Columns[2].HeaderText = "품명";
-            Grid1.Columns["DEPTCODE"].HeaderText = "원자재Lot";
-            Grid1.Columns["MAKEDATE"].HeaderText = "수량";
-            Grid1.Columns["MAKER"].HeaderText = "작업장";
-            Grid1.Columns["EDITDATE"].HeaderText = "설비";
-            Grid1.Columns["EDITOR"].HeaderText = "테스트";
+            Grid1.Columns["WID"].HeaderText = "작업지시번호";
+            Grid1.Columns["WSTART"].HeaderText = "작업시작일";
+            Grid1.Columns["WFINISH"].HeaderText = "작업종료일";
+            Grid1.Columns["WPLAN"].HeaderText = "생산수량";
+            Grid1.Columns["ILROW"].HeaderText = "필요원자재";
+            Grid1.Columns["FSPACE"].HeaderText = "작업장";
+       
 
             // 컬럼의 폭 지정
-            Grid1.Columns["USERID"].Width = 100;
+            Grid1.Columns["WID"].Width = 100;
             Grid1.Columns[1].       Width = 200;
             Grid1.Columns[2].       Width = 100;
             Grid1.Columns[3].       Width = 150;
             Grid1.Columns[4].       Width = 200;
             Grid1.Columns[5].       Width = 100;
-            Grid1.Columns[6].       Width = 200;
-            Grid1.Columns["EDITOR"].Width = 100;
-
-            // 컬럼의 수정 여부를 지정
-            Grid1.Columns["MAKER"].ReadOnly = true;
-            Grid1.Columns["MAKEDATE"].ReadOnly = true;
-            Grid1.Columns["EDITOR"].ReadOnly = true;
-            Grid1.Columns["EDITDATE"].ReadOnly = true;
+            
+            //// 컬럼의 수정 여부를 지정
+            //Grid1.Columns["MAKER"].ReadOnly = true;
+            //Grid1.Columns["MAKEDATE"].ReadOnly = true;
+            //Grid1.Columns["EDITOR"].ReadOnly = true;
+            //Grid1.Columns["EDITDATE"].ReadOnly = true;
         }
 
         // 메서드 오버라이드 (Override)
@@ -107,8 +103,8 @@ namespace Form_list
                 Adapter.SelectCommand.CommandType = CommandType.StoredProcedure;
 
                 // 파라미터의 개수 별로 함수에 아규먼트 등록
-                Adapter.SelectCommand.Parameters.AddWithValue("USERID", txtUserId.Text);
-                Adapter.SelectCommand.Parameters.AddWithValue("USERNAME", textBox1.Text);
+                Adapter.SelectCommand.Parameters.AddWithValue("WID", txtUserId.Text);
+                Adapter.SelectCommand.Parameters.AddWithValue("FSPACE", textBox1.Text);
 
                 // 데이터 베이스 처리 시 C#으로 반환할 값을 담는 변수.
                 Adapter.SelectCommand.Parameters.AddWithValue("LANG", "KO");
@@ -170,9 +166,9 @@ namespace Form_list
                         case DataRowState.Deleted:
                             drrow.RejectChanges();
                             // 사용자 정보를 변경하는 저장 프로시져 호출
-                            cmd.CommandText = "BM_UserMaster_D";
+                            cmd.CommandText = "BM_WorkOrder_D";
                             //이 이름으로      이 값을 던지겠다
-                            cmd.Parameters.AddWithValue("USERID", drrow["USERID"]);
+                            cmd.Parameters.AddWithValue("WID", drrow["WID"]);
 
                             cmd.Parameters.AddWithValue("LANG", "KO");
                             cmd.Parameters.AddWithValue("RS_CODE", "").Direction = ParameterDirection.Output;
@@ -182,11 +178,10 @@ namespace Form_list
                             break;
                         case DataRowState.Modified:
                             // 사용자 정보가 수정 된 상태이면
-                            if (Convert.ToString(drrow["USERID"]) == "")      sMessage += "사용자 ID";
+                            if (Convert.ToString(drrow["ILROW"]) == "")      sMessage += "원자재";
 
-                            if (Convert.ToString(drrow["USERNAME"]) == "")     sMessage += "사용자 명";
+                            if (Convert.ToString(drrow["FSPACE"]) == "")     sMessage += "작업장";
 
-                            if (Convert.ToString(drrow["PW"]) == "")           sMessage += "비밀번호";
 
                             if(sMessage != "")
                             {
@@ -194,13 +189,13 @@ namespace Form_list
                             }
 
                             // 사용자 정보를 변경하는 저장 프로시져 호출
-                            cmd.CommandText = "BM_UserMaster_U";
-                                                    //이 이름으로      이 값을 던지겠다
-                            cmd.Parameters.AddWithValue("USERID", drrow["USERID"]);
-                            cmd.Parameters.AddWithValue("USERNAME", drrow["USERNAME"]);
-                            cmd.Parameters.AddWithValue("PASSWORD", drrow["PW"]);
-                            cmd.Parameters.AddWithValue("DEPTCODE", drrow["DEPTCODE"]);
-                            cmd.Parameters.AddWithValue("EDITOR", Commons.cLogInId);
+                            cmd.CommandText = "BM_WorkOrder_U";
+                            //이 이름으로      이 값을 던지겠다
+                            cmd.Parameters.AddWithValue("Wid", drrow["Wid"]);
+                            cmd.Parameters.AddWithValue("FSPACE", drrow["FSPACE"]);
+                            cmd.Parameters.AddWithValue("WPLAN", drrow["WPLAN"]);
+                            cmd.Parameters.AddWithValue("ILROW", drrow["ILROW"]);
+                            
 
                             cmd.Parameters.AddWithValue("LANG", "KO");
                             cmd.Parameters.AddWithValue("RS_CODE", "").Direction = ParameterDirection.Output;
@@ -211,14 +206,17 @@ namespace Form_list
                             break;
                         case DataRowState.Added:
 
-                            // 사용자 정보를 변경하는 저장 프로시져 호출
-                            cmd.CommandText = "BM_UserMaster_I";
+                            
+                            cmd.CommandText = "BM_WorkOrder_I";
                             //이 이름으로      이 값을 던지겠다
-                            cmd.Parameters.AddWithValue("USERID", drrow["USERID"]);
-                            cmd.Parameters.AddWithValue("USERNAME", drrow["USERNAME"]);
-                            cmd.Parameters.AddWithValue("PASSWORD", drrow["PW"]);
-                            cmd.Parameters.AddWithValue("DEPTCODE", drrow["DEPTCODE"]);
-                            cmd.Parameters.AddWithValue("MAKER", Commons.cLogInId);
+                            cmd.Parameters.AddWithValue("Wid", drrow["Wid"]);
+                            cmd.Parameters.AddWithValue("WSTART", drrow["WSTART"]);
+                            cmd.Parameters.AddWithValue("WFINISH", drrow["WFINISH"]);
+                            cmd.Parameters.AddWithValue("WPLAN", drrow["WPLAN"]);
+                            cmd.Parameters.AddWithValue("ILROW", drrow["ILROW"]);
+                            cmd.Parameters.AddWithValue("FSPACE", drrow["FSPACE"]);
+
+
 
                             cmd.Parameters.AddWithValue("LANG", "KO");
                             cmd.Parameters.AddWithValue("RS_CODE", "").Direction = ParameterDirection.Output;
@@ -273,11 +271,11 @@ namespace Form_list
             // Delete() 삭제한 데이터를 DataSource에는 남긴다.
 
             // 0부터 시작하는 테이블과 1부터 시작하는 테이블은 위치가 달라서 선택한 것과 다른 것이 삭제되는 경우 for문으로 픽스
-            string sUserId = Convert.ToString(Grid1.Rows[iSelectRowIndex].Cells["USERID"].Value);
+            string sUserId = Convert.ToString(Grid1.Rows[iSelectRowIndex].Cells["WID"].Value);
             for (int i = 0; i < dtTemp.Rows.Count; i++)
             {
                 if (dtTemp.Rows[i].RowState == DataRowState.Deleted) continue;
-                if (sUserId == Convert.ToString(dtTemp.Rows[i]["USERID"]))
+                if (sUserId == Convert.ToString(dtTemp.Rows[i]["WID"]))
                 {
                     dtTemp.Rows[i].Delete();
                 }

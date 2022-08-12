@@ -66,35 +66,33 @@
             // tstUserId
             // 
             this.tstUserId.AutoSize = true;
-            this.tstUserId.Location = new System.Drawing.Point(30, 40);
+            this.tstUserId.Location = new System.Drawing.Point(26, 32);
             this.tstUserId.Name = "tstUserId";
-            this.tstUserId.Size = new System.Drawing.Size(97, 15);
+            this.tstUserId.Size = new System.Drawing.Size(77, 12);
             this.tstUserId.TabIndex = 0;
             this.tstUserId.Text = "생산지시번호";
             // 
             // txtUserName
             // 
             this.txtUserName.AutoSize = true;
-            this.txtUserName.Location = new System.Drawing.Point(53, 95);
+            this.txtUserName.Location = new System.Drawing.Point(46, 76);
             this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(52, 15);
+            this.txtUserName.Size = new System.Drawing.Size(41, 12);
             this.txtUserName.TabIndex = 1;
             this.txtUserName.Text = "작업장";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(125, 91);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox1.Location = new System.Drawing.Point(109, 73);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(57, 25);
+            this.textBox1.Size = new System.Drawing.Size(50, 21);
             this.textBox1.TabIndex = 2;
             // 
             // txtUserId
             // 
-            this.txtUserId.Location = new System.Drawing.Point(125, 36);
-            this.txtUserId.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtUserId.Location = new System.Drawing.Point(109, 29);
             this.txtUserId.Name = "txtUserId";
-            this.txtUserId.Size = new System.Drawing.Size(228, 25);
+            this.txtUserId.Size = new System.Drawing.Size(200, 21);
             this.txtUserId.TabIndex = 3;
             // 
             // Grid1
@@ -105,32 +103,29 @@
             this.Grid1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.Grid1.BackgroundColor = System.Drawing.Color.White;
             this.Grid1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.Grid1.ColumnHeadersVisible = false;
             this.Grid1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Grid1.EnableHeadersVisualStyles = false;
-            this.Grid1.Location = new System.Drawing.Point(3, 22);
-            this.Grid1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Grid1.Location = new System.Drawing.Point(3, 17);
             this.Grid1.Name = "Grid1";
             this.Grid1.RowHeadersWidth = 51;
             this.Grid1.RowTemplate.Height = 23;
             this.Grid1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.Grid1.Size = new System.Drawing.Size(908, 411);
+            this.Grid1.Size = new System.Drawing.Size(794, 330);
             this.Grid1.TabIndex = 0;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(205, 91);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox4.Location = new System.Drawing.Point(179, 73);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(148, 25);
+            this.textBox4.Size = new System.Drawing.Size(130, 21);
             this.textBox4.TabIndex = 8;
             // 
             // Form03_UserMaster
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
-            this.ClientSize = new System.Drawing.Size(914, 562);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Location = new System.Drawing.Point(0, 0);
-            this.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form03_UserMaster";
             this.Text = "작업 지시 등록";
             this.Load += new System.EventHandler(this.Form03_UserMaster_Load);
