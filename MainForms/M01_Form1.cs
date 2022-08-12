@@ -192,6 +192,7 @@ namespace MainForms
             this.Visible = false; // 기존 로그인창을 잠깐 안보이는 것처럼 처리
             M01.ShowDialog(); // 화면이 활성화 된 이후 화면이 닫히기 전까지 아래로직을 수행하지 않는다.
             this.Visible = true; // 로그인창 활성화
+            //테스트
         }
     }
 }
