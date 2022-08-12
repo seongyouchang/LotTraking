@@ -154,6 +154,7 @@ namespace MainForms
             }
 
             tacMyTab.AddPage(FormMdi);
+            sts.Text = tacMyTab.SelectedTab.Name;
         }
 
         private void tsbClose_Click(object sender, EventArgs e)

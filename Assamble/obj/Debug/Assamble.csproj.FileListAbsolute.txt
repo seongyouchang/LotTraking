@@ -22,3 +22,11 @@ C:\Users\user\Desktop\프로젝트 (1)\Assamble\obj\Debug\Assamble.csproj.Genera
 C:\Users\user\Desktop\프로젝트 (1)\Assamble\obj\Debug\Assamble.csproj.CoreCompileInputs.cache
 C:\Users\user\Desktop\프로젝트 (1)\Assamble\obj\Debug\Assamble.dll
 C:\Users\user\Desktop\프로젝트 (1)\Assamble\obj\Debug\Assamble.pdb
+C:\Users\최한빈\LotTraking\Assamble\bin\Debug\Assamble.dll
+C:\Users\최한빈\LotTraking\Assamble\bin\Debug\Assamble.pdb
+C:\Users\최한빈\LotTraking\Assamble\obj\Debug\Assamble.csproj.AssemblyReference.cache
+C:\Users\최한빈\LotTraking\Assamble\obj\Debug\Assamble.BaseChlidForm.resources
+C:\Users\최한빈\LotTraking\Assamble\obj\Debug\Assamble.csproj.GenerateResource.cache
+C:\Users\최한빈\LotTraking\Assamble\obj\Debug\Assamble.csproj.CoreCompileInputs.cache
+C:\Users\최한빈\LotTraking\Assamble\obj\Debug\Assamble.dll
+C:\Users\최한빈\LotTraking\Assamble\obj\Debug\Assamble.pdb

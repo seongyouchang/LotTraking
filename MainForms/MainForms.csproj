@@ -125,5 +125,20 @@
   <ItemGroup>
     <None Include="Resources\조회.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\추가.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\삭제.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\저장.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\닫기.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\종료.PNG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
