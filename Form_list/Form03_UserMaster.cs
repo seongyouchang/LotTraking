@@ -169,6 +169,11 @@ namespace Form_list
                             cmd.CommandText = "BM_WorkOrder_D";
                             //이 이름으로      이 값을 던지겠다
                             cmd.Parameters.AddWithValue("WID", drrow["WID"]);
+                            cmd.Parameters.AddWithValue("Wstart", drrow["Wstart"]);
+                            cmd.Parameters.AddWithValue("Wfinish", drrow["Wfinish"]);
+                            cmd.Parameters.AddWithValue("Wplan", drrow["Wplan"]);
+                            cmd.Parameters.AddWithValue("iLRow", drrow["iLRow"]);
+
 
                             cmd.Parameters.AddWithValue("LANG", "KO");
                             cmd.Parameters.AddWithValue("RS_CODE", "").Direction = ParameterDirection.Output;
