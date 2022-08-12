@@ -98,3 +98,4 @@ C:\Users\user\LotTraking\MainForms\obj\Debug\MainForms.csproj.CopyComplete
 C:\Users\user\LotTraking\MainForms\obj\Debug\MainForms.exe
 C:\Users\user\LotTraking\MainForms\obj\Debug\MainForms.pdb
 >>>>>>> d88a32786be1aac8767b8e845189d3d72ec030ab
+C:\Users\user\LotTraking\MainForms\obj\Debug\MainForms.csprojAssemblyReference.cache

@@ -30,3 +30,11 @@ C:\Users\최한빈\LotTraking\Assamble\obj\Debug\Assamble.csproj.GenerateResourc
 C:\Users\최한빈\LotTraking\Assamble\obj\Debug\Assamble.csproj.CoreCompileInputs.cache
 C:\Users\최한빈\LotTraking\Assamble\obj\Debug\Assamble.dll
 C:\Users\최한빈\LotTraking\Assamble\obj\Debug\Assamble.pdb
+C:\Users\user\LotTraking\Assamble\bin\Debug\Assamble.dll
+C:\Users\user\LotTraking\Assamble\bin\Debug\Assamble.pdb
+C:\Users\user\LotTraking\Assamble\obj\Debug\Assamble.csprojAssemblyReference.cache
+C:\Users\user\LotTraking\Assamble\obj\Debug\Assamble.BaseChlidForm.resources
+C:\Users\user\LotTraking\Assamble\obj\Debug\Assamble.csproj.GenerateResource.cache
+C:\Users\user\LotTraking\Assamble\obj\Debug\Assamble.csproj.CoreCompileInputs.cache
+C:\Users\user\LotTraking\Assamble\obj\Debug\Assamble.dll
+C:\Users\user\LotTraking\Assamble\obj\Debug\Assamble.pdb
