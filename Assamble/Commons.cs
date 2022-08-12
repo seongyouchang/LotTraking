@@ -27,7 +27,6 @@ namespace Assamble
         public static bool cLogInSF;
         public static string cLogInId;
         public static string cUserName;
-        public static string cDbCon = "Data Source = (local); Initial Catalog = AppDev; Integrated Security = SSPI;";
-
+        public static string cDbCon = "Data Source =222.235.141.8; Initial Catalog =LOT_F; User ID= LOT4; Password=2222";
     }
 }

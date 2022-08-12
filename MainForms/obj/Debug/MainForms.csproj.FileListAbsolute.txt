@@ -98,3 +98,20 @@ C:\Users\user\LotTraking\MainForms\obj\Debug\MainForms.csproj.CopyComplete
 C:\Users\user\LotTraking\MainForms\obj\Debug\MainForms.exe
 C:\Users\user\LotTraking\MainForms\obj\Debug\MainForms.pdb
 >>>>>>> d88a32786be1aac8767b8e845189d3d72ec030ab
+C:\Users\user\project\MainForms\bin\Debug\MainForms.exe.config
+C:\Users\user\project\MainForms\bin\Debug\MainForms.exe
+C:\Users\user\project\MainForms\bin\Debug\MainForms.pdb
+C:\Users\user\project\MainForms\bin\Debug\Assamble.dll
+C:\Users\user\project\MainForms\bin\Debug\Form_list.dll
+C:\Users\user\project\MainForms\bin\Debug\Assamble.pdb
+C:\Users\user\project\MainForms\bin\Debug\Form_list.pdb
+C:\Users\user\project\MainForms\obj\Debug\MainForms.csproj.AssemblyReference.cache
+C:\Users\user\project\MainForms\obj\Debug\MainForms.M02_PassWordChange.resources
+C:\Users\user\project\MainForms\obj\Debug\MainForms.M01_Form1.resources
+C:\Users\user\project\MainForms\obj\Debug\MainForms.M03_MainForm.resources
+C:\Users\user\project\MainForms\obj\Debug\MainForms.Properties.Resources.resources
+C:\Users\user\project\MainForms\obj\Debug\MainForms.csproj.GenerateResource.cache
+C:\Users\user\project\MainForms\obj\Debug\MainForms.csproj.CoreCompileInputs.cache
+C:\Users\user\project\MainForms\obj\Debug\MainForms.csproj.CopyComplete
+C:\Users\user\project\MainForms\obj\Debug\MainForms.exe
+C:\Users\user\project\MainForms\obj\Debug\MainForms.pdb

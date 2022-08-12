@@ -54,3 +54,17 @@ C:\Users\최한빈\LotTraking\Form_list\obj\Debug\Form_list.csproj.CoreCompileIn
 C:\Users\최한빈\LotTraking\Form_list\obj\Debug\Form_list.csproj.CopyComplete
 C:\Users\최한빈\LotTraking\Form_list\obj\Debug\Form_list.dll
 C:\Users\최한빈\LotTraking\Form_list\obj\Debug\Form_list.pdb
+C:\Users\user\project\Form_list\bin\Debug\Form_list.dll
+C:\Users\user\project\Form_list\bin\Debug\Form_list.pdb
+C:\Users\user\project\Form_list\bin\Debug\Assamble.dll
+C:\Users\user\project\Form_list\bin\Debug\Assamble.pdb
+C:\Users\user\project\Form_list\obj\Debug\Form_list.csproj.AssemblyReference.cache
+C:\Users\user\project\Form_list\obj\Debug\Form_list.Form01_MDITest2.resources
+C:\Users\user\project\Form_list\obj\Debug\Form_list.Form01_MDITest.resources
+C:\Users\user\project\Form_list\obj\Debug\Form_list.Form03_UserMaster.resources
+C:\Users\user\project\Form_list\obj\Debug\Form_list.Form04_SystemMaster.resources
+C:\Users\user\project\Form_list\obj\Debug\Form_list.csproj.GenerateResource.cache
+C:\Users\user\project\Form_list\obj\Debug\Form_list.csproj.CoreCompileInputs.cache
+C:\Users\user\project\Form_list\obj\Debug\Form_list.csproj.CopyComplete
+C:\Users\user\project\Form_list\obj\Debug\Form_list.dll
+C:\Users\user\project\Form_list\obj\Debug\Form_list.pdb
