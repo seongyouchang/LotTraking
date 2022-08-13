@@ -85,3 +85,5 @@ C:\Users\user\project\Form_list\obj\Debug\Form_list.csproj.CopyComplete
 C:\Users\user\project\Form_list\obj\Debug\Form_list.dll
 C:\Users\user\project\Form_list\obj\Debug\Form_list.pdb
 >>>>>>> e83584b08c2ea54d4e5ec9cd58b82c383ea349c5
+C:\Users\최한빈\LotTraking\Form_list\obj\Debug\Form_list.Form01_RowMasterTest.resources
+C:\Users\최한빈\LotTraking\Form_list\obj\Debug\Form_list.Properties.Resources.resources
