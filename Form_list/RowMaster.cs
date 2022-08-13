@@ -55,10 +55,10 @@ namespace Form_list
 
             // 컬럼의 폭 지정
             GridRowMaster.Columns[0].Width = 100;
-            GridRowMaster.Columns[1].Width = 200;
-            GridRowMaster.Columns[2].Width = 200;
+            GridRowMaster.Columns[1].Width = 300;
+            GridRowMaster.Columns[2].Width = 400;
             GridRowMaster.Columns[3].Width = 150;
-            GridRowMaster.Columns[4].Width = 100;
+            GridRowMaster.Columns[4].Width = 200;
 
 
             //// 컬럼의 수정 여부를 지정

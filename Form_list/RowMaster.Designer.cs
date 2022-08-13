@@ -50,83 +50,87 @@
             this.groupBox1.Controls.Add(this.tstUserId);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox1.Size = new System.Drawing.Size(787, 100);
+            this.groupBox1.Size = new System.Drawing.Size(899, 125);
             // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.GridRowMaster);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox2.Size = new System.Drawing.Size(787, 260);
+            this.groupBox2.Size = new System.Drawing.Size(899, 325);
             // 
             // tstUserId
             // 
             this.tstUserId.AutoSize = true;
-            this.tstUserId.Location = new System.Drawing.Point(306, 52);
+            this.tstUserId.Location = new System.Drawing.Point(350, 65);
             this.tstUserId.Name = "tstUserId";
-            this.tstUserId.Size = new System.Drawing.Size(53, 12);
+            this.tstUserId.Size = new System.Drawing.Size(67, 15);
             this.tstUserId.TabIndex = 4;
             this.tstUserId.Text = "원자재명";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(130, 52);
+            this.label1.Location = new System.Drawing.Point(149, 65);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 12);
+            this.label1.Size = new System.Drawing.Size(82, 15);
             this.label1.TabIndex = 6;
             this.label1.Text = "원자재번호";
             // 
             // txtRowName
             // 
-            this.txtRowName.Location = new System.Drawing.Point(370, 49);
+            this.txtRowName.Location = new System.Drawing.Point(423, 61);
             this.txtRowName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtRowName.Name = "txtRowName";
-            this.txtRowName.Size = new System.Drawing.Size(88, 21);
+            this.txtRowName.Size = new System.Drawing.Size(100, 25);
             this.txtRowName.TabIndex = 7;
             // 
             // txtiLROW
             // 
-            this.txtiLROW.Location = new System.Drawing.Point(207, 49);
+            this.txtiLROW.Location = new System.Drawing.Point(237, 61);
             this.txtiLROW.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtiLROW.Name = "txtiLROW";
-            this.txtiLROW.Size = new System.Drawing.Size(88, 21);
+            this.txtiLROW.Size = new System.Drawing.Size(100, 25);
             this.txtiLROW.TabIndex = 8;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(462, 54);
+            this.label2.Location = new System.Drawing.Point(528, 68);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(81, 12);
+            this.label2.Size = new System.Drawing.Size(102, 15);
             this.label2.TabIndex = 9;
             this.label2.Text = "원자재 거래처";
             // 
             // textRowAccount
             // 
-            this.textRowAccount.Location = new System.Drawing.Point(557, 49);
+            this.textRowAccount.Location = new System.Drawing.Point(637, 61);
             this.textRowAccount.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textRowAccount.Name = "textRowAccount";
-            this.textRowAccount.Size = new System.Drawing.Size(88, 21);
+            this.textRowAccount.Size = new System.Drawing.Size(100, 25);
             this.textRowAccount.TabIndex = 10;
             // 
             // GridRowMaster
             // 
+            this.GridRowMaster.AllowUserToAddRows = false;
+            this.GridRowMaster.AllowUserToDeleteRows = false;
             this.GridRowMaster.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.GridRowMaster.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.GridRowMaster.Location = new System.Drawing.Point(3, 16);
+            this.GridRowMaster.EnableHeadersVisualStyles = false;
+            this.GridRowMaster.Location = new System.Drawing.Point(3, 20);
             this.GridRowMaster.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.GridRowMaster.Name = "GridRowMaster";
             this.GridRowMaster.RowHeadersWidth = 51;
             this.GridRowMaster.RowTemplate.Height = 27;
-            this.GridRowMaster.Size = new System.Drawing.Size(781, 242);
+            this.GridRowMaster.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.GridRowMaster.Size = new System.Drawing.Size(893, 303);
             this.GridRowMaster.TabIndex = 0;
             // 
             // RowMaster
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(787, 360);
+            this.ClientSize = new System.Drawing.Size(899, 450);
             this.Location = new System.Drawing.Point(0, 0);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "RowMaster";
