@@ -49,3 +49,11 @@ C:\Users\user\project\Assamble\obj\Debug\Assamble.csproj.CoreCompileInputs.cache
 C:\Users\user\project\Assamble\obj\Debug\Assamble.dll
 C:\Users\user\project\Assamble\obj\Debug\Assamble.pdb
 >>>>>>> e83584b08c2ea54d4e5ec9cd58b82c383ea349c5
+C:\Users\syc\LotTraking\Assamble\bin\Debug\Assamble.dll
+C:\Users\syc\LotTraking\Assamble\bin\Debug\Assamble.pdb
+C:\Users\syc\LotTraking\Assamble\obj\Debug\Assamble.csproj.AssemblyReference.cache
+C:\Users\syc\LotTraking\Assamble\obj\Debug\Assamble.BaseChlidForm.resources
+C:\Users\syc\LotTraking\Assamble\obj\Debug\Assamble.csproj.GenerateResource.cache
+C:\Users\syc\LotTraking\Assamble\obj\Debug\Assamble.csproj.CoreCompileInputs.cache
+C:\Users\syc\LotTraking\Assamble\obj\Debug\Assamble.dll
+C:\Users\syc\LotTraking\Assamble\obj\Debug\Assamble.pdb
