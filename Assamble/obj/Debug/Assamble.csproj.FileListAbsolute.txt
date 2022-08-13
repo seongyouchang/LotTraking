@@ -57,3 +57,11 @@ C:\Users\syc\LotTraking\Assamble\obj\Debug\Assamble.csproj.GenerateResource.cach
 C:\Users\syc\LotTraking\Assamble\obj\Debug\Assamble.csproj.CoreCompileInputs.cache
 C:\Users\syc\LotTraking\Assamble\obj\Debug\Assamble.dll
 C:\Users\syc\LotTraking\Assamble\obj\Debug\Assamble.pdb
+C:\Users\HOME\LotTraking\Assamble\bin\Debug\Assamble.dll
+C:\Users\HOME\LotTraking\Assamble\bin\Debug\Assamble.pdb
+C:\Users\HOME\LotTraking\Assamble\obj\Debug\Assamble.csprojAssemblyReference.cache
+C:\Users\HOME\LotTraking\Assamble\obj\Debug\Assamble.BaseChlidForm.resources
+C:\Users\HOME\LotTraking\Assamble\obj\Debug\Assamble.csproj.GenerateResource.cache
+C:\Users\HOME\LotTraking\Assamble\obj\Debug\Assamble.csproj.CoreCompileInputs.cache
+C:\Users\HOME\LotTraking\Assamble\obj\Debug\Assamble.dll
+C:\Users\HOME\LotTraking\Assamble\obj\Debug\Assamble.pdb

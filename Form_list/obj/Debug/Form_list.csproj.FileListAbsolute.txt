@@ -101,3 +101,16 @@ C:\Users\syc\LotTraking\Form_list\bin\Debug\Form_list.pdb
 C:\Users\syc\LotTraking\Form_list\bin\Debug\Assamble.dll
 C:\Users\syc\LotTraking\Form_list\bin\Debug\Assamble.pdb
 C:\Users\syc\LotTraking\Form_list\obj\Debug\Form_list.csproj.CopyComplete
+C:\Users\HOME\LotTraking\Form_list\bin\Debug\Form_list.dll
+C:\Users\HOME\LotTraking\Form_list\bin\Debug\Form_list.pdb
+C:\Users\HOME\LotTraking\Form_list\bin\Debug\Assamble.dll
+C:\Users\HOME\LotTraking\Form_list\bin\Debug\Assamble.pdb
+C:\Users\HOME\LotTraking\Form_list\obj\Debug\Form_list.csprojAssemblyReference.cache
+C:\Users\HOME\LotTraking\Form_list\obj\Debug\Form_list.Form03_UserMaster.resources
+C:\Users\HOME\LotTraking\Form_list\obj\Debug\Form_list.Form04_SystemMaster.resources
+C:\Users\HOME\LotTraking\Form_list\obj\Debug\Form_list.Properties.Resources.resources
+C:\Users\HOME\LotTraking\Form_list\obj\Debug\Form_list.csproj.GenerateResource.cache
+C:\Users\HOME\LotTraking\Form_list\obj\Debug\Form_list.csproj.CoreCompileInputs.cache
+C:\Users\HOME\LotTraking\Form_list\obj\Debug\Form_list.csproj.CopyComplete
+C:\Users\HOME\LotTraking\Form_list\obj\Debug\Form_list.dll
+C:\Users\HOME\LotTraking\Form_list\obj\Debug\Form_list.pdb
