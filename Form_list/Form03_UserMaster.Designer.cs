@@ -32,10 +32,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.tstUserId = new System.Windows.Forms.Label();
             this.txtUserName = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.txtUserId = new System.Windows.Forms.TextBox();
             this.Grid1 = new System.Windows.Forms.DataGridView();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.cboWorkSpace = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Grid1)).BeginInit();
@@ -44,9 +43,8 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.SystemColors.InactiveBorder;
-            this.groupBox1.Controls.Add(this.textBox4);
+            this.groupBox1.Controls.Add(this.cboWorkSpace);
             this.groupBox1.Controls.Add(this.txtUserId);
-            this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Controls.Add(this.txtUserName);
             this.groupBox1.Controls.Add(this.tstUserId);
             // 
@@ -81,13 +79,6 @@
             this.txtUserName.TabIndex = 1;
             this.txtUserName.Text = "작업장";
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(109, 73);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(50, 21);
-            this.textBox1.TabIndex = 2;
-            // 
             // txtUserId
             // 
             this.txtUserId.Location = new System.Drawing.Point(109, 29);
@@ -113,12 +104,13 @@
             this.Grid1.Size = new System.Drawing.Size(794, 330);
             this.Grid1.TabIndex = 0;
             // 
-            // textBox4
+            // cboWorkSpace
             // 
-            this.textBox4.Location = new System.Drawing.Point(179, 73);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(130, 21);
-            this.textBox4.TabIndex = 8;
+            this.cboWorkSpace.FormattingEnabled = true;
+            this.cboWorkSpace.Location = new System.Drawing.Point(109, 68);
+            this.cboWorkSpace.Name = "cboWorkSpace";
+            this.cboWorkSpace.Size = new System.Drawing.Size(121, 20);
+            this.cboWorkSpace.TabIndex = 4;
             // 
             // Form03_UserMaster
             // 
@@ -141,10 +133,9 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtUserId;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label txtUserName;
         private System.Windows.Forms.Label tstUserId;
         private System.Windows.Forms.DataGridView Grid1;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.ComboBox cboWorkSpace;
     }
 }
