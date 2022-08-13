@@ -101,6 +101,7 @@ C:\Users\syc\LotTraking\Form_list\bin\Debug\Form_list.pdb
 C:\Users\syc\LotTraking\Form_list\bin\Debug\Assamble.dll
 C:\Users\syc\LotTraking\Form_list\bin\Debug\Assamble.pdb
 C:\Users\syc\LotTraking\Form_list\obj\Debug\Form_list.csproj.CopyComplete
+C:\Users\최한빈\LotTraking\Form_list\obj\Debug\Form_list.RowMaster.resources
 C:\Users\HOME\LotTraking\Form_list\bin\Debug\Form_list.dll
 C:\Users\HOME\LotTraking\Form_list\bin\Debug\Form_list.pdb
 C:\Users\HOME\LotTraking\Form_list\bin\Debug\Assamble.dll
@@ -114,3 +115,5 @@ C:\Users\HOME\LotTraking\Form_list\obj\Debug\Form_list.csproj.CoreCompileInputs.
 C:\Users\HOME\LotTraking\Form_list\obj\Debug\Form_list.csproj.CopyComplete
 C:\Users\HOME\LotTraking\Form_list\obj\Debug\Form_list.dll
 C:\Users\HOME\LotTraking\Form_list\obj\Debug\Form_list.pdb
+>>>>>>> 42c5e8b3a312aa2ba35ed72ae5f69ff7dd421439
+C:\Users\syc\LotTraking\Form_list\obj\Debug\Form_list.RowMaster.resources
