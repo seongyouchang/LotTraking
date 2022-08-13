@@ -101,3 +101,4 @@ C:\Users\syc\LotTraking\Form_list\bin\Debug\Form_list.pdb
 C:\Users\syc\LotTraking\Form_list\bin\Debug\Assamble.dll
 C:\Users\syc\LotTraking\Form_list\bin\Debug\Assamble.pdb
 C:\Users\syc\LotTraking\Form_list\obj\Debug\Form_list.csproj.CopyComplete
+C:\Users\최한빈\LotTraking\Form_list\obj\Debug\Form_list.RowMaster.resources
