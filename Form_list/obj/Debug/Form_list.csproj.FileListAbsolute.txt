@@ -117,3 +117,5 @@ C:\Users\HOME\LotTraking\Form_list\obj\Debug\Form_list.dll
 C:\Users\HOME\LotTraking\Form_list\obj\Debug\Form_list.pdb
 >>>>>>> 42c5e8b3a312aa2ba35ed72ae5f69ff7dd421439
 C:\Users\syc\LotTraking\Form_list\obj\Debug\Form_list.RowMaster.resources
+C:\Users\user\LotTraking\Form_list\obj\Debug\Form_list.Properties.Resources.resources
+C:\Users\user\LotTraking\Form_list\obj\Debug\Form_list.RowMaster.resources
