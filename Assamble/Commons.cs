@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data;
+// MSSQL 접속 클래스 라이브러리 
+using System.Data.SqlClient;
 
 namespace Assamble
 {
@@ -28,5 +31,46 @@ namespace Assamble
         public static string cLogInId;
         public static string cUserName;
         public static string cDbCon = "Data Source =222.235.141.8; Initial Catalog =LOT_F; User ID= LOT4; Password=2222";
+
+        public DataTable Standard_Code(string sMajorCode)
+        {
+            // 공통코드(시스템코드) 테이블에서 sMajorCode 에 관련된 항목들을
+            // DataTable 형식으로 return
+            DataTable dtTemp = new DataTable();
+
+            // 데이터베이스 접속.
+            SqlConnection Con = new SqlConnection(cDbCon);
+            Con.Open();
+
+            try
+            {
+                // sMajorCode별 공통코드 정보를 받아오는 SQL 구문 작성.
+                string sSelectStandard = string.Empty;
+
+
+                sSelectStandard += "SELECT '[선택]' AS FSPACE ";
+                sSelectStandard += "UNION                                ";
+                sSelectStandard += "SELECT  FSPACE                     ";
+                sSelectStandard += "FROM WORKORDER               ";
+                //sSelectStandard += "SELECT '선택' AS WORK_ORDER";
+                //sSelectStandard += "UNION                                ";
+                //sSelectStandard += "SELECT FSPACE                     ";
+                //sSelectStandard += "FROM WORKORDER               ";
+
+                SqlDataAdapter Adatper = new SqlDataAdapter(sSelectStandard, Con);
+                Adatper.Fill(dtTemp);
+
+            }
+            catch (Exception ex)
+            {
+
+            }
+            finally
+            {
+                Con.Close();
+            }
+
+            return dtTemp;
+        }
     }
 }

@@ -11,3 +11,15 @@ C:\Users\user\LotTraking\WorkFactory\obj\Debug\WorkFactory.csproj.CopyComplete
 C:\Users\user\LotTraking\WorkFactory\obj\Debug\WorkFactory.exe
 C:\Users\user\LotTraking\WorkFactory\obj\Debug\WorkFactory.pdb
 C:\Users\user\LotTraking\WorkFactory\obj\Debug\WorkFactory.WorkFactory.resources
+C:\Users\최한빈\LotTraking\WorkFactory\bin\Debug\WorkFactory.exe.config
+C:\Users\최한빈\LotTraking\WorkFactory\bin\Debug\WorkFactory.exe
+C:\Users\최한빈\LotTraking\WorkFactory\bin\Debug\WorkFactory.pdb
+C:\Users\최한빈\LotTraking\WorkFactory\bin\Debug\Assamble.pdb
+C:\Users\최한빈\LotTraking\WorkFactory\obj\Debug\WorkFactory.csproj.AssemblyReference.cache
+C:\Users\최한빈\LotTraking\WorkFactory\obj\Debug\WorkFactory.Properties.Resources.resources
+C:\Users\최한빈\LotTraking\WorkFactory\obj\Debug\WorkFactory.WorkFactory.resources
+C:\Users\최한빈\LotTraking\WorkFactory\obj\Debug\WorkFactory.csproj.GenerateResource.cache
+C:\Users\최한빈\LotTraking\WorkFactory\obj\Debug\WorkFactory.csproj.CoreCompileInputs.cache
+C:\Users\최한빈\LotTraking\WorkFactory\obj\Debug\WorkFactory.csproj.CopyComplete
+C:\Users\최한빈\LotTraking\WorkFactory\obj\Debug\WorkFactory.exe
+C:\Users\최한빈\LotTraking\WorkFactory\obj\Debug\WorkFactory.pdb

@@ -75,6 +75,12 @@ namespace Form_list
             //Grid1.Columns["MAKEDATE"].ReadOnly = true;
             //Grid1.Columns["EDITOR"].ReadOnly = true;
             //Grid1.Columns["EDITDATE"].ReadOnly = true;
+
+            Commons Com = new Commons();
+            DataTable dtTemp = Com.Standard_Code("FSPACE");
+            cboWorkSpace.DataSource = dtTemp;
+            cboWorkSpace.ValueMember = "FSPACE";
+            cboWorkSpace.DisplayMember = "FSPACE";
         }
 
         // 메서드 오버라이드 (Override)
