@@ -47,5 +47,7 @@ namespace WorkFactory
             WorkerGridView.Columns["FEA"].HeaderText = "생산수량";
 
         }
+
+   
     }
 }

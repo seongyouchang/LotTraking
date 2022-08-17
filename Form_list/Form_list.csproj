@@ -59,6 +59,12 @@
     <Compile Include="Form04_SystemMaster.Designer.cs">
       <DependentUpon>Form04_SystemMaster.cs</DependentUpon>
     </Compile>
+    <Compile Include="SWorkOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SWorkOrder.Designer.cs">
+      <DependentUpon>SWorkOrder.cs</DependentUpon>
+    </Compile>
     <Compile Include="RowMaster.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,6 +91,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="RowMaster.resx">
       <DependentUpon>RowMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SWorkOrder.resx">
+      <DependentUpon>SWorkOrder.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

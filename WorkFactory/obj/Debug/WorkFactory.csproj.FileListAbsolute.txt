@@ -23,3 +23,16 @@ C:\Users\최한빈\LotTraking\WorkFactory\obj\Debug\WorkFactory.csproj.CoreCompi
 C:\Users\최한빈\LotTraking\WorkFactory\obj\Debug\WorkFactory.csproj.CopyComplete
 C:\Users\최한빈\LotTraking\WorkFactory\obj\Debug\WorkFactory.exe
 C:\Users\최한빈\LotTraking\WorkFactory\obj\Debug\WorkFactory.pdb
+C:\Users\syc\LotTraking\WorkFactory\bin\Debug\WorkFactory.exe.config
+C:\Users\syc\LotTraking\WorkFactory\bin\Debug\WorkFactory.exe
+C:\Users\syc\LotTraking\WorkFactory\bin\Debug\WorkFactory.pdb
+C:\Users\syc\LotTraking\WorkFactory\bin\Debug\Assamble.pdb
+C:\Users\syc\LotTraking\WorkFactory\obj\Debug\WorkFactory.csproj.AssemblyReference.cache
+C:\Users\syc\LotTraking\WorkFactory\obj\Debug\WorkFactory.csproj.SuggestedBindingRedirects.cache
+C:\Users\syc\LotTraking\WorkFactory\obj\Debug\WorkFactory.Properties.Resources.resources
+C:\Users\syc\LotTraking\WorkFactory\obj\Debug\WorkFactory.WorkFactory.resources
+C:\Users\syc\LotTraking\WorkFactory\obj\Debug\WorkFactory.csproj.GenerateResource.cache
+C:\Users\syc\LotTraking\WorkFactory\obj\Debug\WorkFactory.csproj.CoreCompileInputs.cache
+C:\Users\syc\LotTraking\WorkFactory\obj\Debug\WorkFactory.csproj.CopyComplete
+C:\Users\syc\LotTraking\WorkFactory\obj\Debug\WorkFactory.exe
+C:\Users\syc\LotTraking\WorkFactory\obj\Debug\WorkFactory.pdb
