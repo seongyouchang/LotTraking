@@ -74,7 +74,7 @@ namespace MainForms
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            stsUserName.Text = string.Format("{0:yyyy-MM-dd HH:mm:ss}" ,DateTime.Now);
+            stsNowDateTime.Text = string.Format("{0:yyyy-MM-dd HH:mm:ss}" ,DateTime.Now);
         }
 
         private void tsbExit_Click(object sender, EventArgs e)
