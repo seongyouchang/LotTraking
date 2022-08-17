@@ -59,6 +59,12 @@
     <Compile Include="Form04_SystemMaster.Designer.cs">
       <DependentUpon>Form04_SystemMaster.cs</DependentUpon>
     </Compile>
+    <Compile Include="Material.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Material.Designer.cs">
+      <DependentUpon>Material.cs</DependentUpon>
+    </Compile>
     <Compile Include="SWorkOrder.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +82,12 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Worker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Worker.Designer.cs">
+      <DependentUpon>Worker.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

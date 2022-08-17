@@ -89,5 +89,11 @@
   <ItemGroup>
     <None Include="Resources\12213.png" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Form_list\Form_list.csproj">
+      <Project>{848418f2-f6b3-49ed-b542-50cc749a130f}</Project>
+      <Name>Form_list</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

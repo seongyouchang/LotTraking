@@ -36,3 +36,5 @@ C:\Users\syc\LotTraking\WorkFactory\obj\Debug\WorkFactory.csproj.CoreCompileInpu
 C:\Users\syc\LotTraking\WorkFactory\obj\Debug\WorkFactory.csproj.CopyComplete
 C:\Users\syc\LotTraking\WorkFactory\obj\Debug\WorkFactory.exe
 C:\Users\syc\LotTraking\WorkFactory\obj\Debug\WorkFactory.pdb
+C:\Users\syc\LotTraking\WorkFactory\bin\Debug\Form_list.dll
+C:\Users\syc\LotTraking\WorkFactory\bin\Debug\Form_list.pdb

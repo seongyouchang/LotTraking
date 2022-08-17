@@ -8,10 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Assamble;
+using Form_list;
 
 namespace WorkFactory
 {
-    public partial class WorkFactory : BaseChlidForm
+    public partial class WorkFactory : Form
     {
         
         public WorkFactory()
@@ -34,20 +35,45 @@ namespace WorkFactory
 
 
             // 빈 컬럼 테이블 그리드에 매칭. (DataSource : 테이블 형식의 데이터를 표현하는 속성)
-            WorkerGridView.DataSource = dtGrid;
+            Grid1.DataSource = dtGrid;
 
             // 그리드 컬럼 명칭(Text) 설정 // 번호로 지정 가능
 
             // 생산지시일자, 설비 추가 고려해야함
-            WorkerGridView.Columns["WID"].HeaderText = "작업지시번호";
-            WorkerGridView.Columns["FSPACE"].HeaderText = "작업장";
-            WorkerGridView.Columns["FWORKER"].HeaderText = "작업자";
-            WorkerGridView.Columns["FSTART"].HeaderText = "작업시작시간";
-            WorkerGridView.Columns["FFINISH"].HeaderText = "작업종료시간";
-            WorkerGridView.Columns["FEA"].HeaderText = "생산수량";
+            Grid1.Columns["WID"].HeaderText = "작업지시번호";
+            Grid1.Columns["FSPACE"].HeaderText = "작업장";
+            Grid1.Columns["FWORKER"].HeaderText = "작업자";
+            Grid1.Columns["FSTART"].HeaderText = "작업시작시간";
+            Grid1.Columns["FFINISH"].HeaderText = "작업종료시간";
+            Grid1.Columns["FEA"].HeaderText = "생산수량";
+
+        }
+
+        private void Exit_Click(object sender, EventArgs e)
+        {
 
         }
 
    
+
+  
+
+        private void btnWorkOrder_Click_1(object sender, EventArgs e)
+        {
+            SWorkOrder sWorkOrder = new SWorkOrder();
+            sWorkOrder.ShowDialog();
+        }
+
+        private void btnWorker_Click_1(object sender, EventArgs e)
+        {
+            Worker worker = new Worker();
+            worker.ShowDialog();
+        }
+
+        private void btnMaterial_Click_1(object sender, EventArgs e)
+        {
+            Material material = new Material();
+            material.ShowDialog();
+        }
     }
 }
