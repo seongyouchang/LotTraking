@@ -31,9 +31,9 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.btnWorkOrder = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.btnWorkOrder = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -70,34 +70,8 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 100);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 873);
+            this.panel1.Size = new System.Drawing.Size(200, 820);
             this.panel1.TabIndex = 3;
-            // 
-            // panel2
-            // 
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel2.Location = new System.Drawing.Point(1387, 100);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(200, 873);
-            this.panel2.TabIndex = 4;
-            // 
-            // btnWorkOrder
-            // 
-            this.btnWorkOrder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.btnWorkOrder.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnWorkOrder.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnWorkOrder.FlatAppearance.BorderSize = 0;
-            this.btnWorkOrder.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Blue;
-            this.btnWorkOrder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnWorkOrder.Font = new System.Drawing.Font("휴먼모음T", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btnWorkOrder.ForeColor = System.Drawing.Color.White;
-            this.btnWorkOrder.Location = new System.Drawing.Point(0, 0);
-            this.btnWorkOrder.Name = "btnWorkOrder";
-            this.btnWorkOrder.Size = new System.Drawing.Size(198, 167);
-            this.btnWorkOrder.TabIndex = 35;
-            this.btnWorkOrder.Text = "공 정 설 정";
-            this.btnWorkOrder.UseVisualStyleBackColor = false;
             // 
             // button1
             // 
@@ -116,12 +90,38 @@
             this.button1.Text = "작 업 장 선 택";
             this.button1.UseVisualStyleBackColor = false;
             // 
+            // btnWorkOrder
+            // 
+            this.btnWorkOrder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.btnWorkOrder.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnWorkOrder.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnWorkOrder.FlatAppearance.BorderSize = 0;
+            this.btnWorkOrder.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Blue;
+            this.btnWorkOrder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnWorkOrder.Font = new System.Drawing.Font("휴먼모음T", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.btnWorkOrder.ForeColor = System.Drawing.Color.White;
+            this.btnWorkOrder.Location = new System.Drawing.Point(0, 0);
+            this.btnWorkOrder.Name = "btnWorkOrder";
+            this.btnWorkOrder.Size = new System.Drawing.Size(198, 167);
+            this.btnWorkOrder.TabIndex = 35;
+            this.btnWorkOrder.Text = "공 정 설 정";
+            this.btnWorkOrder.UseVisualStyleBackColor = false;
+            // 
+            // panel2
+            // 
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel2.Location = new System.Drawing.Point(1387, 100);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(200, 820);
+            this.panel2.TabIndex = 4;
+            // 
             // SWorkOrder
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.ClientSize = new System.Drawing.Size(1587, 973);
+            this.ClientSize = new System.Drawing.Size(1587, 920);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel3);

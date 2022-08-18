@@ -48,7 +48,7 @@ namespace Assamble
                 string sSelectStandard = string.Empty;
 
 
-                sSelectStandard += "SELECT '[선택]' AS FSPACE ";
+                sSelectStandard += "SELECT '' AS WORK_ORDER ";
                 sSelectStandard += "UNION                                ";
                 sSelectStandard += "SELECT  FSPACE                     ";
                 sSelectStandard += "FROM WORKORDER               ";

@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
+﻿using Assamble;
+using System;
 using System.Data;
-using System.Drawing;
-using System.Text;
-using System.Windows.Forms;
-using Assamble;
 using System.Data.SqlClient;
+using System.Windows.Forms;
 
 namespace Form_list
 {
@@ -41,25 +37,27 @@ namespace Form_list
         {
             /*****************기본 그리드 내역 셋팅 *******************/
             DataTable dtGrid = new DataTable();
-            dtGrid.Columns.Add("WID", typeof(string));   //작업지시 번호
-            dtGrid.Columns.Add("WSTART", typeof(DateTime)); //Lot 번호
-            dtGrid.Columns.Add("WFINISH", typeof(DateTime));       //품명
-            dtGrid.Columns.Add("WPLAN", typeof(string)); //원자재 Lot
-            dtGrid.Columns.Add("ILROW", typeof(string));// 원자재
-            dtGrid.Columns.Add("ILROWEA", typeof(string));  // 원자재 수량
-            dtGrid.Columns.Add("FSPACE", typeof(string));    //작업장
+            dtGrid.Columns.Add("WID", typeof(string));               // 작업지시 번호
+            dtGrid.Columns.Add("EDITOR", typeof(DateTime));          // 수정자
+            dtGrid.Columns.Add("EDITDATE", typeof(DateTime));        // 수정일시
+            dtGrid.Columns.Add("WPLAN", typeof(string));             // 수량
+            dtGrid.Columns.Add("MAKER", typeof(string));             // 생성자
+            dtGrid.Columns.Add("MAKEDATE", typeof(string));          // 생성일시
+            dtGrid.Columns.Add("FSPACE", typeof(string));            // 사업장
 
             // 빈 컬럼 테이블 그리드에 매칭. (DataSource : 테이블 형식의 데이터를 표현하는 속성)
             Grid1.DataSource = dtGrid;
 
             // 그리드 컬럼 명칭(Text) 설정 // 번호로 지정 가능
-            Grid1.Columns["WID"].HeaderText = "작업지시번호";
-            Grid1.Columns["WSTART"].HeaderText = "작업시작일";
-            Grid1.Columns["WFINISH"].HeaderText = "작업종료일";
-            Grid1.Columns["WPLAN"].HeaderText = "생산수량";
-            Grid1.Columns["ILROW"].HeaderText = "필요원자재";
-            Grid1.Columns["ILROWEA"].HeaderText = "원자재 수량";
-            Grid1.Columns["FSPACE"].HeaderText = "작업장";
+            Grid1.Columns["WID"].HeaderText =       "작업지시번호";
+            Grid1.Columns["FSPACE"].HeaderText =    "사업장";
+            Grid1.Columns["WPLAN"].HeaderText =     "생산수량";
+            Grid1.Columns["MAKER"].HeaderText =     "생성자";
+            Grid1.Columns["MAKEDATE"].HeaderText =  "생성일시";
+            Grid1.Columns["EDITOR"].HeaderText =    "수정자";
+            Grid1.Columns["EDITDATE"].HeaderText =  "수정일시";
+           
+
 
             // 컬럼의 폭 지정
             Grid1.Columns["WID"].Width = 200;
@@ -79,7 +77,7 @@ namespace Form_list
             Commons Com = new Commons();
             DataTable dtTemp = Com.Standard_Code("FSPACE");
             cboWorkSpace.DataSource = dtTemp;
-            cboWorkSpace.ValueMember = "FSPACE";
+            cboWorkSpace.ValueMember = "WORK_ORDER";
             cboWorkSpace.DisplayMember = "FSPACE";
         }
 
@@ -175,13 +173,13 @@ namespace Form_list
                             // 사용자 정보를 변경하는 저장 프로시져 호출
                             cmd.CommandText = "BM_WorkOrder_D";
                             //이 이름으로      이 값을 던지겠다
-                            cmd.Parameters.AddWithValue("WID", drrow["WID"]);
-                            cmd.Parameters.AddWithValue("FSPACE", drrow["FSPACE"]);
-                            cmd.Parameters.AddWithValue("WSTART", drrow["WSTART"]);
-                            cmd.Parameters.AddWithValue("WFINISH", drrow["WFINISH"]);
-                            cmd.Parameters.AddWithValue("WPLAN", drrow["WPLAN"]);
-                            cmd.Parameters.AddWithValue("ILROW", drrow["ILROW"]);
-                            cmd.Parameters.AddWithValue("ILROWEA", drrow["ILROWEA"]);
+                            cmd.Parameters.AddWithValue("WID" ,         drrow["WID"]);
+                            cmd.Parameters.AddWithValue("FSPACE",       drrow["FSPACE"]);
+                            cmd.Parameters.AddWithValue("WPLAN",        drrow["WPLAN"]);
+                            cmd.Parameters.AddWithValue("MAKER",        drrow["MAKER"]);
+                            cmd.Parameters.AddWithValue("MAKEDATE",     drrow["MAKEDATE"]);
+                            cmd.Parameters.AddWithValue("EDITOR",       drrow["EDITOR"]);
+                            cmd.Parameters.AddWithValue("EDITDATE"  ,   drrow["EDITDATE"]);
 
 
 
@@ -199,9 +197,7 @@ namespace Form_list
 
                             if (Convert.ToString(drrow["WPlAN"]) == "") sMessage += "계획수량";
 
-                            if (Convert.ToString(drrow["iLROW"]) == "") sMessage += "원자재";
-
-                            if (Convert.ToString(drrow["iLROWEA"]) == "") sMessage += "원자재 갯수";
+                           
 
 
 
@@ -213,11 +209,13 @@ namespace Form_list
                             // 사용자 정보를 변경하는 저장 프로시져 호출
                             cmd.CommandText = "BM_WorkOrder_U";
                             //이 이름으로      이 값을 던지겠다
-                            cmd.Parameters.AddWithValue("WID", drrow["WIDd"]);
-                            cmd.Parameters.AddWithValue("FSPACE", drrow["FSPACE"]);
-                            cmd.Parameters.AddWithValue("WPLAN", drrow["WPLAN"]);
-                            cmd.Parameters.AddWithValue("ILROW", drrow["ILROW"]);
-                            cmd.Parameters.AddWithValue("ILROWEA", drrow["ILROWEA"]);
+                            cmd.Parameters.AddWithValue("WID" ,         drrow["WID"]);
+                            cmd.Parameters.AddWithValue("FSPACE",       drrow["FSPACE"]);
+                            cmd.Parameters.AddWithValue("WPLAN",        drrow["WPLAN"]);
+                            cmd.Parameters.AddWithValue("MAKER",        drrow["MAKER"]);
+                            cmd.Parameters.AddWithValue("MAKEDATE",     drrow["MAKEDATE"]);
+                            cmd.Parameters.AddWithValue("EDITOR",       drrow["EDITOR"]);
+                            cmd.Parameters.AddWithValue("EDITDATE"  ,   drrow["EDITDATE"]);
 
 
                             cmd.Parameters.AddWithValue("LANG", "KO");
@@ -232,13 +230,13 @@ namespace Form_list
 
                             cmd.CommandText = "BM_WorkOrder_I";
                             //이 이름으로      이 값을 던지겠다
-                            cmd.Parameters.AddWithValue("Wid", drrow["Wid"]);
-                            cmd.Parameters.AddWithValue("WSTART", drrow["WSTART"]);
-                            cmd.Parameters.AddWithValue("WFINISH", drrow["WFINISH"]);
-                            cmd.Parameters.AddWithValue("WPLAN", drrow["WPLAN"]);
-                            cmd.Parameters.AddWithValue("ILROW", drrow["ILROW"]);
-                            cmd.Parameters.AddWithValue("FSPACE", drrow["FSPACE"]);
-                            cmd.Parameters.AddWithValue("ILROWEA", drrow["ILROWEA"]);
+                            cmd.Parameters.AddWithValue("WID" ,         drrow["WID"]);
+                            cmd.Parameters.AddWithValue("FSPACE",       drrow["FSPACE"]);
+                            cmd.Parameters.AddWithValue("WPLAN",        drrow["WPLAN"]);
+                            cmd.Parameters.AddWithValue("MAKER",        drrow["MAKER"]);
+                            cmd.Parameters.AddWithValue("MAKEDATE",     drrow["MAKEDATE"]);
+                            cmd.Parameters.AddWithValue("EDITOR",       drrow["EDITOR"]);
+                            cmd.Parameters.AddWithValue("EDITDATE"  ,   drrow["EDITDATE"]);
 
 
 

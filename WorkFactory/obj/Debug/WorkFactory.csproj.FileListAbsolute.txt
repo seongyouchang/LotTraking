@@ -28,7 +28,6 @@ C:\Users\syc\LotTraking\WorkFactory\bin\Debug\WorkFactory.exe
 C:\Users\syc\LotTraking\WorkFactory\bin\Debug\WorkFactory.pdb
 C:\Users\syc\LotTraking\WorkFactory\bin\Debug\Assamble.pdb
 C:\Users\syc\LotTraking\WorkFactory\obj\Debug\WorkFactory.csproj.AssemblyReference.cache
-C:\Users\syc\LotTraking\WorkFactory\obj\Debug\WorkFactory.csproj.SuggestedBindingRedirects.cache
 C:\Users\syc\LotTraking\WorkFactory\obj\Debug\WorkFactory.Properties.Resources.resources
 C:\Users\syc\LotTraking\WorkFactory\obj\Debug\WorkFactory.WorkFactory.resources
 C:\Users\syc\LotTraking\WorkFactory\obj\Debug\WorkFactory.csproj.GenerateResource.cache

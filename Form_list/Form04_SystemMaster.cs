@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
+﻿using Assamble;
+using System;
 using System.Data;
-using System.Drawing;
-using System.Text;
-using System.Windows.Forms;
-using Assamble;
 using System.Data.SqlClient;
+using System.Windows.Forms;
 
 namespace Form_list
 {

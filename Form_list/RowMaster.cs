@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
+﻿using Assamble;
+using System;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using Assamble;
 using System.Data.SqlClient;
+using System.Windows.Forms;
 
 namespace Form_list
 {
@@ -27,8 +21,8 @@ namespace Form_list
         {
             InitializeComponent();
         }
-       
-          
+
+
         private void RowMaster_Load(object sender, EventArgs e)
         {
             /*****************기본 그리드 내역 셋팅 *******************/
