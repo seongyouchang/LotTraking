@@ -120,3 +120,4 @@ C:\Users\syc\LotTraking\Form_list\obj\Debug\Form_list.RowMaster.resources
 C:\Users\user\LotTraking\Form_list\obj\Debug\Form_list.Properties.Resources.resources
 C:\Users\user\LotTraking\Form_list\obj\Debug\Form_list.RowMaster.resources
 C:\Users\syc\LotTraking\Form_list\obj\Debug\Form_list.SWorkOrder.resources
+C:\Users\user\LotTraking\Form_list\obj\Debug\Form_list.SWorkOrder.resources
