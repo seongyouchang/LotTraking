@@ -117,9 +117,9 @@
             this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox1.Font = new System.Drawing.Font("휴먼모음T", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.textBox1.ForeColor = System.Drawing.Color.White;
-            this.textBox1.Location = new System.Drawing.Point(3, 21);
+            this.textBox1.Location = new System.Drawing.Point(3, 17);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(1608, 54);
+            this.textBox1.Size = new System.Drawing.Size(1608, 43);
             this.textBox1.TabIndex = 0;
             this.textBox1.Text = "작 업 지 시 현 황";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -142,10 +142,9 @@
             this.panel1.Controls.Add(this.button10);
             this.panel1.Controls.Add(this.button11);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 723);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel1.Location = new System.Drawing.Point(0, 578);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1833, 125);
+            this.panel1.Size = new System.Drawing.Size(1604, 100);
             this.panel1.TabIndex = 0;
             // 
             // button6
@@ -158,10 +157,9 @@
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Font = new System.Drawing.Font("휴먼모음T", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Location = new System.Drawing.Point(684, 0);
-            this.button6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button6.Location = new System.Drawing.Point(600, 0);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(171, 125);
+            this.button6.Size = new System.Drawing.Size(150, 100);
             this.button6.TabIndex = 37;
             this.button6.Text = "불량 등록";
             this.button6.UseVisualStyleBackColor = false;
@@ -176,10 +174,9 @@
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button8.Font = new System.Drawing.Font("휴먼모음T", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button8.ForeColor = System.Drawing.Color.White;
-            this.button8.Location = new System.Drawing.Point(513, 0);
-            this.button8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button8.Location = new System.Drawing.Point(450, 0);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(171, 125);
+            this.button8.Size = new System.Drawing.Size(150, 100);
             this.button8.TabIndex = 36;
             this.button8.Text = "실적 등록";
             this.button8.UseVisualStyleBackColor = false;
@@ -194,10 +191,9 @@
             this.btnMaterial.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMaterial.Font = new System.Drawing.Font("휴먼모음T", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btnMaterial.ForeColor = System.Drawing.Color.White;
-            this.btnMaterial.Location = new System.Drawing.Point(342, 0);
-            this.btnMaterial.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnMaterial.Location = new System.Drawing.Point(300, 0);
             this.btnMaterial.Name = "btnMaterial";
-            this.btnMaterial.Size = new System.Drawing.Size(171, 125);
+            this.btnMaterial.Size = new System.Drawing.Size(150, 100);
             this.btnMaterial.TabIndex = 32;
             this.btnMaterial.Text = "자재 투입";
             this.btnMaterial.UseVisualStyleBackColor = false;
@@ -213,10 +209,9 @@
             this.btnWorker.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnWorker.Font = new System.Drawing.Font("휴먼모음T", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btnWorker.ForeColor = System.Drawing.Color.White;
-            this.btnWorker.Location = new System.Drawing.Point(171, 0);
-            this.btnWorker.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnWorker.Location = new System.Drawing.Point(150, 0);
             this.btnWorker.Name = "btnWorker";
-            this.btnWorker.Size = new System.Drawing.Size(171, 125);
+            this.btnWorker.Size = new System.Drawing.Size(150, 100);
             this.btnWorker.TabIndex = 33;
             this.btnWorker.Text = "작업자 투입";
             this.btnWorker.UseVisualStyleBackColor = false;
@@ -233,9 +228,8 @@
             this.btnWorkOrder.Font = new System.Drawing.Font("휴먼모음T", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btnWorkOrder.ForeColor = System.Drawing.Color.White;
             this.btnWorkOrder.Location = new System.Drawing.Point(0, 0);
-            this.btnWorkOrder.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnWorkOrder.Name = "btnWorkOrder";
-            this.btnWorkOrder.Size = new System.Drawing.Size(171, 125);
+            this.btnWorkOrder.Size = new System.Drawing.Size(150, 100);
             this.btnWorkOrder.TabIndex = 34;
             this.btnWorkOrder.Text = "생산지시조회";
             this.btnWorkOrder.UseVisualStyleBackColor = false;
@@ -250,10 +244,9 @@
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button10.Font = new System.Drawing.Font("휴먼모음T", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button10.ForeColor = System.Drawing.Color.White;
-            this.button10.Location = new System.Drawing.Point(1375, 0);
-            this.button10.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button10.Location = new System.Drawing.Point(1204, 0);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(229, 125);
+            this.button10.Size = new System.Drawing.Size(200, 100);
             this.button10.TabIndex = 31;
             this.button10.Text = "작 업 등 록";
             this.button10.UseVisualStyleBackColor = false;
@@ -267,10 +260,9 @@
             this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button11.Font = new System.Drawing.Font("휴먼모음T", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button11.ForeColor = System.Drawing.Color.White;
-            this.button11.Location = new System.Drawing.Point(1604, 0);
-            this.button11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button11.Location = new System.Drawing.Point(1404, 0);
             this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(229, 125);
+            this.button11.Size = new System.Drawing.Size(200, 100);
             this.button11.TabIndex = 30;
             this.button11.Text = "작 업 삭 제";
             this.button11.UseVisualStyleBackColor = false;
@@ -280,10 +272,9 @@
             this.panel3.Controls.Add(this.textBox2);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 0);
-            this.panel3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel3.Name = "panel3";
-            this.panel3.Padding = new System.Windows.Forms.Padding(11, 38, 11, 12);
-            this.panel3.Size = new System.Drawing.Size(1604, 125);
+            this.panel3.Padding = new System.Windows.Forms.Padding(10, 30, 10, 10);
+            this.panel3.Size = new System.Drawing.Size(1404, 100);
             this.panel3.TabIndex = 1;
             // 
             // textBox2
@@ -293,10 +284,9 @@
             this.textBox2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox2.Font = new System.Drawing.Font("휴먼모음T", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.textBox2.ForeColor = System.Drawing.Color.White;
-            this.textBox2.Location = new System.Drawing.Point(11, 38);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox2.Location = new System.Drawing.Point(10, 30);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(1582, 54);
+            this.textBox2.Size = new System.Drawing.Size(1384, 43);
             this.textBox2.TabIndex = 31;
             this.textBox2.Text = "작 업 지 시 현 황";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -306,10 +296,9 @@
             this.panel4.Controls.Add(this.button4);
             this.panel4.Controls.Add(this.button3);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel4.Location = new System.Drawing.Point(1604, 0);
-            this.panel4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel4.Location = new System.Drawing.Point(1404, 0);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(229, 723);
+            this.panel4.Size = new System.Drawing.Size(200, 578);
             this.panel4.TabIndex = 1;
             // 
             // button4
@@ -320,10 +309,9 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("휴먼모음T", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(0, 362);
-            this.button4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button4.Location = new System.Drawing.Point(0, 289);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(229, 361);
+            this.button4.Size = new System.Drawing.Size(200, 289);
             this.button4.TabIndex = 15;
             this.button4.Text = "■  작업종료";
             this.button4.UseVisualStyleBackColor = false;
@@ -339,7 +327,7 @@
             this.button3.Location = new System.Drawing.Point(0, 0);
             this.button3.Margin = new System.Windows.Forms.Padding(0);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(229, 361);
+            this.button3.Size = new System.Drawing.Size(200, 289);
             this.button3.TabIndex = 14;
             this.button3.Text = "▶  작업시작";
             this.button3.UseVisualStyleBackColor = false;
@@ -358,26 +346,24 @@
             this.Grid1.ColumnHeadersHeight = 30;
             this.Grid1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Grid1.EnableHeadersVisualStyles = false;
-            this.Grid1.Location = new System.Drawing.Point(0, 125);
-            this.Grid1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Grid1.Location = new System.Drawing.Point(0, 100);
             this.Grid1.Name = "Grid1";
             this.Grid1.RowHeadersWidth = 51;
             this.Grid1.RowTemplate.Height = 23;
-            this.Grid1.Size = new System.Drawing.Size(1604, 598);
+            this.Grid1.Size = new System.Drawing.Size(1404, 478);
             this.Grid1.TabIndex = 2;
             // 
             // WorkFactory
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.ClientSize = new System.Drawing.Size(1833, 848);
+            this.ClientSize = new System.Drawing.Size(1604, 678);
             this.Controls.Add(this.Grid1);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "WorkFactory";
             this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

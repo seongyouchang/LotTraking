@@ -43,10 +43,9 @@
             this.panel3.Controls.Add(this.textBox2);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 0);
-            this.panel3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel3.Name = "panel3";
-            this.panel3.Padding = new System.Windows.Forms.Padding(11, 38, 11, 12);
-            this.panel3.Size = new System.Drawing.Size(1814, 125);
+            this.panel3.Padding = new System.Windows.Forms.Padding(10, 30, 10, 10);
+            this.panel3.Size = new System.Drawing.Size(1587, 100);
             this.panel3.TabIndex = 2;
             // 
             // textBox2
@@ -56,10 +55,9 @@
             this.textBox2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox2.Font = new System.Drawing.Font("휴먼모음T", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.textBox2.ForeColor = System.Drawing.Color.White;
-            this.textBox2.Location = new System.Drawing.Point(11, 38);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox2.Location = new System.Drawing.Point(10, 30);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(1792, 54);
+            this.textBox2.Size = new System.Drawing.Size(1567, 43);
             this.textBox2.TabIndex = 31;
             this.textBox2.Text = "생 산 지 시 조 회";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -70,10 +68,9 @@
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.btnWorkOrder);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel1.Location = new System.Drawing.Point(0, 125);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel1.Location = new System.Drawing.Point(0, 100);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(228, 977);
+            this.panel1.Size = new System.Drawing.Size(200, 780);
             this.panel1.TabIndex = 3;
             // 
             // button1
@@ -86,10 +83,9 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("휴먼모음T", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(0, 209);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button1.Location = new System.Drawing.Point(0, 167);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(226, 209);
+            this.button1.Size = new System.Drawing.Size(198, 167);
             this.button1.TabIndex = 36;
             this.button1.Text = "작 업 장 선 택";
             this.button1.UseVisualStyleBackColor = false;
@@ -105,9 +101,8 @@
             this.btnWorkOrder.Font = new System.Drawing.Font("휴먼모음T", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btnWorkOrder.ForeColor = System.Drawing.Color.White;
             this.btnWorkOrder.Location = new System.Drawing.Point(0, 0);
-            this.btnWorkOrder.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnWorkOrder.Name = "btnWorkOrder";
-            this.btnWorkOrder.Size = new System.Drawing.Size(226, 209);
+            this.btnWorkOrder.Size = new System.Drawing.Size(198, 167);
             this.btnWorkOrder.TabIndex = 35;
             this.btnWorkOrder.Text = "공 정 설 정";
             this.btnWorkOrder.UseVisualStyleBackColor = false;
@@ -116,23 +111,21 @@
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel2.Location = new System.Drawing.Point(1586, 125);
-            this.panel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel2.Location = new System.Drawing.Point(1387, 100);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(228, 977);
+            this.panel2.Size = new System.Drawing.Size(200, 780);
             this.panel2.TabIndex = 4;
             // 
             // SWorkOrder
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.ClientSize = new System.Drawing.Size(1814, 1102);
+            this.ClientSize = new System.Drawing.Size(1587, 880);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel3);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "SWorkOrder";
             this.Text = "작업지시조회";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
