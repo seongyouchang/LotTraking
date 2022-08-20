@@ -1,9 +1,8 @@
-﻿using System.Windows.Forms;
-using Assamble;
-using System.Data.SqlClient;
-using System.Data;
+﻿using Assamble;
 using System;
-using WorkFactory;
+using System.Data;
+using System.Data.SqlClient;
+using System.Windows.Forms;
 
 /************************************
  *현장생산등록에 작업자 투입입니다.
@@ -32,6 +31,7 @@ namespace Form_list
         {
             InitializeComponent();
         }
+
 
 
         private void Worker_Load(object sender, System.EventArgs e)
@@ -70,7 +70,7 @@ namespace Form_list
             return true;
         }
 
-        public void button1_Click(object sender, EventArgs e)
+        public void btn1_Click(object sender, EventArgs e)
         {
             if (DBHelper(false) == false) return;
 
@@ -110,7 +110,7 @@ namespace Form_list
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btn2_Click(object sender, EventArgs e)
         {
             if (DBHelper(false) == false) return;
 
@@ -150,7 +150,7 @@ namespace Form_list
             }
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void btn3_Click(object sender, EventArgs e)
         {
             if (DBHelper(false) == false) return;
 
@@ -190,7 +190,7 @@ namespace Form_list
             }
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void btn4_Click(object sender, EventArgs e)
         {
             if (DBHelper(false) == false) return;
 
@@ -230,7 +230,7 @@ namespace Form_list
             }
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void btn5_Click(object sender, EventArgs e)
         {
             if (DBHelper(false) == false) return;
 
@@ -270,10 +270,9 @@ namespace Form_list
             }
         }
 
-        private void toolStripButton2_Click(object sender, EventArgs e)
+        private void btnClose_Click(object sender, EventArgs e)
         {
-            Material material = new Material();
-            material.ShowDialog();
+
         }
     }
 }

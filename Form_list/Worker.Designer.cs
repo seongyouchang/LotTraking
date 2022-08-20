@@ -209,21 +209,21 @@
             this.btn2.UseVisualStyleBackColor = false;
             this.btn2.Click += new System.EventHandler(this.btn2_Click);
             // 
-            // button2
+            // busor
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("휴먼모음T", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(-1, 232);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(256, 78);
-            this.button2.TabIndex = 36;
-            this.button2.Text = " 시설부 ";
-            this.button2.UseVisualStyleBackColor = false;
+            this.busor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.busor.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.busor.FlatAppearance.BorderSize = 0;
+            this.busor.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.busor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.busor.Font = new System.Drawing.Font("휴먼모음T", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.busor.ForeColor = System.Drawing.Color.White;
+            this.busor.Location = new System.Drawing.Point(-2, -1);
+            this.busor.Name = "busor";
+            this.busor.Size = new System.Drawing.Size(256, 48);
+            this.busor.TabIndex = 34;
+            this.busor.Text = "부서";
+            this.busor.UseVisualStyleBackColor = false;
             // 
             // btn1
             // 
