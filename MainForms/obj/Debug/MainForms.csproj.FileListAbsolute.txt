@@ -1,122 +1,10 @@
-C:\Users\user\Desktop\youchang\windowsformsapp\MainForms\bin\Debug\MainForms.exe.config
-C:\Users\user\Desktop\youchang\windowsformsapp\MainForms\bin\Debug\MainForms.exe
-C:\Users\user\Desktop\youchang\windowsformsapp\MainForms\bin\Debug\MainForms.pdb
-C:\Users\user\Desktop\youchang\windowsformsapp\MainForms\obj\Debug\MainForms.csprojAssemblyReference.cache
-C:\Users\user\Desktop\youchang\windowsformsapp\MainForms\obj\Debug\MainForms.M01_Form1.resources
-C:\Users\user\Desktop\youchang\windowsformsapp\MainForms\obj\Debug\MainForms.Properties.Resources.resources
-C:\Users\user\Desktop\youchang\windowsformsapp\MainForms\obj\Debug\MainForms.csproj.GenerateResource.cache
-C:\Users\user\Desktop\youchang\windowsformsapp\MainForms\obj\Debug\MainForms.csproj.CoreCompileInputs.cache
-C:\Users\user\Desktop\youchang\windowsformsapp\MainForms\obj\Debug\MainForms.exe
-C:\Users\user\Desktop\youchang\windowsformsapp\MainForms\obj\Debug\MainForms.pdb
-C:\Users\user\Desktop\youchang\windowsformsapp\MainForms\obj\Debug\MainForms.M02_PassWordChange.resources
-C:\Users\user\Desktop\성유창\youchang\windowsformsapp\MainForms\bin\Debug\MainForms.exe.config
-C:\Users\user\Desktop\성유창\youchang\windowsformsapp\MainForms\bin\Debug\MainForms.exe
-C:\Users\user\Desktop\성유창\youchang\windowsformsapp\MainForms\bin\Debug\MainForms.pdb
-C:\Users\user\Desktop\성유창\youchang\windowsformsapp\MainForms\obj\Debug\MainForms.csprojAssemblyReference.cache
-C:\Users\user\Desktop\성유창\youchang\windowsformsapp\MainForms\obj\Debug\MainForms.M02_PassWordChange.resources
-C:\Users\user\Desktop\성유창\youchang\windowsformsapp\MainForms\obj\Debug\MainForms.M01_Form1.resources
-C:\Users\user\Desktop\성유창\youchang\windowsformsapp\MainForms\obj\Debug\MainForms.Properties.Resources.resources
-C:\Users\user\Desktop\성유창\youchang\windowsformsapp\MainForms\obj\Debug\MainForms.csproj.GenerateResource.cache
-C:\Users\user\Desktop\성유창\youchang\windowsformsapp\MainForms\obj\Debug\MainForms.csproj.CoreCompileInputs.cache
-C:\Users\user\Desktop\성유창\youchang\windowsformsapp\MainForms\obj\Debug\MainForms.exe
-C:\Users\user\Desktop\성유창\youchang\windowsformsapp\MainForms\obj\Debug\MainForms.pdb
-C:\Users\user\Desktop\성유창\youchang\windowsformsapp\MainForms\obj\Debug\MainForms.M03_MainForm.resources
-C:\Users\user\Desktop\성유창\youchang\windowsformsapp\MainForms\bin\Debug\Assamble.dll
-C:\Users\user\Desktop\성유창\youchang\windowsformsapp\MainForms\bin\Debug\Assamble.pdb
-C:\Users\user\Desktop\성유창\youchang\windowsformsapp\MainForms\obj\Debug\MainForms.csproj.CopyComplete
-C:\Users\user\Desktop\성유창\youchang\windowsformsapp\MainForms\bin\Debug\Form_list.dll
-C:\Users\user\Desktop\성유창\youchang\windowsformsapp\MainForms\bin\Debug\Form_list.pdb
-C:\Users\syc\Desktop\프로젝트 (1)\MainForms\bin\Debug\MainForms.exe.config
-C:\Users\syc\Desktop\프로젝트 (1)\MainForms\bin\Debug\MainForms.exe
-C:\Users\syc\Desktop\프로젝트 (1)\MainForms\bin\Debug\MainForms.pdb
-C:\Users\syc\Desktop\프로젝트 (1)\MainForms\bin\Debug\Assamble.dll
-C:\Users\syc\Desktop\프로젝트 (1)\MainForms\bin\Debug\Form_list.dll
-C:\Users\syc\Desktop\프로젝트 (1)\MainForms\bin\Debug\Assamble.pdb
-C:\Users\syc\Desktop\프로젝트 (1)\MainForms\bin\Debug\Form_list.pdb
-C:\Users\syc\Desktop\프로젝트 (1)\MainForms\obj\Debug\MainForms.csproj.AssemblyReference.cache
-C:\Users\syc\Desktop\프로젝트 (1)\MainForms\obj\Debug\MainForms.csproj.SuggestedBindingRedirects.cache
-C:\Users\syc\Desktop\프로젝트 (1)\MainForms\obj\Debug\MainForms.M02_PassWordChange.resources
-C:\Users\syc\Desktop\프로젝트 (1)\MainForms\obj\Debug\MainForms.M01_Form1.resources
-C:\Users\syc\Desktop\프로젝트 (1)\MainForms\obj\Debug\MainForms.M03_MainForm.resources
-C:\Users\syc\Desktop\프로젝트 (1)\MainForms\obj\Debug\MainForms.Properties.Resources.resources
-C:\Users\syc\Desktop\프로젝트 (1)\MainForms\obj\Debug\MainForms.csproj.GenerateResource.cache
-C:\Users\syc\Desktop\프로젝트 (1)\MainForms\obj\Debug\MainForms.csproj.CoreCompileInputs.cache
-C:\Users\syc\Desktop\프로젝트 (1)\MainForms\obj\Debug\MainForms.csproj.CopyComplete
-C:\Users\syc\Desktop\프로젝트 (1)\MainForms\obj\Debug\MainForms.exe
-C:\Users\syc\Desktop\프로젝트 (1)\MainForms\obj\Debug\MainForms.pdb
-C:\Users\user\Desktop\프로젝트 (1)\MainForms\bin\Debug\MainForms.exe.config
-C:\Users\user\Desktop\프로젝트 (1)\MainForms\bin\Debug\MainForms.exe
-C:\Users\user\Desktop\프로젝트 (1)\MainForms\bin\Debug\MainForms.pdb
-C:\Users\user\Desktop\프로젝트 (1)\MainForms\bin\Debug\Assamble.dll
-C:\Users\user\Desktop\프로젝트 (1)\MainForms\bin\Debug\Form_list.dll
-C:\Users\user\Desktop\프로젝트 (1)\MainForms\bin\Debug\Assamble.pdb
-C:\Users\user\Desktop\프로젝트 (1)\MainForms\bin\Debug\Form_list.pdb
-C:\Users\user\Desktop\프로젝트 (1)\MainForms\obj\Debug\MainForms.csprojAssemblyReference.cache
-C:\Users\user\Desktop\프로젝트 (1)\MainForms\obj\Debug\MainForms.M02_PassWordChange.resources
-C:\Users\user\Desktop\프로젝트 (1)\MainForms\obj\Debug\MainForms.M01_Form1.resources
-C:\Users\user\Desktop\프로젝트 (1)\MainForms\obj\Debug\MainForms.M03_MainForm.resources
-C:\Users\user\Desktop\프로젝트 (1)\MainForms\obj\Debug\MainForms.Properties.Resources.resources
-C:\Users\user\Desktop\프로젝트 (1)\MainForms\obj\Debug\MainForms.csproj.GenerateResource.cache
-C:\Users\user\Desktop\프로젝트 (1)\MainForms\obj\Debug\MainForms.csproj.CoreCompileInputs.cache
-C:\Users\user\Desktop\프로젝트 (1)\MainForms\obj\Debug\MainForms.csproj.CopyComplete
-C:\Users\user\Desktop\프로젝트 (1)\MainForms\obj\Debug\MainForms.exe
-C:\Users\user\Desktop\프로젝트 (1)\MainForms\obj\Debug\MainForms.pdb
-<<<<<<< HEAD
-C:\Users\최한빈\LotTraking\MainForms\bin\Debug\MainForms.exe.config
-C:\Users\최한빈\LotTraking\MainForms\bin\Debug\MainForms.exe
-C:\Users\최한빈\LotTraking\MainForms\bin\Debug\MainForms.pdb
-C:\Users\최한빈\LotTraking\MainForms\bin\Debug\Assamble.dll
-C:\Users\최한빈\LotTraking\MainForms\bin\Debug\Form_list.dll
-C:\Users\최한빈\LotTraking\MainForms\bin\Debug\Assamble.pdb
-C:\Users\최한빈\LotTraking\MainForms\bin\Debug\Form_list.pdb
-C:\Users\최한빈\LotTraking\MainForms\obj\Debug\MainForms.csproj.AssemblyReference.cache
-C:\Users\최한빈\LotTraking\MainForms\obj\Debug\MainForms.M02_PassWordChange.resources
-C:\Users\최한빈\LotTraking\MainForms\obj\Debug\MainForms.M01_Form1.resources
-C:\Users\최한빈\LotTraking\MainForms\obj\Debug\MainForms.M03_MainForm.resources
-C:\Users\최한빈\LotTraking\MainForms\obj\Debug\MainForms.Properties.Resources.resources
-C:\Users\최한빈\LotTraking\MainForms\obj\Debug\MainForms.csproj.GenerateResource.cache
-C:\Users\최한빈\LotTraking\MainForms\obj\Debug\MainForms.csproj.CoreCompileInputs.cache
-C:\Users\최한빈\LotTraking\MainForms\obj\Debug\MainForms.csproj.CopyComplete
-C:\Users\최한빈\LotTraking\MainForms\obj\Debug\MainForms.exe
-C:\Users\최한빈\LotTraking\MainForms\obj\Debug\MainForms.pdb
-=======
-C:\Users\user\LotTraking\MainForms\bin\Debug\MainForms.exe.config
-C:\Users\user\LotTraking\MainForms\bin\Debug\MainForms.exe
-C:\Users\user\LotTraking\MainForms\bin\Debug\MainForms.pdb
-C:\Users\user\LotTraking\MainForms\bin\Debug\Assamble.dll
-C:\Users\user\LotTraking\MainForms\bin\Debug\Form_list.dll
-C:\Users\user\LotTraking\MainForms\bin\Debug\Assamble.pdb
-C:\Users\user\LotTraking\MainForms\bin\Debug\Form_list.pdb
-C:\Users\user\LotTraking\MainForms\obj\Debug\MainForms.csproj.AssemblyReference.cache
-C:\Users\user\LotTraking\MainForms\obj\Debug\MainForms.M02_PassWordChange.resources
-C:\Users\user\LotTraking\MainForms\obj\Debug\MainForms.M01_Form1.resources
-C:\Users\user\LotTraking\MainForms\obj\Debug\MainForms.M03_MainForm.resources
-C:\Users\user\LotTraking\MainForms\obj\Debug\MainForms.Properties.Resources.resources
-C:\Users\user\LotTraking\MainForms\obj\Debug\MainForms.csproj.GenerateResource.cache
-C:\Users\user\LotTraking\MainForms\obj\Debug\MainForms.csproj.CoreCompileInputs.cache
-C:\Users\user\LotTraking\MainForms\obj\Debug\MainForms.csproj.CopyComplete
-C:\Users\user\LotTraking\MainForms\obj\Debug\MainForms.exe
-C:\Users\user\LotTraking\MainForms\obj\Debug\MainForms.pdb
->>>>>>> d88a32786be1aac8767b8e845189d3d72ec030ab
-C:\Users\user\LotTraking\MainForms\obj\Debug\MainForms.csprojAssemblyReference.cache
-C:\Users\user\project\MainForms\bin\Debug\MainForms.exe.config
-C:\Users\user\project\MainForms\bin\Debug\MainForms.exe
-C:\Users\user\project\MainForms\bin\Debug\MainForms.pdb
-C:\Users\user\project\MainForms\bin\Debug\Assamble.dll
-C:\Users\user\project\MainForms\bin\Debug\Form_list.dll
-C:\Users\user\project\MainForms\bin\Debug\Assamble.pdb
-C:\Users\user\project\MainForms\bin\Debug\Form_list.pdb
-C:\Users\user\project\MainForms\obj\Debug\MainForms.csproj.AssemblyReference.cache
-C:\Users\user\project\MainForms\obj\Debug\MainForms.M02_PassWordChange.resources
-C:\Users\user\project\MainForms\obj\Debug\MainForms.M01_Form1.resources
-C:\Users\user\project\MainForms\obj\Debug\MainForms.M03_MainForm.resources
-C:\Users\user\project\MainForms\obj\Debug\MainForms.Properties.Resources.resources
-C:\Users\user\project\MainForms\obj\Debug\MainForms.csproj.GenerateResource.cache
-C:\Users\user\project\MainForms\obj\Debug\MainForms.csproj.CoreCompileInputs.cache
-C:\Users\user\project\MainForms\obj\Debug\MainForms.csproj.CopyComplete
-C:\Users\user\project\MainForms\obj\Debug\MainForms.exe
-C:\Users\user\project\MainForms\obj\Debug\MainForms.pdb
->>>>>>> e83584b08c2ea54d4e5ec9cd58b82c383ea349c5
+C:\Users\syc\LotTraking\MainForms\obj\Debug\MainForms.csproj.AssemblyReference.cache
+C:\Users\syc\LotTraking\MainForms\obj\Debug\MainForms.M02_PassWordChange.resources
+C:\Users\syc\LotTraking\MainForms\obj\Debug\MainForms.M01_Form1.resources
+C:\Users\syc\LotTraking\MainForms\obj\Debug\MainForms.M03_MainForm.resources
+C:\Users\syc\LotTraking\MainForms\obj\Debug\MainForms.Properties.Resources.resources
+C:\Users\syc\LotTraking\MainForms\obj\Debug\MainForms.csproj.GenerateResource.cache
+C:\Users\syc\LotTraking\MainForms\obj\Debug\MainForms.csproj.CoreCompileInputs.cache
 C:\Users\syc\LotTraking\MainForms\bin\Debug\MainForms.exe.config
 C:\Users\syc\LotTraking\MainForms\bin\Debug\MainForms.exe
 C:\Users\syc\LotTraking\MainForms\bin\Debug\MainForms.pdb
@@ -124,39 +12,6 @@ C:\Users\syc\LotTraking\MainForms\bin\Debug\Assamble.dll
 C:\Users\syc\LotTraking\MainForms\bin\Debug\Form_list.dll
 C:\Users\syc\LotTraking\MainForms\bin\Debug\Assamble.pdb
 C:\Users\syc\LotTraking\MainForms\bin\Debug\Form_list.pdb
-C:\Users\syc\LotTraking\MainForms\obj\Debug\MainForms.csproj.AssemblyReference.cache
-C:\Users\syc\LotTraking\MainForms\obj\Debug\MainForms.csproj.SuggestedBindingRedirects.cache
-C:\Users\syc\LotTraking\MainForms\obj\Debug\MainForms.M02_PassWordChange.resources
-C:\Users\syc\LotTraking\MainForms\obj\Debug\MainForms.M01_Form1.resources
-C:\Users\syc\LotTraking\MainForms\obj\Debug\MainForms.M03_MainForm.resources
-C:\Users\syc\LotTraking\MainForms\obj\Debug\MainForms.Properties.Resources.resources
-C:\Users\syc\LotTraking\MainForms\obj\Debug\MainForms.csproj.GenerateResource.cache
-C:\Users\syc\LotTraking\MainForms\obj\Debug\MainForms.csproj.CoreCompileInputs.cache
 C:\Users\syc\LotTraking\MainForms\obj\Debug\MainForms.csproj.CopyComplete
 C:\Users\syc\LotTraking\MainForms\obj\Debug\MainForms.exe
 C:\Users\syc\LotTraking\MainForms\obj\Debug\MainForms.pdb
-C:\Users\HOME\LotTraking\MainForms\bin\Debug\MainForms.exe.config
-C:\Users\HOME\LotTraking\MainForms\bin\Debug\MainForms.exe
-C:\Users\HOME\LotTraking\MainForms\bin\Debug\MainForms.pdb
-C:\Users\HOME\LotTraking\MainForms\bin\Debug\Assamble.dll
-C:\Users\HOME\LotTraking\MainForms\bin\Debug\Form_list.dll
-C:\Users\HOME\LotTraking\MainForms\bin\Debug\Assamble.pdb
-C:\Users\HOME\LotTraking\MainForms\bin\Debug\Form_list.pdb
-C:\Users\HOME\LotTraking\MainForms\obj\Debug\MainForms.csprojAssemblyReference.cache
-C:\Users\HOME\LotTraking\MainForms\obj\Debug\MainForms.M02_PassWordChange.resources
-C:\Users\HOME\LotTraking\MainForms\obj\Debug\MainForms.M01_Form1.resources
-C:\Users\HOME\LotTraking\MainForms\obj\Debug\MainForms.M03_MainForm.resources
-C:\Users\HOME\LotTraking\MainForms\obj\Debug\MainForms.Properties.Resources.resources
-C:\Users\HOME\LotTraking\MainForms\obj\Debug\MainForms.csproj.GenerateResource.cache
-C:\Users\HOME\LotTraking\MainForms\obj\Debug\MainForms.csproj.CoreCompileInputs.cache
-C:\Users\HOME\LotTraking\MainForms\obj\Debug\MainForms.csproj.CopyComplete
-C:\Users\HOME\LotTraking\MainForms\obj\Debug\MainForms.exe
-C:\Users\HOME\LotTraking\MainForms\obj\Debug\MainForms.pdb
-C:\Users\최한빈\LotTraking\MainForms\bin\Debug\Infragistics2.Win.UltraWinGrid.v11.1.dll
-C:\Users\최한빈\LotTraking\MainForms\bin\Debug\Infragistics2.Win.v11.1.dll
-C:\Users\최한빈\LotTraking\MainForms\bin\Debug\Infragistics2.Shared.v11.1.dll
-C:\Users\최한빈\LotTraking\MainForms\bin\Debug\Infragistics2.Win.Misc.v11.1.dll
-C:\Users\최한빈\LotTraking\MainForms\bin\Debug\Infragistics2.Win.UltraWinGrid.v11.1.xml
-C:\Users\최한빈\LotTraking\MainForms\bin\Debug\Infragistics2.Win.v11.1.xml
-C:\Users\최한빈\LotTraking\MainForms\bin\Debug\Infragistics2.Shared.v11.1.xml
-C:\Users\최한빈\LotTraking\MainForms\bin\Debug\Infragistics2.Win.Misc.v11.1.xml

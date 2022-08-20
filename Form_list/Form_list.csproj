@@ -31,7 +31,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Assamble">
+    <Reference Include="Assamble, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Assamble\bin\Debug\Assamble.dll</HintPath>
     </Reference>
     <Reference Include="Infragistics2.Shared.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" />
@@ -58,12 +59,6 @@
     </Compile>
     <Compile Include="Form03_UserMaster.Designer.cs">
       <DependentUpon>Form03_UserMaster.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form04_SystemMaster.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form04_SystemMaster.Designer.cs">
-      <DependentUpon>Form04_SystemMaster.cs</DependentUpon>
     </Compile>
     <Compile Include="Material.cs">
       <SubType>Form</SubType>
@@ -99,9 +94,6 @@
   <ItemGroup>
     <EmbeddedResource Include="Form03_UserMaster.resx">
       <DependentUpon>Form03_UserMaster.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form04_SystemMaster.resx">
-      <DependentUpon>Form04_SystemMaster.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Material.resx">
       <DependentUpon>Material.cs</DependentUpon>

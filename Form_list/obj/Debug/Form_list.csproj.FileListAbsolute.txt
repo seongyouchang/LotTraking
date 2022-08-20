@@ -1,151 +1,25 @@
-C:\Users\user\Desktop\성유창\youchang\windowsformsapp\Form_list\bin\Debug\Form_list.dll
-C:\Users\user\Desktop\성유창\youchang\windowsformsapp\Form_list\bin\Debug\Form_list.pdb
-C:\Users\user\Desktop\성유창\youchang\windowsformsapp\Form_list\obj\Debug\Form_list.csprojAssemblyReference.cache
-C:\Users\user\Desktop\성유창\youchang\windowsformsapp\Form_list\obj\Debug\Form_list.csproj.CoreCompileInputs.cache
-C:\Users\user\Desktop\성유창\youchang\windowsformsapp\Form_list\obj\Debug\Form_list.dll
-C:\Users\user\Desktop\성유창\youchang\windowsformsapp\Form_list\obj\Debug\Form_list.pdb
-C:\Users\user\Desktop\성유창\youchang\windowsformsapp\Form_list\bin\Debug\Assamble.dll
-C:\Users\user\Desktop\성유창\youchang\windowsformsapp\Form_list\bin\Debug\Assamble.pdb
-C:\Users\user\Desktop\성유창\youchang\windowsformsapp\Form_list\obj\Debug\Form_list.Form01_MDITest.resources
-C:\Users\user\Desktop\성유창\youchang\windowsformsapp\Form_list\obj\Debug\Form_list.csproj.GenerateResource.cache
-C:\Users\user\Desktop\성유창\youchang\windowsformsapp\Form_list\obj\Debug\Form_list.csproj.CopyComplete
-C:\Users\user\Desktop\성유창\youchang\windowsformsapp\Form_list\obj\Debug\Form_list.Form01_MDITest2.resources
-C:\Users\user\Desktop\성유창\youchang\windowsformsapp\Form_list\obj\Debug\Form_list.Form03_UserMaster.resources
-C:\Users\user\Desktop\성유창\youchang\windowsformsapp\Form_list\obj\Debug\Form_list.Form04_SystemMaster.resources
-C:\Users\syc\Desktop\프로젝트 (1)\Form_list\bin\Debug\Form_list.dll
-C:\Users\syc\Desktop\프로젝트 (1)\Form_list\bin\Debug\Form_list.pdb
-C:\Users\syc\Desktop\프로젝트 (1)\Form_list\bin\Debug\Assamble.dll
-C:\Users\syc\Desktop\프로젝트 (1)\Form_list\bin\Debug\Assamble.pdb
-C:\Users\syc\Desktop\프로젝트 (1)\Form_list\obj\Debug\Form_list.csproj.AssemblyReference.cache
-C:\Users\syc\Desktop\프로젝트 (1)\Form_list\obj\Debug\Form_list.Form01_MDITest2.resources
-C:\Users\syc\Desktop\프로젝트 (1)\Form_list\obj\Debug\Form_list.Form01_MDITest.resources
-C:\Users\syc\Desktop\프로젝트 (1)\Form_list\obj\Debug\Form_list.Form03_UserMaster.resources
-C:\Users\syc\Desktop\프로젝트 (1)\Form_list\obj\Debug\Form_list.Form04_SystemMaster.resources
-C:\Users\syc\Desktop\프로젝트 (1)\Form_list\obj\Debug\Form_list.csproj.GenerateResource.cache
-C:\Users\syc\Desktop\프로젝트 (1)\Form_list\obj\Debug\Form_list.csproj.CoreCompileInputs.cache
-C:\Users\syc\Desktop\프로젝트 (1)\Form_list\obj\Debug\Form_list.csproj.CopyComplete
-C:\Users\syc\Desktop\프로젝트 (1)\Form_list\obj\Debug\Form_list.dll
-C:\Users\syc\Desktop\프로젝트 (1)\Form_list\obj\Debug\Form_list.pdb
-C:\Users\user\Desktop\프로젝트 (1)\Form_list\bin\Debug\Form_list.dll
-C:\Users\user\Desktop\프로젝트 (1)\Form_list\bin\Debug\Form_list.pdb
-C:\Users\user\Desktop\프로젝트 (1)\Form_list\bin\Debug\Assamble.dll
-C:\Users\user\Desktop\프로젝트 (1)\Form_list\bin\Debug\Assamble.pdb
-C:\Users\user\Desktop\프로젝트 (1)\Form_list\obj\Debug\Form_list.csprojAssemblyReference.cache
-C:\Users\user\Desktop\프로젝트 (1)\Form_list\obj\Debug\Form_list.Form01_MDITest2.resources
-C:\Users\user\Desktop\프로젝트 (1)\Form_list\obj\Debug\Form_list.Form01_MDITest.resources
-C:\Users\user\Desktop\프로젝트 (1)\Form_list\obj\Debug\Form_list.Form03_UserMaster.resources
-C:\Users\user\Desktop\프로젝트 (1)\Form_list\obj\Debug\Form_list.Form04_SystemMaster.resources
-C:\Users\user\Desktop\프로젝트 (1)\Form_list\obj\Debug\Form_list.csproj.GenerateResource.cache
-C:\Users\user\Desktop\프로젝트 (1)\Form_list\obj\Debug\Form_list.csproj.CoreCompileInputs.cache
-C:\Users\user\Desktop\프로젝트 (1)\Form_list\obj\Debug\Form_list.csproj.CopyComplete
-C:\Users\user\Desktop\프로젝트 (1)\Form_list\obj\Debug\Form_list.dll
-C:\Users\user\Desktop\프로젝트 (1)\Form_list\obj\Debug\Form_list.pdb
-C:\Users\최한빈\LotTraking\Form_list\bin\Debug\Form_list.dll
-C:\Users\최한빈\LotTraking\Form_list\bin\Debug\Form_list.pdb
-C:\Users\최한빈\LotTraking\Form_list\bin\Debug\Assamble.dll
-C:\Users\최한빈\LotTraking\Form_list\bin\Debug\Assamble.pdb
-C:\Users\최한빈\LotTraking\Form_list\obj\Debug\Form_list.csproj.AssemblyReference.cache
-C:\Users\최한빈\LotTraking\Form_list\obj\Debug\Form_list.Form01_MDITest2.resources
-C:\Users\최한빈\LotTraking\Form_list\obj\Debug\Form_list.Form01_MDITest.resources
-C:\Users\최한빈\LotTraking\Form_list\obj\Debug\Form_list.Form03_UserMaster.resources
-C:\Users\최한빈\LotTraking\Form_list\obj\Debug\Form_list.Form04_SystemMaster.resources
-C:\Users\최한빈\LotTraking\Form_list\obj\Debug\Form_list.csproj.GenerateResource.cache
-C:\Users\최한빈\LotTraking\Form_list\obj\Debug\Form_list.csproj.CoreCompileInputs.cache
-C:\Users\최한빈\LotTraking\Form_list\obj\Debug\Form_list.csproj.CopyComplete
-C:\Users\최한빈\LotTraking\Form_list\obj\Debug\Form_list.dll
-C:\Users\최한빈\LotTraking\Form_list\obj\Debug\Form_list.pdb
-<<<<<<< HEAD
-C:\Users\user\LotTraking\Form_list\bin\Debug\Form_list.dll
-C:\Users\user\LotTraking\Form_list\bin\Debug\Form_list.pdb
-C:\Users\user\LotTraking\Form_list\bin\Debug\Assamble.dll
-C:\Users\user\LotTraking\Form_list\bin\Debug\Assamble.pdb
-C:\Users\user\LotTraking\Form_list\obj\Debug\Form_list.csprojAssemblyReference.cache
-C:\Users\user\LotTraking\Form_list\obj\Debug\Form_list.Form01_MDITest2.resources
-C:\Users\user\LotTraking\Form_list\obj\Debug\Form_list.Form01_MDITest.resources
-C:\Users\user\LotTraking\Form_list\obj\Debug\Form_list.Form03_UserMaster.resources
-C:\Users\user\LotTraking\Form_list\obj\Debug\Form_list.Form04_SystemMaster.resources
-C:\Users\user\LotTraking\Form_list\obj\Debug\Form_list.csproj.GenerateResource.cache
-C:\Users\user\LotTraking\Form_list\obj\Debug\Form_list.csproj.CoreCompileInputs.cache
-C:\Users\user\LotTraking\Form_list\obj\Debug\Form_list.csproj.CopyComplete
-C:\Users\user\LotTraking\Form_list\obj\Debug\Form_list.dll
-C:\Users\user\LotTraking\Form_list\obj\Debug\Form_list.pdb
-=======
-C:\Users\user\project\Form_list\bin\Debug\Form_list.dll
-C:\Users\user\project\Form_list\bin\Debug\Form_list.pdb
-C:\Users\user\project\Form_list\bin\Debug\Assamble.dll
-C:\Users\user\project\Form_list\bin\Debug\Assamble.pdb
-C:\Users\user\project\Form_list\obj\Debug\Form_list.csproj.AssemblyReference.cache
-C:\Users\user\project\Form_list\obj\Debug\Form_list.Form01_MDITest2.resources
-C:\Users\user\project\Form_list\obj\Debug\Form_list.Form01_MDITest.resources
-C:\Users\user\project\Form_list\obj\Debug\Form_list.Form03_UserMaster.resources
-C:\Users\user\project\Form_list\obj\Debug\Form_list.Form04_SystemMaster.resources
-C:\Users\user\project\Form_list\obj\Debug\Form_list.csproj.GenerateResource.cache
-C:\Users\user\project\Form_list\obj\Debug\Form_list.csproj.CoreCompileInputs.cache
-C:\Users\user\project\Form_list\obj\Debug\Form_list.csproj.CopyComplete
-C:\Users\user\project\Form_list\obj\Debug\Form_list.dll
-C:\Users\user\project\Form_list\obj\Debug\Form_list.pdb
->>>>>>> e83584b08c2ea54d4e5ec9cd58b82c383ea349c5
-C:\Users\최한빈\LotTraking\Form_list\obj\Debug\Form_list.Form01_RowMasterTest.resources
-C:\Users\최한빈\LotTraking\Form_list\obj\Debug\Form_list.Properties.Resources.resources
 C:\Users\syc\LotTraking\Form_list\obj\Debug\Form_list.csproj.AssemblyReference.cache
-C:\Users\syc\LotTraking\Form_list\obj\Debug\Form_list.Form01_RowMasterTest.resources
 C:\Users\syc\LotTraking\Form_list\obj\Debug\Form_list.Form03_UserMaster.resources
-C:\Users\syc\LotTraking\Form_list\obj\Debug\Form_list.Form04_SystemMaster.resources
+C:\Users\syc\LotTraking\Form_list\obj\Debug\Form_list.Material.resources
 C:\Users\syc\LotTraking\Form_list\obj\Debug\Form_list.Properties.Resources.resources
+C:\Users\syc\LotTraking\Form_list\obj\Debug\Form_list.RowMaster.resources
+C:\Users\syc\LotTraking\Form_list\obj\Debug\Form_list.SWorkOrder.resources
+C:\Users\syc\LotTraking\Form_list\obj\Debug\Form_list.Worker.resources
 C:\Users\syc\LotTraking\Form_list\obj\Debug\Form_list.csproj.GenerateResource.cache
+C:\Users\syc\LotTraking\Form_list\obj\Debug\Form_list.dll.licenses
 C:\Users\syc\LotTraking\Form_list\obj\Debug\Form_list.csproj.CoreCompileInputs.cache
-C:\Users\syc\LotTraking\Form_list\obj\Debug\Form_list.dll
-C:\Users\syc\LotTraking\Form_list\obj\Debug\Form_list.pdb
 C:\Users\syc\LotTraking\Form_list\bin\Debug\Form_list.dll
 C:\Users\syc\LotTraking\Form_list\bin\Debug\Form_list.pdb
 C:\Users\syc\LotTraking\Form_list\bin\Debug\Assamble.dll
-C:\Users\syc\LotTraking\Form_list\bin\Debug\Assamble.pdb
-C:\Users\syc\LotTraking\Form_list\obj\Debug\Form_list.csproj.CopyComplete
-C:\Users\최한빈\LotTraking\Form_list\obj\Debug\Form_list.RowMaster.resources
-C:\Users\HOME\LotTraking\Form_list\bin\Debug\Form_list.dll
-C:\Users\HOME\LotTraking\Form_list\bin\Debug\Form_list.pdb
-C:\Users\HOME\LotTraking\Form_list\bin\Debug\Assamble.dll
-C:\Users\HOME\LotTraking\Form_list\bin\Debug\Assamble.pdb
-C:\Users\HOME\LotTraking\Form_list\obj\Debug\Form_list.csprojAssemblyReference.cache
-C:\Users\HOME\LotTraking\Form_list\obj\Debug\Form_list.Form03_UserMaster.resources
-C:\Users\HOME\LotTraking\Form_list\obj\Debug\Form_list.Form04_SystemMaster.resources
-C:\Users\HOME\LotTraking\Form_list\obj\Debug\Form_list.Properties.Resources.resources
-C:\Users\HOME\LotTraking\Form_list\obj\Debug\Form_list.csproj.GenerateResource.cache
-C:\Users\HOME\LotTraking\Form_list\obj\Debug\Form_list.csproj.CoreCompileInputs.cache
-C:\Users\HOME\LotTraking\Form_list\obj\Debug\Form_list.csproj.CopyComplete
-C:\Users\HOME\LotTraking\Form_list\obj\Debug\Form_list.dll
-C:\Users\HOME\LotTraking\Form_list\obj\Debug\Form_list.pdb
->>>>>>> 42c5e8b3a312aa2ba35ed72ae5f69ff7dd421439
-C:\Users\syc\LotTraking\Form_list\obj\Debug\Form_list.RowMaster.resources
-C:\Users\user\LotTraking\Form_list\obj\Debug\Form_list.Properties.Resources.resources
-C:\Users\user\LotTraking\Form_list\obj\Debug\Form_list.RowMaster.resources
-C:\Users\syc\LotTraking\Form_list\obj\Debug\Form_list.SWorkOrder.resources
-C:\Users\user\LotTraking\Form_list\obj\Debug\Form_list.SWorkOrder.resources
-C:\Users\최한빈\LotTraking\Form_list\obj\Debug\Form_list.SWorkOrder.resources
-C:\Users\최한빈\LotTraking\Form_list\obj\Debug\Form_list.Material.resources
-C:\Users\최한빈\LotTraking\Form_list\bin\Debug\Infragistics2.Shared.v11.1.dll
-C:\Users\최한빈\LotTraking\Form_list\bin\Debug\Infragistics2.Win.Misc.v11.1.dll
-C:\Users\최한빈\LotTraking\Form_list\bin\Debug\Infragistics2.Win.UltraWinGrid.v11.1.dll
-C:\Users\최한빈\LotTraking\Form_list\bin\Debug\Infragistics2.Win.v11.1.dll
-C:\Users\최한빈\LotTraking\Form_list\bin\Debug\Infragistics2.Shared.v11.1.xml
-C:\Users\최한빈\LotTraking\Form_list\bin\Debug\Infragistics2.Win.Misc.v11.1.xml
-C:\Users\최한빈\LotTraking\Form_list\bin\Debug\Infragistics2.Win.UltraWinGrid.v11.1.xml
-C:\Users\최한빈\LotTraking\Form_list\bin\Debug\Infragistics2.Win.v11.1.xml
-C:\Users\최한빈\LotTraking\Form_list\obj\Debug\Form_list.dll.licenses
-C:\Users\HOME\LotTraking\Form_list\obj\Debug\Form_list.RowMaster.resources
-C:\Users\HOME\LotTraking\Form_list\obj\Debug\Form_list.SWorkOrder.resources
-C:\Users\HOME\LotTraking\Form_list\obj\Debug\Form_list.Worker.resources
->>>>>>> f7a45a469576d77e03110425cbd6892f02138c6e
-C:\Users\최한빈\LotTraking\Form_list\obj\Debug\Form_list.Worker.resources
 C:\Users\syc\LotTraking\Form_list\bin\Debug\Infragistics2.Shared.v11.1.dll
 C:\Users\syc\LotTraking\Form_list\bin\Debug\Infragistics2.Win.Misc.v11.1.dll
 C:\Users\syc\LotTraking\Form_list\bin\Debug\Infragistics2.Win.UltraWinGrid.v11.1.dll
 C:\Users\syc\LotTraking\Form_list\bin\Debug\Infragistics2.Win.v11.1.dll
+C:\Users\syc\LotTraking\Form_list\bin\Debug\Assamble.pdb
 C:\Users\syc\LotTraking\Form_list\bin\Debug\Infragistics2.Shared.v11.1.xml
 C:\Users\syc\LotTraking\Form_list\bin\Debug\Infragistics2.Win.Misc.v11.1.xml
 C:\Users\syc\LotTraking\Form_list\bin\Debug\Infragistics2.Win.UltraWinGrid.v11.1.xml
 C:\Users\syc\LotTraking\Form_list\bin\Debug\Infragistics2.Win.v11.1.xml
-C:\Users\syc\LotTraking\Form_list\obj\Debug\Form_list.Material.resources
-C:\Users\syc\LotTraking\Form_list\obj\Debug\Form_list.Worker.resources
-C:\Users\syc\LotTraking\Form_list\obj\Debug\Form_list.dll.licenses
-C:\Users\syc\LotTraking\Form_list\obj\Debug\Form_list.M_Process.resources
+C:\Users\syc\LotTraking\Form_list\obj\Debug\Form_list.csproj.CopyComplete
+C:\Users\syc\LotTraking\Form_list\obj\Debug\Form_list.dll
+C:\Users\syc\LotTraking\Form_list\obj\Debug\Form_list.pdb

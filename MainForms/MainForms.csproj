@@ -33,7 +33,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Assamble">
+    <Reference Include="Assamble, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Assamble\bin\Debug\Assamble.dll</HintPath>
     </Reference>
     <Reference Include="Form_list">
