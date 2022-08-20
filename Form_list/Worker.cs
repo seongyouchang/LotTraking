@@ -1,9 +1,9 @@
-﻿using System.Windows.Forms;
-using Assamble;
-using System.Data.SqlClient;
-using System.Data;
+﻿using Assamble;
 using System;
-
+using System.Data;
+using System.Data.SqlClient;
+using System.Windows.Forms;
+using WorkFactory;
 /************************************
  *현장생산등록에 작업자 투입입니다.
  *생성자 : 김동욱
@@ -32,20 +32,7 @@ namespace Form_list
             InitializeComponent();
         }
 
-        private void Material_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            // 종료 버튼 또는 x 버튼을 클릭 하였을 경우
-            // 1. 종료 여부 메세지
-            // 2. 관련 프로세스 제거.
-
-            // 확인 후 프로세스 종료.
-            if (MessageBox.Show("프로그램을 종료하시겠습니까?", "프로그램 종료", MessageBoxButtons.YesNo) == DialogResult.No)
-            {
-                e.Cancel = true;
-                return;
-            }
-
-        }
+    
 
         private void Worker_Load(object sender, System.EventArgs e)
         {
@@ -63,7 +50,7 @@ namespace Form_list
             Grid1.Columns[0].Width = 400;
             Grid1.Columns[1].Width = 400;
 
-
+            
         }
 
 
@@ -83,7 +70,7 @@ namespace Form_list
             return true;
         }
 
-        public  void button1_Click(object sender, EventArgs e)
+        public  void btn1_Click(object sender, EventArgs e)
         {
             if (DBHelper(false) == false) return;
 
@@ -123,7 +110,7 @@ namespace Form_list
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btn2_Click(object sender, EventArgs e)
         {
             if (DBHelper(false) == false) return;
 
@@ -163,7 +150,7 @@ namespace Form_list
             }
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void btn3_Click(object sender, EventArgs e)
         {
             if (DBHelper(false) == false) return;
 
@@ -203,7 +190,7 @@ namespace Form_list
             }
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void btn4_Click(object sender, EventArgs e)
         {
             if (DBHelper(false) == false) return;
 
@@ -243,7 +230,7 @@ namespace Form_list
             }
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void  btn5_Click(object sender, EventArgs e)
         {
             if (DBHelper(false) == false) return;
 
@@ -283,6 +270,9 @@ namespace Form_list
             }
         }
 
-
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
