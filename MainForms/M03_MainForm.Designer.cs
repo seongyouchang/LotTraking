@@ -42,14 +42,14 @@
             this.stsUserName = new System.Windows.Forms.ToolStripStatusLabel();
             this.stsNowDateTime = new System.Windows.Forms.ToolStripStatusLabel();
             this.tacMyTab = new Assamble.MyTabControl();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.tsbSearch = new System.Windows.Forms.ToolStripButton();
             this.tsbAdd = new System.Windows.Forms.ToolStripButton();
             this.tsbDelete = new System.Windows.Forms.ToolStripButton();
             this.tsbSave = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.tsbClose = new System.Windows.Forms.ToolStripButton();
             this.tsbExit = new System.Windows.Forms.ToolStripButton();
-            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
@@ -63,7 +63,8 @@
             this.S_MENU});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1081, 24);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(1235, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -73,14 +74,14 @@
             this.M_TEST.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.RowMaster});
             this.M_TEST.Name = "M_TEST";
-            this.M_TEST.Size = new System.Drawing.Size(43, 20);
+            this.M_TEST.Size = new System.Drawing.Size(53, 24);
             this.M_TEST.Text = "관리";
             this.M_TEST.DropDownItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.M_TEST_DropDownItemClicked);
             // 
             // RowMaster
             // 
             this.RowMaster.Name = "RowMaster";
-            this.RowMaster.Size = new System.Drawing.Size(180, 22);
+            this.RowMaster.Size = new System.Drawing.Size(172, 26);
             this.RowMaster.Text = "품목 마스터";
             // 
             // S_MENU
@@ -89,20 +90,20 @@
             this.Form03_UserMaster,
             this.Form04_SystemMaster});
             this.S_MENU.Name = "S_MENU";
-            this.S_MENU.Size = new System.Drawing.Size(68, 20);
+            this.S_MENU.Size = new System.Drawing.Size(85, 24);
             this.S_MENU.Text = "LOT 추적";
             this.S_MENU.DropDownItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.M_TEST_DropDownItemClicked);
             // 
             // Form03_UserMaster
             // 
             this.Form03_UserMaster.Name = "Form03_UserMaster";
-            this.Form03_UserMaster.Size = new System.Drawing.Size(154, 22);
+            this.Form03_UserMaster.Size = new System.Drawing.Size(192, 26);
             this.Form03_UserMaster.Text = "작업 지시 등록";
             // 
             // Form04_SystemMaster
             // 
             this.Form04_SystemMaster.Name = "Form04_SystemMaster";
-            this.Form04_SystemMaster.Size = new System.Drawing.Size(154, 22);
+            this.Form04_SystemMaster.Size = new System.Drawing.Size(192, 26);
             this.Form04_SystemMaster.Text = "시스템관리";
             // 
             // timer1
@@ -118,121 +119,51 @@
             this.toolStripStatusLabel2,
             this.stsUserName,
             this.stsNowDateTime});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 603);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 755);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(1081, 22);
+            this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 16, 0);
+            this.statusStrip1.Size = new System.Drawing.Size(1235, 26);
             this.statusStrip1.TabIndex = 6;
             this.statusStrip1.Text = "statusStrip1";
             // 
             // sts
             // 
             this.sts.Name = "sts";
-            this.sts.Size = new System.Drawing.Size(67, 17);
+            this.sts.Size = new System.Drawing.Size(83, 20);
             this.sts.Text = "FormName";
             // 
             // toolStripStatusLabel2
             // 
             this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
-            this.toolStripStatusLabel2.Size = new System.Drawing.Size(854, 17);
+            this.toolStripStatusLabel2.Size = new System.Drawing.Size(912, 20);
             this.toolStripStatusLabel2.Spring = true;
             // 
             // stsUserName
             // 
             this.stsUserName.Name = "stsUserName";
-            this.stsUserName.Size = new System.Drawing.Size(62, 17);
+            this.stsUserName.Size = new System.Drawing.Size(79, 20);
             this.stsUserName.Text = "UserName";
             // 
             // stsNowDateTime
             // 
             this.stsNowDateTime.Name = "stsNowDateTime";
-            this.stsNowDateTime.Size = new System.Drawing.Size(83, 17);
+            this.stsNowDateTime.Size = new System.Drawing.Size(105, 20);
             this.stsNowDateTime.Text = "NowDateTime";
             // 
             // tacMyTab
             // 
             this.tacMyTab.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tacMyTab.Location = new System.Drawing.Point(0, 118);
+            this.tacMyTab.Location = new System.Drawing.Point(0, 146);
+            this.tacMyTab.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tacMyTab.Name = "tacMyTab";
             this.tacMyTab.SelectedIndex = 0;
-            this.tacMyTab.Size = new System.Drawing.Size(1081, 485);
+            this.tacMyTab.Size = new System.Drawing.Size(1235, 609);
             this.tacMyTab.TabIndex = 7;
-            // 
-            // tsbSearch
-            // 
-            this.tsbSearch.Image = global::MainForms.Properties.Resources.조회;
-            this.tsbSearch.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.tsbSearch.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsbSearch.Name = "tsbSearch";
-            this.tsbSearch.Size = new System.Drawing.Size(58, 91);
-            this.tsbSearch.Text = "조회";
-            this.tsbSearch.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.tsbSearch.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.tsbSearch.Click += new System.EventHandler(this.ToolButton_Click);
-            // 
-            // tsbAdd
-            // 
-            this.tsbAdd.Image = global::MainForms.Properties.Resources.추가;
-            this.tsbAdd.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.tsbAdd.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsbAdd.Name = "tsbAdd";
-            this.tsbAdd.Size = new System.Drawing.Size(48, 91);
-            this.tsbAdd.Text = "추가";
-            this.tsbAdd.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.tsbAdd.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.tsbAdd.Click += new System.EventHandler(this.ToolButton_Click);
-            // 
-            // tsbDelete
-            // 
-            this.tsbDelete.Image = global::MainForms.Properties.Resources.삭제;
-            this.tsbDelete.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.tsbDelete.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsbDelete.Name = "tsbDelete";
-            this.tsbDelete.Size = new System.Drawing.Size(48, 91);
-            this.tsbDelete.Text = "삭제";
-            this.tsbDelete.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.tsbDelete.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.tsbDelete.Click += new System.EventHandler(this.ToolButton_Click);
-            // 
-            // tsbSave
-            // 
-            this.tsbSave.Image = global::MainForms.Properties.Resources.저장;
-            this.tsbSave.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.tsbSave.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsbSave.Name = "tsbSave";
-            this.tsbSave.Size = new System.Drawing.Size(48, 91);
-            this.tsbSave.Text = "저장";
-            this.tsbSave.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.tsbSave.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.tsbSave.Click += new System.EventHandler(this.ToolButton_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 94);
-            // 
-            // tsbClose
-            // 
-            this.tsbClose.Image = global::MainForms.Properties.Resources.닫기;
-            this.tsbClose.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.tsbClose.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsbClose.Name = "tsbClose";
-            this.tsbClose.Size = new System.Drawing.Size(58, 91);
-            this.tsbClose.Text = "닫기";
-            this.tsbClose.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.tsbClose.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.tsbClose.Click += new System.EventHandler(this.tsbClose_Click);
-            // 
-            // tsbExit
-            // 
-            this.tsbExit.Image = global::MainForms.Properties.Resources.종료;
-            this.tsbExit.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.tsbExit.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsbExit.Name = "tsbExit";
-            this.tsbExit.Size = new System.Drawing.Size(48, 91);
-            this.tsbExit.Text = "종료";
-            this.tsbExit.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.tsbExit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.tsbExit.Click += new System.EventHandler(this.tsbExit_Click);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 118);
             // 
             // toolStrip1
             // 
@@ -246,23 +177,96 @@
             this.toolStripSeparator1,
             this.tsbClose,
             this.tsbExit});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 24);
+            this.toolStrip1.Location = new System.Drawing.Point(0, 28);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(1081, 94);
+            this.toolStrip1.Size = new System.Drawing.Size(1235, 118);
             this.toolStrip1.TabIndex = 1;
             this.toolStrip1.Text = "toolStrip1";
             // 
+            // tsbSearch
+            // 
+            this.tsbSearch.Image = global::MainForms.Properties.Resources.조회;
+            this.tsbSearch.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.tsbSearch.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsbSearch.Name = "tsbSearch";
+            this.tsbSearch.Size = new System.Drawing.Size(58, 115);
+            this.tsbSearch.Text = "조회";
+            this.tsbSearch.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.tsbSearch.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.tsbSearch.Click += new System.EventHandler(this.ToolButton_Click);
+            // 
+            // tsbAdd
+            // 
+            this.tsbAdd.Image = global::MainForms.Properties.Resources.추가;
+            this.tsbAdd.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.tsbAdd.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsbAdd.Name = "tsbAdd";
+            this.tsbAdd.Size = new System.Drawing.Size(48, 115);
+            this.tsbAdd.Text = "추가";
+            this.tsbAdd.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.tsbAdd.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.tsbAdd.Click += new System.EventHandler(this.ToolButton_Click);
+            // 
+            // tsbDelete
+            // 
+            this.tsbDelete.Image = global::MainForms.Properties.Resources.삭제;
+            this.tsbDelete.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.tsbDelete.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsbDelete.Name = "tsbDelete";
+            this.tsbDelete.Size = new System.Drawing.Size(48, 115);
+            this.tsbDelete.Text = "삭제";
+            this.tsbDelete.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.tsbDelete.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.tsbDelete.Click += new System.EventHandler(this.ToolButton_Click);
+            // 
+            // tsbSave
+            // 
+            this.tsbSave.Image = global::MainForms.Properties.Resources.저장;
+            this.tsbSave.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.tsbSave.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsbSave.Name = "tsbSave";
+            this.tsbSave.Size = new System.Drawing.Size(48, 115);
+            this.tsbSave.Text = "저장";
+            this.tsbSave.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.tsbSave.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.tsbSave.Click += new System.EventHandler(this.ToolButton_Click);
+            // 
+            // tsbClose
+            // 
+            this.tsbClose.Image = global::MainForms.Properties.Resources.닫기;
+            this.tsbClose.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.tsbClose.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsbClose.Name = "tsbClose";
+            this.tsbClose.Size = new System.Drawing.Size(58, 115);
+            this.tsbClose.Text = "닫기";
+            this.tsbClose.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.tsbClose.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.tsbClose.Click += new System.EventHandler(this.tsbClose_Click);
+            // 
+            // tsbExit
+            // 
+            this.tsbExit.Image = global::MainForms.Properties.Resources.종료;
+            this.tsbExit.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.tsbExit.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsbExit.Name = "tsbExit";
+            this.tsbExit.Size = new System.Drawing.Size(48, 115);
+            this.tsbExit.Text = "종료";
+            this.tsbExit.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.tsbExit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.tsbExit.Click += new System.EventHandler(this.tsbExit_Click);
+            // 
             // M03_MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1081, 625);
+            this.ClientSize = new System.Drawing.Size(1235, 781);
             this.Controls.Add(this.tacMyTab);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "M03_MainForm";
             this.Text = "LOT 추적 관리 시스템";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.M03_MainForm_FormClosing);

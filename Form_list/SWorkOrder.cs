@@ -8,5 +8,10 @@ namespace Form_list
         {
             InitializeComponent();
         }
+
+        private void SWorkOrder_Load(object sender, System.EventArgs e)
+        {
+
+        }
     }
 }
