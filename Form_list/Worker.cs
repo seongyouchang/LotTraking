@@ -16,7 +16,7 @@ namespace Form_list
     public partial class Worker : Form
     {
         // 1. 공통 클래스 (데이터 베이스 커넥터)
-        private SqlConnection Connect; // 데이터베이스에 접속 하는 정보를 관리하는 클래스.
+        private SqlConnection Connect2; // 데이터베이스에 접속 하는 정보를 관리하는 클래스.
 
         // 2. SELECT (조회)를 실행하여 데이터베이스에서 데이터를 받아오는 클래스.
         private SqlDataAdapter Adapter;
@@ -70,16 +70,16 @@ namespace Form_list
         public bool DBHelper(bool Tran)
         {
             // 1. 데이터 베이스 접속
-            Connect = new SqlConnection(Commons.cDbCon);
+            Connect2 = new SqlConnection(Commons.cDbCon);
 
             // 2. 데이터 베이스 OPEN
-            Connect.Open();
-            if (Connect.State != ConnectionState.Open)
+            Connect2.Open();
+            if (Connect2.State != ConnectionState.Open)
             {
                 MessageBox.Show("데이터 베이스 연결에 실패하였습니다.");
                 return false;
             }
-            if (Tran) tran = Connect.BeginTransaction();
+            if (Tran) tran = Connect2.BeginTransaction();
             return true;
         }
 
@@ -95,7 +95,7 @@ namespace Form_list
 
 
                 // Adapter에 SQL 프로시져 이름과 접속 정보 등록.
-                Adapter = new SqlDataAdapter("BM_WorkerMaster_ele", Connect);
+                Adapter = new SqlDataAdapter("BM_WorkerMaster_ele", Connect2);
                 Adapter.SelectCommand.CommandType = CommandType.StoredProcedure;
 
 
@@ -119,7 +119,7 @@ namespace Form_list
             }
             finally
             {
-                Connect.Close();
+                Connect2.Close();
             }
         }
 
@@ -135,7 +135,7 @@ namespace Form_list
 
 
                 // Adapter에 SQL 프로시져 이름과 접속 정보 등록.
-                Adapter = new SqlDataAdapter("BM_WorkerMaster_weld", Connect);
+                Adapter = new SqlDataAdapter("BM_WorkerMaster_weld", Connect2);
                 Adapter.SelectCommand.CommandType = CommandType.StoredProcedure;
 
 
@@ -159,7 +159,7 @@ namespace Form_list
             }
             finally
             {
-                Connect.Close();
+                Connect2.Close();
             }
         }
 
@@ -175,7 +175,7 @@ namespace Form_list
 
 
                 // Adapter에 SQL 프로시져 이름과 접속 정보 등록.
-                Adapter = new SqlDataAdapter("BM_WorkerMaster_fac", Connect);
+                Adapter = new SqlDataAdapter("BM_WorkerMaster_fac", Connect2);
                 Adapter.SelectCommand.CommandType = CommandType.StoredProcedure;
 
 
@@ -199,7 +199,7 @@ namespace Form_list
             }
             finally
             {
-                Connect.Close();
+                Connect2.Close();
             }
         }
 
@@ -215,7 +215,7 @@ namespace Form_list
 
 
                 // Adapter에 SQL 프로시져 이름과 접속 정보 등록.
-                Adapter = new SqlDataAdapter("BM_WorkerMaster_dis", Connect);
+                Adapter = new SqlDataAdapter("BM_WorkerMaster_dis", Connect2);
                 Adapter.SelectCommand.CommandType = CommandType.StoredProcedure;
 
 
@@ -239,7 +239,7 @@ namespace Form_list
             }
             finally
             {
-                Connect.Close();
+                Connect2.Close();
             }
         }
 
@@ -255,7 +255,7 @@ namespace Form_list
 
 
                 // Adapter에 SQL 프로시져 이름과 접속 정보 등록.
-                Adapter = new SqlDataAdapter("BM_WorkerMaster_repair", Connect);
+                Adapter = new SqlDataAdapter("BM_WorkerMaster_repair", Connect2);
                 Adapter.SelectCommand.CommandType = CommandType.StoredProcedure;
 
 
@@ -279,7 +279,7 @@ namespace Form_list
             }
             finally
             {
-                Connect.Close();
+                Connect2.Close();
             }
         }
 
