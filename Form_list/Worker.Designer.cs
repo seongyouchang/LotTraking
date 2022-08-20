@@ -29,23 +29,23 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.txtTitle = new System.Windows.Forms.TextBox();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.btnMaterial = new System.Windows.Forms.Button();
-            this.busor = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.busor = new System.Windows.Forms.Button();
+            this.btnMaterial = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.Grid1 = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
-            this.toolStrip1.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.toolStrip1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Grid1)).BeginInit();
             this.SuspendLayout();
@@ -61,6 +61,32 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1177, 95);
             this.panel1.TabIndex = 10;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.panel2.Controls.Add(this.textBox1);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1177, 95);
+            this.panel2.TabIndex = 33;
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBox1.Enabled = false;
+            this.textBox1.Font = new System.Drawing.Font("휴먼모음T", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.textBox1.ForeColor = System.Drawing.Color.White;
+            this.textBox1.Location = new System.Drawing.Point(0, 0);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(1177, 43);
+            this.textBox1.TabIndex = 32;
+            this.textBox1.Text = "작업자 투입 등록";
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtTitle
             // 
@@ -98,32 +124,6 @@
             this.toolStripButton2.Text = "종료";
             this.toolStripButton2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.panel2.Controls.Add(this.textBox1);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1177, 95);
-            this.panel2.TabIndex = 33;
-            // 
-            // textBox1
-            // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox1.Enabled = false;
-            this.textBox1.Font = new System.Drawing.Font("휴먼모음T", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.textBox1.ForeColor = System.Drawing.Color.White;
-            this.textBox1.Location = new System.Drawing.Point(0, 0);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(1177, 43);
-            this.textBox1.TabIndex = 32;
-            this.textBox1.Text = "작업자 투입 등록";
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
@@ -140,69 +140,21 @@
             this.panel3.Size = new System.Drawing.Size(255, 479);
             this.panel3.TabIndex = 12;
             // 
-            // btnMaterial
+            // button4
             // 
-            this.btnMaterial.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.btnMaterial.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnMaterial.FlatAppearance.BorderSize = 0;
-            this.btnMaterial.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnMaterial.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMaterial.Font = new System.Drawing.Font("휴먼모음T", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btnMaterial.ForeColor = System.Drawing.Color.White;
-            this.btnMaterial.Location = new System.Drawing.Point(-1, 53);
-            this.btnMaterial.Name = "btnMaterial";
-            this.btnMaterial.Size = new System.Drawing.Size(256, 78);
-            this.btnMaterial.TabIndex = 33;
-            this.btnMaterial.Text = " 전기부 ";
-            this.btnMaterial.UseVisualStyleBackColor = false;
-            // 
-            // busor
-            // 
-            this.busor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.busor.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.busor.FlatAppearance.BorderSize = 0;
-            this.busor.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.busor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.busor.Font = new System.Drawing.Font("휴먼모음T", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.busor.ForeColor = System.Drawing.Color.White;
-            this.busor.Location = new System.Drawing.Point(-2, -1);
-            this.busor.Name = "busor";
-            this.busor.Size = new System.Drawing.Size(256, 48);
-            this.busor.TabIndex = 34;
-            this.busor.Text = "부서";
-            this.busor.UseVisualStyleBackColor = false;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("휴먼모음T", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(-1, 137);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(256, 78);
-            this.button1.TabIndex = 35;
-            this.button1.Text = "용접부";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("휴먼모음T", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(-1, 232);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(256, 78);
-            this.button2.TabIndex = 36;
-            this.button2.Text = " 시설부 ";
-            this.button2.UseVisualStyleBackColor = false;
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("휴먼모음T", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button4.ForeColor = System.Drawing.Color.White;
+            this.button4.Location = new System.Drawing.Point(-2, 400);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(256, 78);
+            this.button4.TabIndex = 38;
+            this.button4.Text = "수리부";
+            this.button4.UseVisualStyleBackColor = false;
             // 
             // button3
             // 
@@ -220,21 +172,69 @@
             this.button3.Text = " 물류부 ";
             this.button3.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // button2
             // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("휴먼모음T", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(-2, 400);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(256, 78);
-            this.button4.TabIndex = 38;
-            this.button4.Text = "수리부";
-            this.button4.UseVisualStyleBackColor = false;
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("휴먼모음T", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(-1, 232);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(256, 78);
+            this.button2.TabIndex = 36;
+            this.button2.Text = " 시설부 ";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("휴먼모음T", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(-1, 137);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(256, 78);
+            this.button1.TabIndex = 35;
+            this.button1.Text = "용접부";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // busor
+            // 
+            this.busor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.busor.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.busor.FlatAppearance.BorderSize = 0;
+            this.busor.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.busor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.busor.Font = new System.Drawing.Font("휴먼모음T", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.busor.ForeColor = System.Drawing.Color.White;
+            this.busor.Location = new System.Drawing.Point(-2, -1);
+            this.busor.Name = "busor";
+            this.busor.Size = new System.Drawing.Size(256, 48);
+            this.busor.TabIndex = 34;
+            this.busor.Text = "부서";
+            this.busor.UseVisualStyleBackColor = false;
+            // 
+            // btnMaterial
+            // 
+            this.btnMaterial.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.btnMaterial.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnMaterial.FlatAppearance.BorderSize = 0;
+            this.btnMaterial.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btnMaterial.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMaterial.Font = new System.Drawing.Font("휴먼모음T", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.btnMaterial.ForeColor = System.Drawing.Color.White;
+            this.btnMaterial.Location = new System.Drawing.Point(-1, 53);
+            this.btnMaterial.Name = "btnMaterial";
+            this.btnMaterial.Size = new System.Drawing.Size(256, 78);
+            this.btnMaterial.TabIndex = 33;
+            this.btnMaterial.Text = " 전기부 ";
+            this.btnMaterial.UseVisualStyleBackColor = false;
             // 
             // button10
             // 
@@ -281,10 +281,10 @@
             this.Load += new System.EventHandler(this.Worker_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.toolStrip1.ResumeLayout(false);
-            this.toolStrip1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.toolStrip1.ResumeLayout(false);
+            this.toolStrip1.PerformLayout();
             this.panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.Grid1)).EndInit();
             this.ResumeLayout(false);

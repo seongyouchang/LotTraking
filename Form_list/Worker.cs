@@ -32,20 +32,6 @@ namespace Form_list
             InitializeComponent();
         }
 
-        private void Material_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            // 종료 버튼 또는 x 버튼을 클릭 하였을 경우
-            // 1. 종료 여부 메세지
-            // 2. 관련 프로세스 제거.
-
-            // 확인 후 프로세스 종료.
-            if (MessageBox.Show("프로그램을 종료하시겠습니까?", "프로그램 종료", MessageBoxButtons.YesNo) == DialogResult.No)
-            {
-                e.Cancel = true;
-                return;
-            }
-
-        }
 
         private void Worker_Load(object sender, System.EventArgs e)
         {
@@ -83,7 +69,7 @@ namespace Form_list
             return true;
         }
 
-        public  void button1_Click(object sender, EventArgs e)
+        public void button1_Click(object sender, EventArgs e)
         {
             if (DBHelper(false) == false) return;
 
@@ -283,6 +269,10 @@ namespace Form_list
             }
         }
 
-
+        private void toolStripButton2_Click(object sender, EventArgs e)
+        {
+            Material material = new Material();
+            material.ShowDialog();
+        }
     }
 }
