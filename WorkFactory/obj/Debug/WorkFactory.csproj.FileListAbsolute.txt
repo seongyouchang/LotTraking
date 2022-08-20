@@ -3,15 +3,12 @@ C:\Users\syc\LotTraking\WorkFactory\obj\Debug\WorkFactory.Properties.Resources.r
 C:\Users\syc\LotTraking\WorkFactory\obj\Debug\WorkFactory.WorkFactory.resources
 C:\Users\syc\LotTraking\WorkFactory\obj\Debug\WorkFactory.csproj.GenerateResource.cache
 C:\Users\syc\LotTraking\WorkFactory\obj\Debug\WorkFactory.csproj.CoreCompileInputs.cache
-C:\Users\syc\LotTraking\WorkFactory\bin\Debug\WorkFactory.exe.config
-C:\Users\syc\LotTraking\WorkFactory\bin\Debug\WorkFactory.exe
 C:\Users\syc\LotTraking\WorkFactory\bin\Debug\WorkFactory.pdb
 C:\Users\syc\LotTraking\WorkFactory\bin\Debug\Assamble.dll
 C:\Users\syc\LotTraking\WorkFactory\bin\Debug\Form_list.dll
 C:\Users\syc\LotTraking\WorkFactory\bin\Debug\Form_list.pdb
 C:\Users\syc\LotTraking\WorkFactory\bin\Debug\Assamble.pdb
 C:\Users\syc\LotTraking\WorkFactory\obj\Debug\WorkFactory.csproj.CopyComplete
-C:\Users\syc\LotTraking\WorkFactory\obj\Debug\WorkFactory.exe
 C:\Users\syc\LotTraking\WorkFactory\obj\Debug\WorkFactory.pdb
 C:\Users\HOME\LotTraking\WorkFactory\bin\Debug\WorkFactory.pdb
 C:\Users\HOME\LotTraking\WorkFactory\bin\Debug\Assamble.dll
@@ -28,3 +25,6 @@ C:\Users\HOME\LotTraking\WorkFactory\obj\Debug\WorkFactory.pdb
 C:\Users\HOME\LotTraking\WorkFactory\bin\Debug\WorkFactory.dll.config
 C:\Users\HOME\LotTraking\WorkFactory\bin\Debug\WorkFactory.dll
 C:\Users\HOME\LotTraking\WorkFactory\obj\Debug\WorkFactory.dll
+C:\Users\syc\LotTraking\WorkFactory\bin\Debug\WorkFactory.exe.config
+C:\Users\syc\LotTraking\WorkFactory\bin\Debug\WorkFactory.exe
+C:\Users\syc\LotTraking\WorkFactory\obj\Debug\WorkFactory.exe

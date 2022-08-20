@@ -48,3 +48,5 @@ C:\Users\HOME\LotTraking\Form_list\obj\Debug\Form_list.csproj.CoreCompileInputs.
 C:\Users\HOME\LotTraking\Form_list\obj\Debug\Form_list.csproj.CopyComplete
 C:\Users\HOME\LotTraking\Form_list\obj\Debug\Form_list.dll
 C:\Users\HOME\LotTraking\Form_list\obj\Debug\Form_list.pdb
+C:\Users\syc\LotTraking\Form_list\bin\Debug\WorkFactory.pdb
+C:\Users\syc\LotTraking\Form_list\bin\Debug\WorkFactory.dll.config
