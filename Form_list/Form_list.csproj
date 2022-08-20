@@ -117,6 +117,9 @@
     <EmbeddedResource Include="SWorkOrder.resx">
       <DependentUpon>SWorkOrder.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Worker.resx">
+      <DependentUpon>Worker.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\조회.png" />
