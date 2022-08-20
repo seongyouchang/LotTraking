@@ -152,3 +152,11 @@ C:\Users\HOME\LotTraking\MainForms\obj\Debug\MainForms.csproj.CoreCompileInputs.
 C:\Users\HOME\LotTraking\MainForms\obj\Debug\MainForms.csproj.CopyComplete
 C:\Users\HOME\LotTraking\MainForms\obj\Debug\MainForms.exe
 C:\Users\HOME\LotTraking\MainForms\obj\Debug\MainForms.pdb
+C:\Users\최한빈\LotTraking\MainForms\bin\Debug\Infragistics2.Win.UltraWinGrid.v11.1.dll
+C:\Users\최한빈\LotTraking\MainForms\bin\Debug\Infragistics2.Win.v11.1.dll
+C:\Users\최한빈\LotTraking\MainForms\bin\Debug\Infragistics2.Shared.v11.1.dll
+C:\Users\최한빈\LotTraking\MainForms\bin\Debug\Infragistics2.Win.Misc.v11.1.dll
+C:\Users\최한빈\LotTraking\MainForms\bin\Debug\Infragistics2.Win.UltraWinGrid.v11.1.xml
+C:\Users\최한빈\LotTraking\MainForms\bin\Debug\Infragistics2.Win.v11.1.xml
+C:\Users\최한빈\LotTraking\MainForms\bin\Debug\Infragistics2.Shared.v11.1.xml
+C:\Users\최한빈\LotTraking\MainForms\bin\Debug\Infragistics2.Win.Misc.v11.1.xml

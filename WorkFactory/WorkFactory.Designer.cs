@@ -84,6 +84,7 @@
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.WorkerGridView.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.WorkerGridView.RowHeadersWidth = 51;
             this.WorkerGridView.RowTemplate.Height = 23;
             this.WorkerGridView.Size = new System.Drawing.Size(1614, 431);
             this.WorkerGridView.TabIndex = 0;
@@ -143,7 +144,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel1.Location = new System.Drawing.Point(0, 578);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1604, 100);
+            this.panel1.Size = new System.Drawing.Size(1418, 100);
             this.panel1.TabIndex = 0;
             // 
             // button6
@@ -243,7 +244,7 @@
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button10.Font = new System.Drawing.Font("휴먼모음T", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button10.ForeColor = System.Drawing.Color.White;
-            this.button10.Location = new System.Drawing.Point(1204, 0);
+            this.button10.Location = new System.Drawing.Point(1018, 0);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(200, 100);
             this.button10.TabIndex = 31;
@@ -259,7 +260,7 @@
             this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button11.Font = new System.Drawing.Font("휴먼모음T", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button11.ForeColor = System.Drawing.Color.White;
-            this.button11.Location = new System.Drawing.Point(1404, 0);
+            this.button11.Location = new System.Drawing.Point(1218, 0);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(200, 100);
             this.button11.TabIndex = 30;
@@ -273,7 +274,7 @@
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
             this.panel3.Padding = new System.Windows.Forms.Padding(10, 30, 10, 10);
-            this.panel3.Size = new System.Drawing.Size(1404, 100);
+            this.panel3.Size = new System.Drawing.Size(1218, 100);
             this.panel3.TabIndex = 1;
             // 
             // textBox2
@@ -285,7 +286,7 @@
             this.textBox2.ForeColor = System.Drawing.Color.White;
             this.textBox2.Location = new System.Drawing.Point(10, 30);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(1384, 43);
+            this.textBox2.Size = new System.Drawing.Size(1198, 43);
             this.textBox2.TabIndex = 31;
             this.textBox2.Text = "작 업 지 시 현 황";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -295,7 +296,7 @@
             this.panel4.Controls.Add(this.button4);
             this.panel4.Controls.Add(this.button3);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel4.Location = new System.Drawing.Point(1404, 0);
+            this.panel4.Location = new System.Drawing.Point(1218, 0);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(200, 578);
             this.panel4.TabIndex = 1;
@@ -347,8 +348,9 @@
             this.Grid1.EnableHeadersVisualStyles = false;
             this.Grid1.Location = new System.Drawing.Point(0, 100);
             this.Grid1.Name = "Grid1";
+            this.Grid1.RowHeadersWidth = 51;
             this.Grid1.RowTemplate.Height = 23;
-            this.Grid1.Size = new System.Drawing.Size(1404, 478);
+            this.Grid1.Size = new System.Drawing.Size(1218, 478);
             this.Grid1.TabIndex = 2;
             // 
             // WorkFactory
@@ -356,7 +358,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.ClientSize = new System.Drawing.Size(1604, 678);
+            this.ClientSize = new System.Drawing.Size(1418, 678);
             this.Controls.Add(this.Grid1);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel4);

@@ -39,6 +39,10 @@ C:\Users\syc\LotTraking\WorkFactory\bin\Debug\Form_list.dll
 C:\Users\syc\LotTraking\WorkFactory\bin\Debug\Form_list.pdb
 C:\Users\user\LotTraking\WorkFactory\bin\Debug\Form_list.dll
 C:\Users\user\LotTraking\WorkFactory\bin\Debug\Form_list.pdb
+<<<<<<< HEAD
+C:\Users\최한빈\LotTraking\WorkFactory\bin\Debug\Form_list.dll
+C:\Users\최한빈\LotTraking\WorkFactory\bin\Debug\Form_list.pdb
+=======
 C:\Users\HOME\LotTraking\WorkFactory\bin\Debug\WorkFactory.exe.config
 C:\Users\HOME\LotTraking\WorkFactory\bin\Debug\WorkFactory.exe
 C:\Users\HOME\LotTraking\WorkFactory\bin\Debug\WorkFactory.pdb
@@ -53,3 +57,4 @@ C:\Users\HOME\LotTraking\WorkFactory\obj\Debug\WorkFactory.csproj.CoreCompileInp
 C:\Users\HOME\LotTraking\WorkFactory\obj\Debug\WorkFactory.csproj.CopyComplete
 C:\Users\HOME\LotTraking\WorkFactory\obj\Debug\WorkFactory.exe
 C:\Users\HOME\LotTraking\WorkFactory\obj\Debug\WorkFactory.pdb
+>>>>>>> f7a45a469576d77e03110425cbd6892f02138c6e
