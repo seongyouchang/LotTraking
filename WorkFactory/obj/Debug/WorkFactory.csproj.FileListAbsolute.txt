@@ -46,3 +46,18 @@ C:\Users\syc\LotTraking\WorkFactory\bin\Debug\WorkFactory.exe.config
 C:\Users\syc\LotTraking\WorkFactory\bin\Debug\WorkFactory.exe
 C:\Users\syc\LotTraking\WorkFactory\obj\Debug\WorkFactory.exe
 >>>>>>> f34dcd87eb470d8b00480dbadcdce4b821e92b16
+C:\Users\user\LotTraking\WorkFactory\bin\Debug\WorkFactory.exe.config
+C:\Users\user\LotTraking\WorkFactory\bin\Debug\WorkFactory.exe
+C:\Users\user\LotTraking\WorkFactory\bin\Debug\WorkFactory.pdb
+C:\Users\user\LotTraking\WorkFactory\bin\Debug\Assamble.dll
+C:\Users\user\LotTraking\WorkFactory\bin\Debug\Form_list.dll
+C:\Users\user\LotTraking\WorkFactory\bin\Debug\Form_list.pdb
+C:\Users\user\LotTraking\WorkFactory\bin\Debug\Assamble.pdb
+C:\Users\user\LotTraking\WorkFactory\obj\Debug\WorkFactory.csprojAssemblyReference.cache
+C:\Users\user\LotTraking\WorkFactory\obj\Debug\WorkFactory.Properties.Resources.resources
+C:\Users\user\LotTraking\WorkFactory\obj\Debug\WorkFactory.WorkFactory.resources
+C:\Users\user\LotTraking\WorkFactory\obj\Debug\WorkFactory.csproj.GenerateResource.cache
+C:\Users\user\LotTraking\WorkFactory\obj\Debug\WorkFactory.csproj.CoreCompileInputs.cache
+C:\Users\user\LotTraking\WorkFactory\obj\Debug\WorkFactory.csproj.CopyComplete
+C:\Users\user\LotTraking\WorkFactory\obj\Debug\WorkFactory.exe
+C:\Users\user\LotTraking\WorkFactory\obj\Debug\WorkFactory.pdb
