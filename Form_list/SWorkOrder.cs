@@ -45,7 +45,12 @@ namespace Form_list
             SWorkOrderGrid.Columns["PROCESS"].HeaderText = "공정";
             SWorkOrderGrid.Columns["WPLAN"].HeaderText = "생산수량";
             SWorkOrderGrid.Columns["WORKPALCE"].HeaderText = "작업장";
+
             
+
+
+          
+
 
         }
 
@@ -53,12 +58,32 @@ namespace Form_list
         {
             ProcessGrid.Visible = false;
             PlaceGrid.Visible = true;
+
+            // 작업장 선택 그리드 뷰
+
+            DataTable dpGrid = new DataTable();
+            dpGrid.Columns.Add("WPNAME", typeof(string));
+
+            PlaceGrid.DataSource = dpGrid;
+
+            SWorkOrderGrid.Columns["WPNAME"].HeaderText = "작업장";
         }
 
         private void btnProcess_Click(object sender, EventArgs e)
         {
             PlaceGrid.Visible = false;
             ProcessGrid.Visible = true;
+
+            // 공정 선택 그리드 뷰
+
+            DataTable dcGrid = new DataTable();
+            dcGrid.Columns.Add("PNAME", typeof(string));
+
+            PlaceGrid.DataSource = dcGrid;
+
+            SWorkOrderGrid.Columns["PNAME"].HeaderText = "공정";
         }
+
+     
     }
 }

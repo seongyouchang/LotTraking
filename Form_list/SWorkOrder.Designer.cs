@@ -36,17 +36,17 @@
             this.btnWP = new System.Windows.Forms.Button();
             this.btnProcess_S = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.PlaceGrid = new System.Windows.Forms.DataGridView();
             this.ProcessGrid = new System.Windows.Forms.DataGridView();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.SWorkOrderGrid = new System.Windows.Forms.DataGridView();
+            this.PlaceGrid = new System.Windows.Forms.DataGridView();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PlaceGrid)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ProcessGrid)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SWorkOrderGrid)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PlaceGrid)).BeginInit();
             this.SuspendLayout();
             // 
             // panel3
@@ -156,17 +156,6 @@
             this.panel2.Size = new System.Drawing.Size(335, 636);
             this.panel2.TabIndex = 4;
             // 
-            // PlaceGrid
-            // 
-            this.PlaceGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.PlaceGrid.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PlaceGrid.Location = new System.Drawing.Point(0, 0);
-            this.PlaceGrid.Name = "PlaceGrid";
-            this.PlaceGrid.RowHeadersWidth = 51;
-            this.PlaceGrid.Size = new System.Drawing.Size(333, 634);
-            this.PlaceGrid.TabIndex = 1;
-            this.PlaceGrid.Visible = false;
-            // 
             // ProcessGrid
             // 
             this.ProcessGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -200,6 +189,17 @@
             this.SWorkOrderGrid.Size = new System.Drawing.Size(883, 636);
             this.SWorkOrderGrid.TabIndex = 5;
             // 
+            // PlaceGrid
+            // 
+            this.PlaceGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.PlaceGrid.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PlaceGrid.Location = new System.Drawing.Point(0, 0);
+            this.PlaceGrid.Name = "PlaceGrid";
+            this.PlaceGrid.RowHeadersWidth = 51;
+            this.PlaceGrid.Size = new System.Drawing.Size(333, 634);
+            this.PlaceGrid.TabIndex = 1;
+            this.PlaceGrid.Visible = false;
+            // 
             // SWorkOrder
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -214,14 +214,15 @@
             this.Name = "SWorkOrder";
             this.Text = "작업지시조회";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.SWorkOrder_Load);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.PlaceGrid)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ProcessGrid)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SWorkOrderGrid)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PlaceGrid)).EndInit();
             this.ResumeLayout(false);
 
         }
