@@ -36,7 +36,7 @@ namespace Form_list
             dtGrid.Columns.Add("WID", typeof(string));          
             dtGrid.Columns.Add("PROCESS", typeof(string));      
             dtGrid.Columns.Add("WPLAN", typeof(string));        
-            dtGrid.Columns.Add("WORKPALCE", typeof(string));
+            dtGrid.Columns.Add("WORKPLACE", typeof(string));
 
             SWorkOrderGrid.DataSource = dtGrid;
 
@@ -44,46 +44,213 @@ namespace Form_list
             SWorkOrderGrid.Columns["WID"].HeaderText = "제조번호";
             SWorkOrderGrid.Columns["PROCESS"].HeaderText = "공정";
             SWorkOrderGrid.Columns["WPLAN"].HeaderText = "생산수량";
-            SWorkOrderGrid.Columns["WORKPALCE"].HeaderText = "작업장";
+            SWorkOrderGrid.Columns["WORKPLACE"].HeaderText = "작업장";
 
-            
+
+            if (DBHelper(false) == false) return;
+
+            try
+            {
+
+                // Adapter에 SQL 프로시져 이름과 접속 정보 등록.
+                Adapter = new SqlDataAdapter("WF_WORKORDER_S", Connect);
+                Adapter.SelectCommand.CommandType = CommandType.StoredProcedure;
+
+                // 데이터 베이스 처리 시 C#으로 반환할 값을 담는 변수.
+                Adapter.SelectCommand.Parameters.AddWithValue("LANG", "KO");
+                Adapter.SelectCommand.Parameters.AddWithValue("RS_CODE", "").Direction = ParameterDirection.Output;
+                Adapter.SelectCommand.Parameters.AddWithValue("RS_MSG", "").Direction = ParameterDirection.Output;
+
+                // Adapter 실행
+                DataTable dtTemp = new DataTable();
+                Adapter.Fill(dtTemp);
+
+                // 결과값을 그리드뷰에 표현.
+                SWorkOrderGrid.DataSource = dtTemp;
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.ToString());
+            }
+            finally
+            {
+                Connect.Close();
+            }
+        
+
+
+
+
+    }
+
+        private void btnWP_Click(object sender, EventArgs e)
+        {
+            DataTable dcGrid = new DataTable();
+            dcGrid.Columns.Add("WPNAME", typeof(string));
+
+            PlaceGrid.DataSource = dcGrid;
+
+            PlaceGrid.Columns["WPNAME"].HeaderText = "작업장";
+
+            ProcessGrid.Visible = false;
+            PlaceGrid.Visible = true;
+
+            if (DBHelper(false) == false) return;
+
+            try
+            {
+               
+
+
+                // Adapter에 SQL 프로시져 이름과 접속 정보 등록.
+                Adapter = new SqlDataAdapter("WF_WORKPLACE_S", Connect);
+                Adapter.SelectCommand.CommandType = CommandType.StoredProcedure;
+
+                // 데이터 베이스 처리 시 C#으로 반환할 값을 담는 변수.
+                Adapter.SelectCommand.Parameters.AddWithValue("LANG", "KO");
+                Adapter.SelectCommand.Parameters.AddWithValue("RS_CODE", "").Direction = ParameterDirection.Output;
+                Adapter.SelectCommand.Parameters.AddWithValue("RS_MSG", "").Direction = ParameterDirection.Output;
+
+                // Adapter 실행
+                DataTable dtTemp = new DataTable();
+                Adapter.Fill(dtTemp);
+
+                // 결과값을 그리드뷰에 표현.
+                PlaceGrid.DataSource = dtTemp;
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.ToString());
+            }
+            finally
+            {
+                Connect.Close();
+            }
 
 
           
 
 
-        }
-
-        private void btnWP_Click(object sender, EventArgs e)
-        {
-            ProcessGrid.Visible = false;
-            PlaceGrid.Visible = true;
-
-            // 작업장 선택 그리드 뷰
-
-            DataTable dpGrid = new DataTable();
-            dpGrid.Columns.Add("WPNAME", typeof(string));
-
-            PlaceGrid.DataSource = dpGrid;
-
-            SWorkOrderGrid.Columns["WPNAME"].HeaderText = "작업장";
+           
         }
 
         private void btnProcess_Click(object sender, EventArgs e)
         {
+            DataTable dpGrid = new DataTable();
+            dpGrid.Columns.Add("PNAME", typeof(string));
+
+            ProcessGrid.DataSource = dpGrid;
+
+            ProcessGrid.Columns["PNAME"].HeaderText = "공정";
+
+
             PlaceGrid.Visible = false;
             ProcessGrid.Visible = true;
+            ProcessGrid.BringToFront();
 
-            // 공정 선택 그리드 뷰
+            if (DBHelper(false) == false) return;
 
-            DataTable dcGrid = new DataTable();
-            dcGrid.Columns.Add("PNAME", typeof(string));
+            try
+            {
 
-            PlaceGrid.DataSource = dcGrid;
 
-            SWorkOrderGrid.Columns["PNAME"].HeaderText = "공정";
+
+                // Adapter에 SQL 프로시져 이름과 접속 정보 등록.
+                Adapter = new SqlDataAdapter("WF_PROCESS_S", Connect);
+                Adapter.SelectCommand.CommandType = CommandType.StoredProcedure;
+
+                // 데이터 베이스 처리 시 C#으로 반환할 값을 담는 변수.
+                Adapter.SelectCommand.Parameters.AddWithValue("LANG", "KO");
+                Adapter.SelectCommand.Parameters.AddWithValue("RS_CODE", "").Direction = ParameterDirection.Output;
+                Adapter.SelectCommand.Parameters.AddWithValue("RS_MSG", "").Direction = ParameterDirection.Output;
+
+                // Adapter 실행
+                DataTable dtTemp = new DataTable();
+                Adapter.Fill(dtTemp);
+
+                // 결과값을 그리드뷰에 표현.
+                ProcessGrid.DataSource = dtTemp;
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.ToString());
+            }
+            finally
+            {
+                Connect.Close();
+            }
         }
 
-     
+    
+
+
+        public bool DBHelper(bool Tran)
+        {
+            // 1. 데이터 베이스 접속
+            Connect = new SqlConnection(Commons.cDbCon);
+
+            // 2. 데이터 베이스 OPEN
+            Connect.Open();
+            if (Connect.State != ConnectionState.Open)
+            {
+                MessageBox.Show("데이터 베이스 연결에 실패하였습니다.");
+                return false;
+            }
+            if (Tran) tran = Connect.BeginTransaction();
+            return true;
+        }
+
+    
+
+        private void PlaceGrid_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            int rowindex = SWorkOrderGrid.CurrentRow.Index;
+            if (this.PlaceGrid.RowCount == 0)
+                return;
+
+
+            // 현재 Row를 가져온다.
+            DataGridViewRow placeindex = PlaceGrid.CurrentRow;
+
+
+
+            // 선택한 Row의 데이터를 가져온다.
+            DataRow Placerow = (placeindex.DataBoundItem as DataRowView).Row;
+
+            if (btnWP.Visible == false)
+            {
+                return;
+            }
+
+            // TextBox에 그리드 데이터를 넣는다.
+            SWorkOrderGrid.Rows[rowindex].Cells[4].Value = Placerow["WPNAME"].ToString();
+
+
+
+
+        }
+
+        private void ProcessGrid_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+
+            int rowindex = SWorkOrderGrid.CurrentRow.Index;
+            if (this.ProcessGrid.RowCount == 0)
+                return;
+
+            DataGridViewRow processindex = ProcessGrid.CurrentRow;
+
+            DataRow Processrow = (processindex.DataBoundItem as DataRowView).Row;
+
+            if (btnProcess.Visible == false)
+            {
+                return;
+            }
+
+            SWorkOrderGrid.Rows[rowindex].Cells[2].Value = Processrow["PNAME"].ToString();
+            ProcessGrid.ClearSelection();
+        }
     }
 }

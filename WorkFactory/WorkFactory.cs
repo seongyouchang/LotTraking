@@ -60,6 +60,8 @@ namespace WorkFactory
 
         private void btnWorkOrder_Click_1(object sender, EventArgs e)
         {
+
+
             SWorkOrder sWorkOrder = new SWorkOrder();
             sWorkOrder.ShowDialog();
         }
