@@ -31,23 +31,23 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.btnProcess = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.btnWP = new System.Windows.Forms.Button();
             this.btnProcess_S = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.PlaceGrid = new System.Windows.Forms.DataGridView();
             this.ProcessGrid = new System.Windows.Forms.DataGridView();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.SWorkOrderGrid = new System.Windows.Forms.DataGridView();
-            this.PlaceGrid = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PlaceGrid)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ProcessGrid)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SWorkOrderGrid)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PlaceGrid)).BeginInit();
             this.SuspendLayout();
             // 
             // panel3
@@ -87,6 +87,15 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(200, 636);
             this.panel1.TabIndex = 3;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(67, 340);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 41;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // btnProcess
             // 
@@ -158,6 +167,20 @@
             this.panel2.Size = new System.Drawing.Size(335, 636);
             this.panel2.TabIndex = 4;
             // 
+            // PlaceGrid
+            // 
+            this.PlaceGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.PlaceGrid.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PlaceGrid.Location = new System.Drawing.Point(0, 0);
+            this.PlaceGrid.Name = "PlaceGrid";
+            this.PlaceGrid.RowHeadersWidth = 51;
+            this.PlaceGrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.PlaceGrid.Size = new System.Drawing.Size(333, 634);
+            this.PlaceGrid.TabIndex = 1;
+            this.PlaceGrid.Visible = false;
+            this.PlaceGrid.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.PlaceGrid_CellMouseClick);
+            this.PlaceGrid.VisibleChanged += new System.EventHandler(this.btnWP_Click);
+            // 
             // ProcessGrid
             // 
             this.ProcessGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -168,6 +191,7 @@
             this.ProcessGrid.Size = new System.Drawing.Size(333, 634);
             this.ProcessGrid.TabIndex = 0;
             this.ProcessGrid.Visible = false;
+            this.ProcessGrid.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.ProcessGrid_CellMouseClick);
             // 
             // dataGridView1
             // 
@@ -196,29 +220,6 @@
             this.SWorkOrderGrid.Size = new System.Drawing.Size(883, 636);
             this.SWorkOrderGrid.TabIndex = 5;
             // 
-            // PlaceGrid
-            // 
-            this.PlaceGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.PlaceGrid.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PlaceGrid.Location = new System.Drawing.Point(0, 0);
-            this.PlaceGrid.Name = "PlaceGrid";
-            this.PlaceGrid.RowHeadersWidth = 51;
-            this.PlaceGrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.PlaceGrid.Size = new System.Drawing.Size(333, 634);
-            this.PlaceGrid.TabIndex = 1;
-            this.PlaceGrid.Visible = false;
-            this.PlaceGrid.VisibleChanged += new System.EventHandler(this.btnWP_Click);
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(67, 340);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 41;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // SWorkOrder
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -238,10 +239,10 @@
             this.panel3.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.PlaceGrid)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ProcessGrid)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SWorkOrderGrid)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PlaceGrid)).EndInit();
             this.ResumeLayout(false);
 
         }

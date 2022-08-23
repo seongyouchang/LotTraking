@@ -203,13 +203,14 @@ namespace Form_list
             return true;
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
+    
 
+        private void PlaceGrid_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
             int rowindex = SWorkOrderGrid.CurrentRow.Index;
             if (this.PlaceGrid.RowCount == 0)
                 return;
-            
+
 
             // 현재 Row를 가져온다.
             DataGridViewRow placeindex = PlaceGrid.CurrentRow;
@@ -219,16 +220,23 @@ namespace Form_list
             // 선택한 Row의 데이터를 가져온다.
             DataRow Placerow = (placeindex.DataBoundItem as DataRowView).Row;
 
+            if (btnWP.Visible == false)
+            {
+                return;
+            }
 
             // TextBox에 그리드 데이터를 넣는다.
             SWorkOrderGrid.Rows[rowindex].Cells[4].Value = Placerow["WPNAME"].ToString();
-            PlaceGrid.ClearSelection();
 
 
 
 
+        }
 
+        private void ProcessGrid_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
 
+            int rowindex = SWorkOrderGrid.CurrentRow.Index;
             if (this.ProcessGrid.RowCount == 0)
                 return;
 
@@ -236,16 +244,13 @@ namespace Form_list
 
             DataRow Processrow = (processindex.DataBoundItem as DataRowView).Row;
 
+            if (btnProcess.Visible == false)
+            {
+                return;
+            }
+
             SWorkOrderGrid.Rows[rowindex].Cells[2].Value = Processrow["PNAME"].ToString();
             ProcessGrid.ClearSelection();
-
-            
-
-
-
-
-
-
         }
     }
 }
