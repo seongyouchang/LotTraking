@@ -4,6 +4,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Windows.Forms;
 
+
 /************************************
  *현장생산등록에 작업자 투입입니다.
  *생성자 : 김동욱
@@ -42,13 +43,15 @@ namespace Form_list
             DataTable dtGrid = new DataTable();
 
             dtGrid.Columns.Add("WORKDEPT", typeof(string));     //부서명
-            dtGrid.Columns.Add("WORKERNAME", typeof(string));   //작업자이름
+            dtGrid.Columns.Add("WORKID", typeof(string));     //작업자번호
+            dtGrid.Columns.Add("WorkerName", typeof(string));   //작업자이름
 
             // 빈 컬럼 테이블 그리드에 매칭
             Grid1.DataSource = dtGrid;
 
-            Grid1.Columns[0].Width = 400;
-            Grid1.Columns[1].Width = 400;
+            Grid1.Columns[0].Width = 300;
+            Grid1.Columns[1].Width = 300;
+            Grid1.Columns[2].Width = 300;
 
 
         }
@@ -70,7 +73,7 @@ namespace Form_list
             return true;
         }
 
-        public void btn1_Click(object sender, EventArgs e)
+        public void button1_Click(object sender, EventArgs e)
         {
             if (DBHelper(false) == false) return;
 
@@ -110,7 +113,7 @@ namespace Form_list
             }
         }
 
-        private void btn2_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
             if (DBHelper(false) == false) return;
 
@@ -150,7 +153,7 @@ namespace Form_list
             }
         }
 
-        private void btn3_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
             if (DBHelper(false) == false) return;
 
@@ -190,7 +193,7 @@ namespace Form_list
             }
         }
 
-        private void btn4_Click(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e)
         {
             if (DBHelper(false) == false) return;
 
@@ -230,7 +233,7 @@ namespace Form_list
             }
         }
 
-        private void btn5_Click(object sender, EventArgs e)
+        private void button5_Click(object sender, EventArgs e)
         {
             if (DBHelper(false) == false) return;
 
@@ -270,8 +273,65 @@ namespace Form_list
             }
         }
 
-        private void btnClose_Click(object sender, EventArgs e)
+        private void btnExit_Click(object sender, EventArgs e)
         {
+            Material Material = new Material();
+            this.Visible = false;
+            Material.Close();
+        }
+
+        public void button6_Click(object sender, EventArgs e) //추가버튼
+        {
+            //데이터가 없는 경우 리턴
+            if (this.Grid1.RowCount == 0)
+                return;
+
+
+
+            try
+            {
+                if (DBHelper(false) == false) return;
+
+                // 현재 Row를 가져온다.
+                DataGridViewRow dgvr = Grid1.SelectedRows[0];
+
+                
+                // 선택한 Row의 데이터를 가져온다
+                string Worker = dgvr.Cells[1].Value.ToString();
+                string WORKID = dgvr.Cells[2].Value.ToString();
+
+
+                cmd = new SqlCommand();
+                cmd.Connection =  Connect2;
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.CommandText = "WF_Worker_U";
+
+
+                cmd.Parameters.AddWithValue("FWORKER", Worker);
+                cmd.Parameters.AddWithValue("WORKID",  WORKID);
+
+
+                cmd.Parameters.AddWithValue("LANG", "KO");
+                cmd.Parameters.AddWithValue("RS_CODE", "").Direction = ParameterDirection.Output;
+                cmd.Parameters.AddWithValue("RS_MSG", "").Direction = ParameterDirection.Output;
+
+                cmd.ExecuteNonQuery();
+
+                
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+            finally
+            {
+                Connect2.Close();
+            }
+
+
+
+
 
         }
     }
