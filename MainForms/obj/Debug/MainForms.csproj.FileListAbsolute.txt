@@ -39,7 +39,11 @@ C:\Users\user\LotTraking\MainForms\bin\Debug\Assamble.dll
 C:\Users\user\LotTraking\MainForms\bin\Debug\Form_list.dll
 C:\Users\user\LotTraking\MainForms\bin\Debug\Assamble.pdb
 C:\Users\user\LotTraking\MainForms\bin\Debug\Form_list.pdb
+<<<<<<< HEAD
 C:\Users\user\LotTraking\MainForms\obj\Debug\MainForms.csprojAssemblyReference.cache
+=======
+C:\Users\user\LotTraking\MainForms\obj\Debug\MainForms.csproj.AssemblyReference.cache
+>>>>>>> e3a1e94e7973ae21d8ebf2a52e2e47b796dee841
 C:\Users\user\LotTraking\MainForms\obj\Debug\MainForms.M02_PassWordChange.resources
 C:\Users\user\LotTraking\MainForms\obj\Debug\MainForms.M01_Form1.resources
 C:\Users\user\LotTraking\MainForms\obj\Debug\MainForms.M03_MainForm.resources
