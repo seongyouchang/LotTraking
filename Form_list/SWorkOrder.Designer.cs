@@ -31,7 +31,6 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
             this.btnProcess = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.btnWP = new System.Windows.Forms.Button();
@@ -77,7 +76,6 @@
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.btnProcess);
             this.panel1.Controls.Add(this.button10);
             this.panel1.Controls.Add(this.btnWP);
@@ -87,15 +85,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(200, 636);
             this.panel1.TabIndex = 3;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(67, 340);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 41;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // btnProcess
             // 
@@ -130,6 +119,7 @@
             this.button10.TabIndex = 37;
             this.button10.Text = "작업지시선택";
             this.button10.UseVisualStyleBackColor = false;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // btnWP
             // 
@@ -261,6 +251,5 @@
         private System.Windows.Forms.DataGridView SWorkOrderGrid;
         private System.Windows.Forms.DataGridView ProcessGrid;
         private System.Windows.Forms.DataGridView PlaceGrid;
-        private System.Windows.Forms.Button button1;
     }
 }

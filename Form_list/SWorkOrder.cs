@@ -100,7 +100,7 @@ namespace Form_list
 
             try
             {
-               
+
 
 
                 // Adapter에 SQL 프로시져 이름과 접속 정보 등록.
@@ -130,10 +130,10 @@ namespace Form_list
             }
 
 
-          
 
 
-           
+
+
         }
 
         private void btnProcess_Click(object sender, EventArgs e)
@@ -250,7 +250,105 @@ namespace Form_list
             }
 
             SWorkOrderGrid.Rows[rowindex].Cells[2].Value = Processrow["PNAME"].ToString();
-            ProcessGrid.ClearSelection();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            
+        
+            // 저장 버튼을 클릭 하였을 때
+            // 사용자 정보를 일괄 저장하는 로직.
+
+            // 1. 데이터 베이스 접속 가능여부 확인.
+
+            if (DBHelper(true) == false) return;
+
+            // 2. Insert, Update, Delete 전달 SqlCommand 클래스 객체 생성.
+            cmd = new SqlCommand();
+
+            // 3. 생성한 트랜잭션 등록
+            cmd.Transaction = tran;
+
+            // 4. 데이터 베이스 접속 경로 연결
+            cmd.Connection = Connect;
+
+            // 5. 프로시져 형태로 호출함을 선언
+            cmd.CommandType = CommandType.StoredProcedure;
+            string sMessage = string.Empty;
+            try
+            {
+
+
+                // 그리드조회 후 변경된 행의 정보만 추출.
+                DataTable dtChang = ((DataTable)SWorkOrderGrid.DataSource).GetChanges();
+                if (dtChang == null) return;
+
+                // 변경된 그리드의 데이터 추출 내역 중 상위로 부터 하나의 행씩 뽑아온다.
+                foreach (DataRow drrow in dtChang.Rows)
+                {
+                    switch (drrow.RowState)
+                    {
+                        case DataRowState.Modified:
+                            // 사용자 정보가 수정 된 상태이면
+                            if (Convert.ToString(drrow["WORKPLACE"]) == "") sMessage += "작업장";
+
+                            if (Convert.ToString(drrow["PROCESS"]) == "") sMessage += "공정";
+
+
+                            if (sMessage != "")
+                            {
+                                throw new Exception($"{sMessage}을(를) 입력하지 않았습니다.");
+                            }
+
+                            // 사용자 정보를 변경하는 저장 프로시져 호출
+                            cmd.CommandText = "WF_WORKORDER_U";
+                            //이 이름으로      이 값을 던지겠다
+                            cmd.Parameters.AddWithValue("WORKPLACE", drrow["WPNAME"]);
+                            cmd.Parameters.AddWithValue("PNAME", drrow["PNAME"]);
+
+                            cmd.Parameters.AddWithValue("RS_CODE", "").Direction = ParameterDirection.Output;
+                            cmd.Parameters.AddWithValue("RS_MSG", "").Direction = ParameterDirection.Output;
+
+                            cmd.ExecuteNonQuery();
+
+                            break;
+                        case DataRowState.Added:
+
+
+                            cmd.CommandText = "WF_WORKORDER_I";
+                            //이 이름으로      이 값을 던지겠다
+                            cmd.Parameters.AddWithValue("WORKPLACE", drrow["WORKPLACE"]);
+                            cmd.Parameters.AddWithValue("PROCESS", drrow["PROCESS"]);
+
+                            cmd.Parameters.AddWithValue("RS_CODE", "").Direction = ParameterDirection.Output;
+                            cmd.Parameters.AddWithValue("RS_MSG", "").Direction = ParameterDirection.Output;
+
+                            cmd.ExecuteNonQuery();
+                            break;
+                    }
+
+                    if (Convert.ToString(cmd.Parameters["RS_CODE"].Value) != "S")
+                    {
+                        throw new Exception("사용자 등록중 오류가 발생하였습니다.");
+                    }
+
+                    cmd.Parameters.Clear();
+                }
+                tran.Commit();
+                MessageBox.Show("정상적으로 등록되었습니다.");
+                
+            }
+            catch (Exception ex)
+            {
+                tran.Rollback();
+                MessageBox.Show(ex.ToString());
+            }
+            finally
+            {
+                Connect.Close();
+            }
+
         }
     }
-}
+    }
+
