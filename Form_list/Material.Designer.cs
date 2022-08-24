@@ -33,21 +33,17 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.btnCancel = new System.Windows.Forms.Button();
             this.btnInput = new System.Windows.Forms.Button();
-            this.grid = new System.Windows.Forms.DataGridView();
+            this.Grid1 = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.btnExit = new System.Windows.Forms.Button();
             this.btnSearchM = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.txtName = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.txtQty = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.txtWorkNo = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.grid)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Grid1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -109,27 +105,23 @@
             this.btnInput.Text = "자재투입";
             this.btnInput.UseVisualStyleBackColor = true;
             // 
-            // grid
+            // Grid1
             // 
-            this.grid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grid.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.grid.Location = new System.Drawing.Point(0, 80);
-            this.grid.Name = "grid";
-            this.grid.RowHeadersWidth = 51;
-            this.grid.RowTemplate.Height = 27;
-            this.grid.Size = new System.Drawing.Size(1698, 720);
-            this.grid.TabIndex = 3;
+            this.Grid1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.Grid1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Grid1.Location = new System.Drawing.Point(0, 80);
+            this.Grid1.Name = "Grid1";
+            this.Grid1.RowHeadersWidth = 51;
+            this.Grid1.RowTemplate.Height = 27;
+            this.Grid1.Size = new System.Drawing.Size(1698, 720);
+            this.Grid1.TabIndex = 3;
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Controls.Add(this.btnExit);
             this.groupBox1.Controls.Add(this.btnSearchM);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.txtName);
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.txtQty);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.txtWorkNo);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -138,26 +130,6 @@
             this.groupBox1.Size = new System.Drawing.Size(1698, 159);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("휴먼모음T", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(576, 103);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(105, 30);
-            this.label2.TabIndex = 16;
-            this.label2.Text = "생산수량";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("휴먼모음T", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.textBox1.Location = new System.Drawing.Point(730, 101);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(107, 38);
-            this.textBox1.TabIndex = 15;
             // 
             // btnExit
             // 
@@ -178,6 +150,7 @@
             this.btnSearchM.TabIndex = 13;
             this.btnSearchM.Text = "조회";
             this.btnSearchM.UseVisualStyleBackColor = true;
+            this.btnSearchM.Click += new System.EventHandler(this.btnSearchM_Click);
             // 
             // label4
             // 
@@ -198,26 +171,6 @@
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(296, 38);
             this.txtName.TabIndex = 11;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("휴먼모음T", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label3.Location = new System.Drawing.Point(576, 37);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(105, 30);
-            this.label3.TabIndex = 10;
-            this.label3.Text = "계획수량";
-            // 
-            // txtQty
-            // 
-            this.txtQty.Font = new System.Drawing.Font("휴먼모음T", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.txtQty.Location = new System.Drawing.Point(730, 35);
-            this.txtQty.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.txtQty.Name = "txtQty";
-            this.txtQty.Size = new System.Drawing.Size(107, 38);
-            this.txtQty.TabIndex = 9;
             // 
             // label1
             // 
@@ -246,7 +199,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.ClientSize = new System.Drawing.Size(1698, 880);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.grid);
+            this.Controls.Add(this.Grid1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -257,7 +210,7 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.grid)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Grid1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -271,7 +224,7 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button btnInput;
         private System.Windows.Forms.Button btnCancel;
-        private System.Windows.Forms.DataGridView grid;
+        private System.Windows.Forms.DataGridView Grid1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtWorkNo;
@@ -279,9 +232,5 @@
         private System.Windows.Forms.Button btnSearchM;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtName;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtQty;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
     }
 }
