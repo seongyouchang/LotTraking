@@ -3,10 +3,6 @@ using System;
 using System.Data;
 using System.Data.SqlClient;
 using System.Windows.Forms;
-// 스레드를 사용하기 위한 라이브러리 참조.
-using System.Threading;
-// 폼 리스트 라이브러리 참조
-using System.Reflection;
 
 
 namespace Form_list
@@ -21,9 +17,11 @@ namespace Form_list
         // 3. Insert, Update, Delete 명령을 전달할 클래스
         private SqlTransaction tran; // 데이터베이스 데이터 관리 권한 부여.
         private SqlCommand cmd;
-        public Material()
+        private string WID2;
+        public Material(string sWid)
         {
             InitializeComponent();
+            WID2 = sWid;
         }
 
         private void Material_FormClosing(object sender, FormClosingEventArgs e)
@@ -138,113 +136,73 @@ namespace Form_list
             Inquire();
         }
 
-        public void Save()
+        public void Input()          // 자재투입
         {
-            if (DBHelper(true) == false) return;
+            if (this.Grid1.RowCount == 0)
+                return;
+            if (WID2 == "")
+            {
+                MessageBox.Show("작업지시 선택 좀 하세요 제발...");
+                return;
+            }
 
-            cmd = new SqlCommand();
-            cmd.Transaction = tran;
-            cmd.Connection = Connect;
-            cmd.CommandType = CommandType.StoredProcedure;
-            string sMessage = string.Empty;
 
             try
             {
-                // 그리드조회 후 변경된 행의 정보만 추출
-                DataTable dtChang = ((DataTable)Grid1.DataSource).GetChanges();
-                if (dtChang == null) return;
+                if (DBHelper(false) == false) return;
 
-                // 변경된 그리드의 데이터 추출 내역 중 상위로부터 하나의 행씩 뽑아온다.
-                foreach (DataRow drrow in dtChang.Rows) // 행을 하나씩 뽑아옴(foreach)
+                // 현재 Row를 가져온다.
+                DataGridViewRow dgvr = Grid1.SelectedRows[0];
+
+
+                // 선택한 Row의 데이터를 가져온다
+                string ilrow = dgvr.Cells[0].Value.ToString();
+                string rowname = dgvr.Cells[1].Value.ToString();
+                string rowinqty = dgvr.Cells[2].Value.ToString();
+                string rowea = dgvr.Cells[6].Value.ToString();
+
+
+
+
+                cmd = new SqlCommand();
+                cmd.Connection = Connect;
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.CommandText = "WF_ROWMANAGER_UU";
+
+                cmd.Parameters.AddWithValue("WID", WID2);
+                cmd.Parameters.AddWithValue("ilrow", ilrow);
+                cmd.Parameters.AddWithValue("rowname", rowname);
+                cmd.Parameters.AddWithValue("rowinqty", rowinqty);
+                cmd.Parameters.AddWithValue("rowea", rowea);
+
+
+
+
+                cmd.Parameters.AddWithValue("LANG", "KO");
+                cmd.Parameters.AddWithValue("RS_CODE", "").Direction = ParameterDirection.Output;
+                cmd.Parameters.AddWithValue("RS_MSG", "").Direction = ParameterDirection.Output;
+
+                cmd.ExecuteNonQuery();
+
+
+
+
+
+
+
+                if (Convert.ToString(cmd.Parameters["RS_CODE"].Value) != "S")
                 {
-                    switch (drrow.RowState)
-                    {
-                        case DataRowState.Deleted:
-                            drrow.RejectChanges();
-                            // 사용자 정보를 변경하는 저장 프로시져 호출
-                            cmd.CommandText = "WF_ROWMANAGER_D";
-                            //이 이름으로      이 값을 던지겠다
-                            cmd.Parameters.AddWithValue("ILROW", drrow["ILROW"]);
-                            cmd.Parameters.AddWithValue("ROWNAME", drrow["ROWNAME"]);
-                            cmd.Parameters.AddWithValue("ROWINQTY", drrow["WPLANROWINQTY"]);
-                            cmd.Parameters.AddWithValue("ROWUNIT", drrow["ROWUNIT"]);
-                            cmd.Parameters.AddWithValue("WORKERNAME", drrow["WORKERNAME"]);
-                            cmd.Parameters.AddWithValue("ROWINDATE", drrow["ROWINDATE"]);
-                            cmd.Parameters.AddWithValue("ROWEA", drrow["ROWEA"]);
-
-
-
-                            cmd.Parameters.AddWithValue("LANG", "KO");
-                            cmd.Parameters.AddWithValue("RS_CODE", "").Direction = ParameterDirection.Output;
-                            cmd.Parameters.AddWithValue("RS_MSG", "").Direction = ParameterDirection.Output;
-
-                            cmd.ExecuteNonQuery();
-                            break;
-                        case DataRowState.Modified:
-                            // 사용자 정보가 수정 된 상태이면
-                            if (Convert.ToString(drrow["ILROW"]) == "") sMessage += "투입LOT번호";
-
-                            if (Convert.ToString(drrow["ROWNAME"]) == "") sMessage += "자재명";
-
-                            if (Convert.ToString(drrow["ROWINQTY"]) == "") sMessage += "자재 투입수량";
-
-
-
-
-
-                            if (sMessage != "")
-                            {
-                                throw new Exception($"{sMessage}을(를) 입력하지 않았습니다.");
-                            }
-
-                            // 사용자 정보를 변경하는 저장 프로시져 호출
-                            cmd.CommandText = "WF_ROWMANAGER_U";
-                            //이 이름으로      이 값을 던지겠다
-                            cmd.Parameters.AddWithValue("ILROW", drrow["ILROW"]);
-                            cmd.Parameters.AddWithValue("ROWNAME", drrow["ROWNAME"]);
-                            cmd.Parameters.AddWithValue("ROWINQTY", drrow["WPLANROWINQTY"]);
-                            cmd.Parameters.AddWithValue("ROWUNIT", drrow["ROWUNIT"]);
-                            cmd.Parameters.AddWithValue("WORKERNAME", drrow["WORKERNAME"]);
-                            cmd.Parameters.AddWithValue("ROWINDATE", drrow["ROWINDATE"]);
-                            cmd.Parameters.AddWithValue("ROWEA", drrow["ROWEA"]);
-
-
-                            cmd.Parameters.AddWithValue("LANG", "KO");
-                            cmd.Parameters.AddWithValue("RS_CODE", "").Direction = ParameterDirection.Output;
-                            cmd.Parameters.AddWithValue("RS_MSG", "").Direction = ParameterDirection.Output;
-
-                            cmd.ExecuteNonQuery();
-
-                            break;
-
-                        case DataRowState.Added:
-                            cmd.CommandText = "WF_ROWMANAGER_I";
-                            cmd.Parameters.AddWithValue("ILROW", drrow["ILROW"]);
-                            cmd.Parameters.AddWithValue("ROWNAME", drrow["ROWNAME"]);
-                            cmd.Parameters.AddWithValue("ROWINQTY", drrow["ROWINQTY"]);
-                            cmd.Parameters.AddWithValue("ROWEA", drrow["ROWEA"]);
-
-
-                            cmd.Parameters.AddWithValue("LANG", "KO");
-                            cmd.Parameters.AddWithValue("RS_CODE", "").Direction = ParameterDirection.Output;
-                            cmd.Parameters.AddWithValue("RS_MSG", "").Direction = ParameterDirection.Output;
-
-                            cmd.ExecuteNonQuery();
-                            break;
-                    }
-                    if (Convert.ToString(cmd.Parameters["RS_CODE"].Value) != "S")
-                    {
-                        throw new Exception("등록 중 오류가 발생하였습니다.");
-                    }
-
-                    cmd.Parameters.Clear();     // 한바퀴 돌았을때 파라미터에 쌓인 값 지우기
+                    throw new Exception("등록 중 오류가 발생하였습니다.");
                 }
-                tran.Commit();
+
+                cmd.Parameters.Clear();     // 한바퀴 돌았을때 파라미터에 쌓인 값 지우기
+
+
                 MessageBox.Show("정상적으로 자재투입이 되었습니다.");
+                doExit();
             }
             catch (Exception ex)
             {
-                tran.Rollback();
                 MessageBox.Show(ex.ToString());
 
             }
@@ -255,14 +213,20 @@ namespace Form_list
         }
         private void btnInput_Click(object sender, EventArgs e)
         {
-            Save();
+            Input();
         }
 
+        public void doExit()
+        {
+
+            this.Visible = false;
+
+        }
         private void btnExit_Click(object sender, EventArgs e)
         {
-            Material Material = new Material();
+
             this.Visible = false;
-            Material.Close();
+
 
 
         }

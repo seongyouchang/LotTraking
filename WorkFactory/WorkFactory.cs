@@ -30,12 +30,14 @@ namespace WorkFactory
 
         // 3. Insert, Update, Delete 명령을 전달할 클래스
         private SqlTransaction tran; // 데이터베이스 데이터 관리 권한 부여.
-        private SqlCommand cmd;
+        private SqlCommand cmd; 
 
         public WorkFactory()
         {
             InitializeComponent();
         }
+
+     
 
         private void WorkFactory_Load(object sender, EventArgs e)
         {
@@ -46,7 +48,11 @@ namespace WorkFactory
             dtGrid.Columns.Add("WORKERNAME", typeof(char));                //  작업자
             dtGrid.Columns.Add("FSTART", typeof(DateTime));           // 작업 시작 시간
             dtGrid.Columns.Add("FFINISH", typeof(DateTime));           // 작업 끝난시간
+            dtGrid.Columns.Add("ROWNAME", typeof(char));               //원자재 명
             dtGrid.Columns.Add("FEA", typeof(char));               //원자재 재고 개수
+            dtGrid.Columns.Add("FAIREA", typeof(char));               //양품 갯수
+            dtGrid.Columns.Add("ERROREA", typeof(char));               //불량 갯수
+
 
 
             // 빈 컬럼 테이블 그리드에 매칭. (DataSource : 테이블 형식의 데이터를 표현하는 속성)
@@ -60,7 +66,10 @@ namespace WorkFactory
             Grid1.Columns["WORKERNAME"].HeaderText = "작업자";
             Grid1.Columns["FSTART"].HeaderText = "작업시작시간";
             Grid1.Columns["FFINISH"].HeaderText = "작업종료시간";
+            Grid1.Columns["ROWNAME"].HeaderText = "원자재명";
             Grid1.Columns["FEA"].HeaderText = "생산수량";
+            Grid1.Columns["FAIREA"].HeaderText = "양품수량";
+            Grid1.Columns["ERROREA"].HeaderText = "불량수량";
 
             if (DBHelper(false) == false) return;
 
@@ -120,10 +129,6 @@ namespace WorkFactory
 
 
 
-        private void Exit_Click(object sender, EventArgs e)
-        {
-
-        }
 
 
 
@@ -209,10 +214,136 @@ namespace WorkFactory
 
         private void btnMaterial_Click_1(object sender, EventArgs e)
         {
-            Material material = new Material();
-            material.ShowDialog();
+            try
+            {
+                if (this.Grid1.RowCount == 0) return;
+
+
+
+
+
+                DataGridViewRow dgvr = Grid1.SelectedRows[0];
+
+                // 선택한 Row의 데이터를 가져온다.
+                string WID = dgvr.Cells[0].Value.ToString();
+
+
+                Material material = new Material(WID);
+                material.ShowDialog();
+
+
+                try
+                {
+                    // 사용자 정보 조회
+
+
+
+                    // Adapter에 SQL 프로시져 이름과 접속 정보 등록.
+                    Adapter = new SqlDataAdapter("WF_WORKFACTORY_S", Connect2);
+                    Adapter.SelectCommand.CommandType = CommandType.StoredProcedure;
+
+
+
+                    // 데이터 베이스 처리 시 C#으로 반환할 값을 담는 변수.
+                    Adapter.SelectCommand.Parameters.AddWithValue("LANG", "KO");
+                    Adapter.SelectCommand.Parameters.AddWithValue("RS_CODE", "").Direction = ParameterDirection.Output;
+                    Adapter.SelectCommand.Parameters.AddWithValue("RS_MSG", "").Direction = ParameterDirection.Output;
+
+                    // Adapter 실행
+                    DataTable dtTemp = new DataTable();
+                    Adapter.Fill(dtTemp);
+
+                    // 결과값을 그리드뷰에 표현.
+                    Grid1.DataSource = dtTemp;
+                }
+                catch (Exception ex)
+                {
+
+                    MessageBox.Show(ex.ToString());
+                }
+                finally
+                {
+                    Connect2.Close();
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+            finally
+            {
+                Connect2.Close();
+            };
         }
 
+        private void button8_Click(object sender, EventArgs e)  //실적등록 버튼 클릭
+        {
+            try
+            {
+                if (this.Grid1.RowCount == 0) return;
 
+
+
+
+
+                DataGridViewRow dgvr = Grid1.SelectedRows[0];
+
+                // 선택한 Row의 데이터를 가져온다.
+                string WID = dgvr.Cells[0].Value.ToString();
+
+
+
+
+                Worker worker = new Worker(WID);
+                worker.ShowDialog();
+
+
+                try
+                {
+                    // 사용자 정보 조회
+
+
+
+                    // Adapter에 SQL 프로시져 이름과 접속 정보 등록.
+                    Adapter = new SqlDataAdapter("WF_WORKFACTORY_S", Connect2);
+                    Adapter.SelectCommand.CommandType = CommandType.StoredProcedure;
+
+
+
+                    // 데이터 베이스 처리 시 C#으로 반환할 값을 담는 변수.
+                    Adapter.SelectCommand.Parameters.AddWithValue("LANG", "KO");
+                    Adapter.SelectCommand.Parameters.AddWithValue("RS_CODE", "").Direction = ParameterDirection.Output;
+                    Adapter.SelectCommand.Parameters.AddWithValue("RS_MSG", "").Direction = ParameterDirection.Output;
+
+                    // Adapter 실행
+                    DataTable dtTemp = new DataTable();
+                    Adapter.Fill(dtTemp);
+
+                    // 결과값을 그리드뷰에 표현.
+                    Grid1.DataSource = dtTemp;
+                }
+                catch (Exception ex)
+                {
+
+                    MessageBox.Show(ex.ToString());
+                }
+                finally
+                {
+                    Connect2.Close();
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+            finally
+            {
+                Connect2.Close();
+            };
+        }
     }
 }

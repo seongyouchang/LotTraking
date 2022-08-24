@@ -33,7 +33,6 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.btnCancel = new System.Windows.Forms.Button();
             this.btnInput = new System.Windows.Forms.Button();
-            this.Grid1 = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnExit = new System.Windows.Forms.Button();
             this.btnSearchM = new System.Windows.Forms.Button();
@@ -41,10 +40,11 @@
             this.txtName = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.txtWorkNo = new System.Windows.Forms.TextBox();
+            this.Grid1 = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Grid1)).BeginInit();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Grid1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -104,17 +104,7 @@
             this.btnInput.TabIndex = 0;
             this.btnInput.Text = "자재투입";
             this.btnInput.UseVisualStyleBackColor = true;
-            // 
-            // Grid1
-            // 
-            this.Grid1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.Grid1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Grid1.Location = new System.Drawing.Point(0, 80);
-            this.Grid1.Name = "Grid1";
-            this.Grid1.RowHeadersWidth = 51;
-            this.Grid1.RowTemplate.Height = 27;
-            this.Grid1.Size = new System.Drawing.Size(1698, 720);
-            this.Grid1.TabIndex = 3;
+            this.btnInput.Click += new System.EventHandler(this.btnInput_Click);
             // 
             // groupBox1
             // 
@@ -192,14 +182,27 @@
             this.txtWorkNo.Size = new System.Drawing.Size(284, 38);
             this.txtWorkNo.TabIndex = 5;
             // 
+            // Grid1
+            // 
+            this.Grid1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Grid1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Grid1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.Grid1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Grid1.Location = new System.Drawing.Point(0, 239);
+            this.Grid1.Name = "Grid1";
+            this.Grid1.RowTemplate.Height = 23;
+            this.Grid1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.Grid1.Size = new System.Drawing.Size(1698, 561);
+            this.Grid1.TabIndex = 6;
+            // 
             // Material
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.ClientSize = new System.Drawing.Size(1698, 880);
-            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.Grid1);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -207,12 +210,13 @@
             this.Name = "Material";
             this.Text = "자재투입";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.Material_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.Grid1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Grid1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -224,7 +228,6 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button btnInput;
         private System.Windows.Forms.Button btnCancel;
-        private System.Windows.Forms.DataGridView Grid1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtWorkNo;
@@ -232,5 +235,6 @@
         private System.Windows.Forms.Button btnSearchM;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtName;
+        private System.Windows.Forms.DataGridView Grid1;
     }
 }
