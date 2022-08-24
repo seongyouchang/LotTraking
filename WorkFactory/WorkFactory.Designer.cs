@@ -350,6 +350,7 @@
             this.Grid1.Name = "Grid1";
             this.Grid1.RowHeadersWidth = 51;
             this.Grid1.RowTemplate.Height = 23;
+            this.Grid1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.Grid1.Size = new System.Drawing.Size(1218, 478);
             this.Grid1.TabIndex = 2;
             // 

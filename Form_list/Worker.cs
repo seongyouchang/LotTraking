@@ -25,12 +25,13 @@ namespace Form_list
         // 3. Insert, Update, Delete 명령을 전달할 클래스
         private SqlTransaction tran; // 데이터베이스 데이터 관리 권한 부여.
         private SqlCommand cmd;
+        private string WID;
 
 
-
-        public Worker()
+        public Worker(string sWid)
         {
             InitializeComponent();
+            WID = sWid;
         }
 
 
@@ -282,10 +283,15 @@ namespace Form_list
 
         public void button6_Click(object sender, EventArgs e) //추가버튼
         {
+
             //데이터가 없는 경우 리턴
             if (this.Grid1.RowCount == 0)
                 return;
-
+            if (WID == "")
+            {
+                MessageBox.Show("작업지시 선택 좀 하세요 제발...");
+                return;
+            }
 
 
             try
@@ -295,20 +301,20 @@ namespace Form_list
                 // 현재 Row를 가져온다.
                 DataGridViewRow dgvr = Grid1.SelectedRows[0];
 
-                
+
                 // 선택한 Row의 데이터를 가져온다
                 string Worker = dgvr.Cells[1].Value.ToString();
                 string WORKID = dgvr.Cells[2].Value.ToString();
 
 
                 cmd = new SqlCommand();
-                cmd.Connection =  Connect2;
+                cmd.Connection = Connect2;
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.CommandText = "WF_Worker_U";
 
-
+                cmd.Parameters.AddWithValue("WID", WID);
                 cmd.Parameters.AddWithValue("FWORKER", Worker);
-                cmd.Parameters.AddWithValue("WORKID",  WORKID);
+                cmd.Parameters.AddWithValue("WORKERID", WORKID);
 
 
                 cmd.Parameters.AddWithValue("LANG", "KO");
@@ -317,7 +323,7 @@ namespace Form_list
 
                 cmd.ExecuteNonQuery();
 
-                
+
 
             }
             catch (Exception ex)
