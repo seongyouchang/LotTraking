@@ -105,3 +105,6 @@ C:\Users\user\LotTraking\Form_list\obj\Debug\Form_list.csproj.CoreCompileInputs.
 C:\Users\user\LotTraking\Form_list\obj\Debug\Form_list.csproj.CopyComplete
 C:\Users\user\LotTraking\Form_list\obj\Debug\Form_list.dll
 C:\Users\user\LotTraking\Form_list\obj\Debug\Form_list.pdb
+C:\Users\user\LotTraking\Form_list\obj\Debug\Form_list.csproj.AssemblyReference.cache
+C:\Users\user\LotTraking\Form_list\obj\Debug\Form_list.WF_performance.resources
+C:\Users\syc\LotTraking\Form_list\obj\Debug\Form_list.WF_performance.resources

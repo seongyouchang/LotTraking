@@ -87,6 +87,13 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="WF_performance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include=".Designer.cs">
+      <DependentUpon>WF_performance.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Worker.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,6 +118,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SWorkOrder.resx">
       <DependentUpon>SWorkOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WF_performance.resx">
+      <DependentUpon>WF_performance.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Worker.resx">
       <DependentUpon>Worker.cs</DependentUpon>

@@ -61,3 +61,4 @@ C:\Users\user\LotTraking\WorkFactory\obj\Debug\WorkFactory.csproj.CoreCompileInp
 C:\Users\user\LotTraking\WorkFactory\obj\Debug\WorkFactory.csproj.CopyComplete
 C:\Users\user\LotTraking\WorkFactory\obj\Debug\WorkFactory.exe
 C:\Users\user\LotTraking\WorkFactory\obj\Debug\WorkFactory.pdb
+C:\Users\user\LotTraking\WorkFactory\obj\Debug\WorkFactory.csproj.AssemblyReference.cache

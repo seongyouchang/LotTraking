@@ -1,6 +1,6 @@
 ﻿namespace Form_list
 {
-    partial class Worker
+    partial class WF_performance
     {
         /// <summary>
         /// Required designer variable.
@@ -34,12 +34,8 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.txtTitle = new System.Windows.Forms.TextBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.busor = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnerror = new System.Windows.Forms.Button();
+            this.btnfair = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.Grid1 = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
@@ -96,7 +92,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(1653, 43);
             this.textBox1.TabIndex = 32;
-            this.textBox1.Text = "작업자 투입 등록";
+            this.textBox1.Text = "실적 등록";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtTitle
@@ -118,118 +114,47 @@
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Controls.Add(this.button5);
-            this.panel3.Controls.Add(this.button4);
-            this.panel3.Controls.Add(this.button3);
-            this.panel3.Controls.Add(this.button2);
-            this.panel3.Controls.Add(this.busor);
-            this.panel3.Controls.Add(this.button1);
+            this.panel3.Controls.Add(this.btnerror);
+            this.panel3.Controls.Add(this.btnfair);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel3.Location = new System.Drawing.Point(0, 95);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(255, 875);
             this.panel3.TabIndex = 12;
             // 
-            // button5
+            // btnerror
             // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("휴먼모음T", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(-2, 400);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(256, 78);
-            this.button5.TabIndex = 38;
-            this.button5.Text = "수리부";
-            this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.btnerror.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.btnerror.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnerror.FlatAppearance.BorderSize = 0;
+            this.btnerror.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btnerror.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnerror.Font = new System.Drawing.Font("휴먼모음T", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.btnerror.ForeColor = System.Drawing.Color.White;
+            this.btnerror.Location = new System.Drawing.Point(-2, 419);
+            this.btnerror.Name = "btnerror";
+            this.btnerror.Size = new System.Drawing.Size(256, 309);
+            this.btnerror.TabIndex = 38;
+            this.btnerror.Text = "불량 등록";
+            this.btnerror.UseVisualStyleBackColor = false;
+            this.btnerror.Click += new System.EventHandler(this.btnerror_Click);
             // 
-            // button4
+            // btnfair
             // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("휴먼모음T", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(-2, 316);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(256, 78);
-            this.button4.TabIndex = 37;
-            this.button4.Text = " 물류부 ";
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("휴먼모음T", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(-1, 232);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(256, 78);
-            this.button3.TabIndex = 36;
-            this.button3.Text = " 시설부 ";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("휴먼모음T", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(-1, 137);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(256, 78);
-            this.button2.TabIndex = 35;
-            this.button2.Text = "용접부";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // busor
-            // 
-            this.busor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.busor.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.busor.FlatAppearance.BorderSize = 0;
-            this.busor.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.busor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.busor.Font = new System.Drawing.Font("휴먼모음T", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.busor.ForeColor = System.Drawing.Color.White;
-            this.busor.Location = new System.Drawing.Point(-2, -1);
-            this.busor.Name = "busor";
-            this.busor.Size = new System.Drawing.Size(256, 48);
-            this.busor.TabIndex = 34;
-            this.busor.Text = "부서";
-            this.busor.UseVisualStyleBackColor = false;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("휴먼모음T", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(-1, 53);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(256, 78);
-            this.button1.TabIndex = 33;
-            this.button1.Text = " 전기부 ";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnfair.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.btnfair.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnfair.FlatAppearance.BorderSize = 0;
+            this.btnfair.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btnfair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnfair.Font = new System.Drawing.Font("휴먼모음T", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.btnfair.ForeColor = System.Drawing.Color.White;
+            this.btnfair.Location = new System.Drawing.Point(-1, -1);
+            this.btnfair.Name = "btnfair";
+            this.btnfair.Size = new System.Drawing.Size(256, 373);
+            this.btnfair.TabIndex = 37;
+            this.btnfair.Text = "양품 등록";
+            this.btnfair.UseVisualStyleBackColor = false;
+            this.btnfair.Click += new System.EventHandler(this.btnfair_Click);
             // 
             // button10
             // 
@@ -261,7 +186,7 @@
             this.Grid1.Size = new System.Drawing.Size(1398, 775);
             this.Grid1.TabIndex = 33;
             // 
-            // Worker
+            // WF_performance
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -271,10 +196,9 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Worker";
+            this.Name = "WF_performance";
             this.Text = "Worker";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Load += new System.EventHandler(this.Worker_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -291,12 +215,8 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button busor;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnerror;
+        private System.Windows.Forms.Button btnfair;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.DataGridView Grid1;
         private System.Windows.Forms.Button btnExit;
