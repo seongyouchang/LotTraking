@@ -76,7 +76,7 @@ namespace MainForms
 
                 // 데이터베이스 접속 경로 설정 및 커넥터 객체 초기화.
                 Connect = new SqlConnection(sCon);
-
+                 
                 // 데이터베이스 연결 상태 확인
                 Connect.Open();
                 if (Connect.State != ConnectionState.Open)

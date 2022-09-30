@@ -1,8 +1,8 @@
-﻿using Assamble;
-using System;
-using System.Data;
-using System.Data.SqlClient;
-using System.Windows.Forms;
+﻿    using Assamble;
+    using System;
+    using System.Data;
+    using System.Data.SqlClient;
+    using System.Windows.Forms;
 
 
 /************************************
@@ -32,6 +32,13 @@ namespace Form_list
         {
             InitializeComponent();
             WID = sWid;
+        }
+
+        public void doExit()
+        {
+          
+            this.Visible = false;
+        
         }
 
 
@@ -274,14 +281,9 @@ namespace Form_list
             }
         }
 
-        private void btnExit_Click(object sender, EventArgs e)
-        {
-            Material Material = new Material();
-            this.Visible = false;
-            Material.Close();
-        }
+     
 
-        public void button6_Click(object sender, EventArgs e) //추가버튼
+        private void button6_Click(object sender, EventArgs e) //추가버튼
         {
 
             //데이터가 없는 경우 리턴
@@ -290,6 +292,13 @@ namespace Form_list
             if (WID == "")
             {
                 MessageBox.Show("작업지시 선택 좀 하세요 제발...");
+                return;
+            }
+
+            if (MessageBox.Show("해당 작업자를 추가하시겠습니까?",
+                    "추가",
+                    MessageBoxButtons.YesNo) == DialogResult.No)
+            {
                 return;
             }
 
@@ -312,9 +321,9 @@ namespace Form_list
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.CommandText = "WF_Worker_U";
 
-                cmd.Parameters.AddWithValue("WID", WID);
-                cmd.Parameters.AddWithValue("FWORKER", Worker);
-                cmd.Parameters.AddWithValue("WORKERID", WORKID);
+                cmd.Parameters.AddWithValue("WID",           WID);
+                cmd.Parameters.AddWithValue("WORKERNAME",    Worker);
+                cmd.Parameters.AddWithValue("WORKERID",      WORKID);
 
 
                 cmd.Parameters.AddWithValue("LANG", "KO");
@@ -323,6 +332,7 @@ namespace Form_list
 
                 cmd.ExecuteNonQuery();
 
+                doExit();
 
 
             }
@@ -339,6 +349,11 @@ namespace Form_list
 
 
 
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            doExit();
         }
     }
 }

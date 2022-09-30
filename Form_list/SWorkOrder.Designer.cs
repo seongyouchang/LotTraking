@@ -28,7 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.btnExit = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnProcess = new System.Windows.Forms.Button();
@@ -36,21 +46,22 @@
             this.btnWP = new System.Windows.Forms.Button();
             this.btnProcess_S = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.PlaceGrid = new System.Windows.Forms.DataGridView();
             this.ProcessGrid = new System.Windows.Forms.DataGridView();
+            this.PlaceGrid = new System.Windows.Forms.DataGridView();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.SWorkOrderGrid = new System.Windows.Forms.DataGridView();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PlaceGrid)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ProcessGrid)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PlaceGrid)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SWorkOrderGrid)).BeginInit();
             this.SuspendLayout();
             // 
             // panel3
             // 
+            this.panel3.Controls.Add(this.btnExit);
             this.panel3.Controls.Add(this.textBox2);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 0);
@@ -58,6 +69,17 @@
             this.panel3.Padding = new System.Windows.Forms.Padding(10, 30, 10, 10);
             this.panel3.Size = new System.Drawing.Size(1418, 100);
             this.panel3.TabIndex = 2;
+            // 
+            // btnExit
+            // 
+            this.btnExit.Font = new System.Drawing.Font("휴먼모음T", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.btnExit.Location = new System.Drawing.Point(1230, 14);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(113, 73);
+            this.btnExit.TabIndex = 32;
+            this.btnExit.Text = "닫기";
+            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // textBox2
             // 
@@ -157,31 +179,83 @@
             this.panel2.Size = new System.Drawing.Size(335, 636);
             this.panel2.TabIndex = 4;
             // 
+            // ProcessGrid
+            // 
+            this.ProcessGrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.ProcessGrid.BackgroundColor = System.Drawing.SystemColors.ActiveBorder;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.Navy;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("휴먼모음T", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.ProcessGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            this.ProcessGrid.ColumnHeadersHeight = 29;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("휴먼모음T", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.Blue;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.ProcessGrid.DefaultCellStyle = dataGridViewCellStyle5;
+            this.ProcessGrid.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ProcessGrid.GridColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ProcessGrid.Location = new System.Drawing.Point(0, 0);
+            this.ProcessGrid.Name = "ProcessGrid";
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.Navy;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("휴먼모음T", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.Navy;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.ProcessGrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            this.ProcessGrid.RowHeadersWidth = 51;
+            this.ProcessGrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.ProcessGrid.Size = new System.Drawing.Size(333, 634);
+            this.ProcessGrid.TabIndex = 3;
+            this.ProcessGrid.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.ProcessGrid_CellMouseClick);
+            // 
             // PlaceGrid
             // 
-            this.PlaceGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.PlaceGrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.PlaceGrid.BackgroundColor = System.Drawing.SystemColors.ActiveBorder;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.Navy;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("휴먼모음T", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.PlaceGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.PlaceGrid.ColumnHeadersHeight = 29;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("휴먼모음T", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.Blue;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.PlaceGrid.DefaultCellStyle = dataGridViewCellStyle2;
             this.PlaceGrid.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PlaceGrid.GridColor = System.Drawing.SystemColors.ActiveCaption;
             this.PlaceGrid.Location = new System.Drawing.Point(0, 0);
             this.PlaceGrid.Name = "PlaceGrid";
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.Navy;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("휴먼모음T", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Navy;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.PlaceGrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.PlaceGrid.RowHeadersWidth = 51;
             this.PlaceGrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.PlaceGrid.Size = new System.Drawing.Size(333, 634);
-            this.PlaceGrid.TabIndex = 1;
-            this.PlaceGrid.Visible = false;
+            this.PlaceGrid.TabIndex = 2;
             this.PlaceGrid.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.PlaceGrid_CellMouseClick);
-            this.PlaceGrid.VisibleChanged += new System.EventHandler(this.btnWP_Click);
-            // 
-            // ProcessGrid
-            // 
-            this.ProcessGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.ProcessGrid.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ProcessGrid.Location = new System.Drawing.Point(0, 0);
-            this.ProcessGrid.Name = "ProcessGrid";
-            this.ProcessGrid.RowHeadersWidth = 51;
-            this.ProcessGrid.Size = new System.Drawing.Size(333, 634);
-            this.ProcessGrid.TabIndex = 0;
-            this.ProcessGrid.Visible = false;
-            this.ProcessGrid.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.ProcessGrid_CellMouseClick);
             // 
             // dataGridView1
             // 
@@ -200,15 +274,42 @@
             this.SWorkOrderGrid.AllowUserToDeleteRows = false;
             this.SWorkOrderGrid.AllowUserToResizeColumns = false;
             this.SWorkOrderGrid.AllowUserToResizeRows = false;
-            this.SWorkOrderGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.SWorkOrderGrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.SWorkOrderGrid.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.Navy;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("휴먼모음T", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.Navy;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.SWorkOrderGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            this.SWorkOrderGrid.ColumnHeadersHeight = 29;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("휴먼모음T", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.SWorkOrderGrid.DefaultCellStyle = dataGridViewCellStyle8;
             this.SWorkOrderGrid.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SWorkOrderGrid.GridColor = System.Drawing.SystemColors.ActiveCaption;
             this.SWorkOrderGrid.Location = new System.Drawing.Point(200, 100);
             this.SWorkOrderGrid.Name = "SWorkOrderGrid";
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = System.Drawing.Color.Navy;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("휴먼모음T", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            dataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.SWorkOrderGrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
             this.SWorkOrderGrid.RowHeadersWidth = 51;
             this.SWorkOrderGrid.RowTemplate.Height = 23;
             this.SWorkOrderGrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.SWorkOrderGrid.Size = new System.Drawing.Size(883, 636);
-            this.SWorkOrderGrid.TabIndex = 5;
+            this.SWorkOrderGrid.TabIndex = 6;
             // 
             // SWorkOrder
             // 
@@ -229,8 +330,8 @@
             this.panel3.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.PlaceGrid)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ProcessGrid)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PlaceGrid)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SWorkOrderGrid)).EndInit();
             this.ResumeLayout(false);
@@ -248,8 +349,9 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button btnProcess;
-        private System.Windows.Forms.DataGridView SWorkOrderGrid;
-        private System.Windows.Forms.DataGridView ProcessGrid;
+        private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.DataGridView PlaceGrid;
+        private System.Windows.Forms.DataGridView ProcessGrid;
+        private System.Windows.Forms.DataGridView SWorkOrderGrid;
     }
 }

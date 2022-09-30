@@ -47,15 +47,14 @@ namespace Assamble
                 // sMajorCode별 공통코드 정보를 받아오는 SQL 구문 작성.
                 string sSelectStandard = string.Empty;
 
-
-                sSelectStandard += "SELECT '' AS WORK_ORDER ";
-                sSelectStandard += "UNION                                ";
-                sSelectStandard += "SELECT  FSPACE                     ";
-                sSelectStandard += "FROM WORKORDER               ";
-                //sSelectStandard += "SELECT '선택' AS WORK_ORDER";
-                //sSelectStandard += "UNION                                ";
-                //sSelectStandard += "SELECT FSPACE                     ";
-                //sSelectStandard += "FROM WORKORDER               ";
+                sSelectStandard += " SELECT '' AS CODE_ID ";
+                sSelectStandard += " ,'선택'   AS CODE_NAME   ";
+                sSelectStandard += " UNION                 ";
+                sSelectStandard += " SELECT MINORCODE                            AS CODE_ID  ";
+                sSelectStandard += "         , '[' + MINORCODE + ']' + CODENAME  AS CODE_NAME";
+                sSelectStandard += " FROM TB_Standard                                        ";
+                sSelectStandard += $" WHERE MAJORCODE = '{sMajorCode}'                            ";
+                sSelectStandard += " AND MINORCODE<> '$'                                ";
 
                 SqlDataAdapter Adatper = new SqlDataAdapter(sSelectStandard, Con);
                 Adatper.Fill(dtTemp);

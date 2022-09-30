@@ -106,3 +106,496 @@ C:\Users\user\LotTraking\Form_list\obj\Debug\Form_list.csproj.CopyComplete
 C:\Users\user\LotTraking\Form_list\obj\Debug\Form_list.dll
 C:\Users\user\LotTraking\Form_list\obj\Debug\Form_list.pdb
 C:\Users\user\LotTraking\Form_list\obj\Debug\Form_list.csproj.AssemblyReference.cache
+C:\Users\user\LotTraking\Form_list\obj\Debug\Form_list.WF_performance.resources
+C:\Users\HOME\Desktop\2022-08-24(2)\Form_list\bin\Debug\Form_list.dll
+C:\Users\HOME\Desktop\2022-08-24(2)\Form_list\bin\Debug\Form_list.pdb
+C:\Users\HOME\Desktop\2022-08-24(2)\Form_list\bin\Debug\Assamble.dll
+C:\Users\HOME\Desktop\2022-08-24(2)\Form_list\bin\Debug\Infragistics2.Shared.v11.1.dll
+C:\Users\HOME\Desktop\2022-08-24(2)\Form_list\bin\Debug\Infragistics2.Win.Misc.v11.1.dll
+C:\Users\HOME\Desktop\2022-08-24(2)\Form_list\bin\Debug\Infragistics2.Win.UltraWinGrid.v11.1.dll
+C:\Users\HOME\Desktop\2022-08-24(2)\Form_list\bin\Debug\Infragistics2.Win.v11.1.dll
+C:\Users\HOME\Desktop\2022-08-24(2)\Form_list\bin\Debug\Assamble.pdb
+C:\Users\HOME\Desktop\2022-08-24(2)\Form_list\bin\Debug\Infragistics2.Shared.v11.1.xml
+C:\Users\HOME\Desktop\2022-08-24(2)\Form_list\bin\Debug\Infragistics2.Win.Misc.v11.1.xml
+C:\Users\HOME\Desktop\2022-08-24(2)\Form_list\bin\Debug\Infragistics2.Win.UltraWinGrid.v11.1.xml
+C:\Users\HOME\Desktop\2022-08-24(2)\Form_list\bin\Debug\Infragistics2.Win.v11.1.xml
+C:\Users\HOME\Desktop\2022-08-24(2)\Form_list\bin\Debug\WorkFactory.pdb
+C:\Users\HOME\Desktop\2022-08-24(2)\Form_list\bin\Debug\WorkFactory.dll.config
+C:\Users\HOME\Desktop\2022-08-24(2)\Form_list\obj\Debug\Form_list.csprojAssemblyReference.cache
+C:\Users\HOME\Desktop\2022-08-24(2)\Form_list\obj\Debug\Form_list.Form03_UserMaster.resources
+C:\Users\HOME\Desktop\2022-08-24(2)\Form_list\obj\Debug\Form_list.Material.resources
+C:\Users\HOME\Desktop\2022-08-24(2)\Form_list\obj\Debug\Form_list.Properties.Resources.resources
+C:\Users\HOME\Desktop\2022-08-24(2)\Form_list\obj\Debug\Form_list.RowMaster.resources
+C:\Users\HOME\Desktop\2022-08-24(2)\Form_list\obj\Debug\Form_list.SWorkOrder.resources
+C:\Users\HOME\Desktop\2022-08-24(2)\Form_list\obj\Debug\Form_list.WF_performance.resources
+C:\Users\HOME\Desktop\2022-08-24(2)\Form_list\obj\Debug\Form_list.Worker.resources
+C:\Users\HOME\Desktop\2022-08-24(2)\Form_list\obj\Debug\Form_list.csproj.GenerateResource.cache
+C:\Users\HOME\Desktop\2022-08-24(2)\Form_list\obj\Debug\Form_list.dll.licenses
+C:\Users\HOME\Desktop\2022-08-24(2)\Form_list\obj\Debug\Form_list.csproj.CoreCompileInputs.cache
+C:\Users\HOME\Desktop\2022-08-24(2)\Form_list\obj\Debug\Form_list.csproj.CopyComplete
+C:\Users\HOME\Desktop\2022-08-24(2)\Form_list\obj\Debug\Form_list.dll
+C:\Users\HOME\Desktop\2022-08-24(2)\Form_list\obj\Debug\Form_list.pdb
+C:\Users\HOME\Desktop\LOT4팀 팀플\2022-08-25(2)\Form_list\bin\Debug\Form_list.dll
+C:\Users\HOME\Desktop\LOT4팀 팀플\2022-08-25(2)\Form_list\bin\Debug\Form_list.pdb
+C:\Users\HOME\Desktop\LOT4팀 팀플\2022-08-25(2)\Form_list\bin\Debug\Assamble.dll
+C:\Users\HOME\Desktop\LOT4팀 팀플\2022-08-25(2)\Form_list\bin\Debug\Infragistics2.Shared.v11.1.dll
+C:\Users\HOME\Desktop\LOT4팀 팀플\2022-08-25(2)\Form_list\bin\Debug\Infragistics2.Win.Misc.v11.1.dll
+C:\Users\HOME\Desktop\LOT4팀 팀플\2022-08-25(2)\Form_list\bin\Debug\Infragistics2.Win.UltraWinGrid.v11.1.dll
+C:\Users\HOME\Desktop\LOT4팀 팀플\2022-08-25(2)\Form_list\bin\Debug\Infragistics2.Win.v11.1.dll
+C:\Users\HOME\Desktop\LOT4팀 팀플\2022-08-25(2)\Form_list\bin\Debug\Assamble.pdb
+C:\Users\HOME\Desktop\LOT4팀 팀플\2022-08-25(2)\Form_list\bin\Debug\Infragistics2.Shared.v11.1.xml
+C:\Users\HOME\Desktop\LOT4팀 팀플\2022-08-25(2)\Form_list\bin\Debug\Infragistics2.Win.Misc.v11.1.xml
+C:\Users\HOME\Desktop\LOT4팀 팀플\2022-08-25(2)\Form_list\bin\Debug\Infragistics2.Win.UltraWinGrid.v11.1.xml
+C:\Users\HOME\Desktop\LOT4팀 팀플\2022-08-25(2)\Form_list\bin\Debug\Infragistics2.Win.v11.1.xml
+C:\Users\HOME\Desktop\LOT4팀 팀플\2022-08-25(2)\Form_list\bin\Debug\WorkFactory.pdb
+C:\Users\HOME\Desktop\LOT4팀 팀플\2022-08-25(2)\Form_list\bin\Debug\WorkFactory.dll.config
+C:\Users\HOME\Desktop\LOT4팀 팀플\2022-08-25(2)\Form_list\obj\Debug\Form_list.csprojAssemblyReference.cache
+C:\Users\HOME\Desktop\LOT4팀 팀플\2022-08-25(2)\Form_list\obj\Debug\Form_list.Form03_UserMaster.resources
+C:\Users\HOME\Desktop\LOT4팀 팀플\2022-08-25(2)\Form_list\obj\Debug\Form_list.Material.resources
+C:\Users\HOME\Desktop\LOT4팀 팀플\2022-08-25(2)\Form_list\obj\Debug\Form_list.Properties.Resources.resources
+C:\Users\HOME\Desktop\LOT4팀 팀플\2022-08-25(2)\Form_list\obj\Debug\Form_list.RowMaster.resources
+C:\Users\HOME\Desktop\LOT4팀 팀플\2022-08-25(2)\Form_list\obj\Debug\Form_list.SWorkOrder.resources
+C:\Users\HOME\Desktop\LOT4팀 팀플\2022-08-25(2)\Form_list\obj\Debug\Form_list.WF_performance.resources
+C:\Users\HOME\Desktop\LOT4팀 팀플\2022-08-25(2)\Form_list\obj\Debug\Form_list.Worker.resources
+C:\Users\HOME\Desktop\LOT4팀 팀플\2022-08-25(2)\Form_list\obj\Debug\Form_list.csproj.GenerateResource.cache
+C:\Users\HOME\Desktop\LOT4팀 팀플\2022-08-25(2)\Form_list\obj\Debug\Form_list.dll.licenses
+C:\Users\HOME\Desktop\LOT4팀 팀플\2022-08-25(2)\Form_list\obj\Debug\Form_list.csproj.CoreCompileInputs.cache
+C:\Users\HOME\Desktop\LOT4팀 팀플\2022-08-25(2)\Form_list\obj\Debug\Form_list.csproj.CopyComplete
+C:\Users\HOME\Desktop\LOT4팀 팀플\2022-08-25(2)\Form_list\obj\Debug\Form_list.dll
+C:\Users\HOME\Desktop\LOT4팀 팀플\2022-08-25(2)\Form_list\obj\Debug\Form_list.pdb
+C:\Users\최한빈\Desktop\팀플\동욱0826\Form_list\bin\Debug\Form_list.dll
+C:\Users\최한빈\Desktop\팀플\동욱0826\Form_list\bin\Debug\Form_list.pdb
+C:\Users\최한빈\Desktop\팀플\동욱0826\Form_list\bin\Debug\Assamble.dll
+C:\Users\최한빈\Desktop\팀플\동욱0826\Form_list\bin\Debug\Infragistics2.Shared.v11.1.dll
+C:\Users\최한빈\Desktop\팀플\동욱0826\Form_list\bin\Debug\Infragistics2.Win.Misc.v11.1.dll
+C:\Users\최한빈\Desktop\팀플\동욱0826\Form_list\bin\Debug\Infragistics2.Win.UltraWinGrid.v11.1.dll
+C:\Users\최한빈\Desktop\팀플\동욱0826\Form_list\bin\Debug\Infragistics2.Win.v11.1.dll
+C:\Users\최한빈\Desktop\팀플\동욱0826\Form_list\bin\Debug\Assamble.pdb
+C:\Users\최한빈\Desktop\팀플\동욱0826\Form_list\bin\Debug\Infragistics2.Shared.v11.1.xml
+C:\Users\최한빈\Desktop\팀플\동욱0826\Form_list\bin\Debug\Infragistics2.Win.Misc.v11.1.xml
+C:\Users\최한빈\Desktop\팀플\동욱0826\Form_list\bin\Debug\Infragistics2.Win.UltraWinGrid.v11.1.xml
+C:\Users\최한빈\Desktop\팀플\동욱0826\Form_list\bin\Debug\Infragistics2.Win.v11.1.xml
+C:\Users\최한빈\Desktop\팀플\동욱0826\Form_list\bin\Debug\WorkFactory.pdb
+C:\Users\최한빈\Desktop\팀플\동욱0826\Form_list\bin\Debug\WorkFactory.dll.config
+C:\Users\최한빈\Desktop\팀플\동욱0826\Form_list\obj\Debug\Form_list.csproj.AssemblyReference.cache
+C:\Users\최한빈\Desktop\팀플\동욱0826\Form_list\obj\Debug\Form_list.Form03_UserMaster.resources
+C:\Users\최한빈\Desktop\팀플\동욱0826\Form_list\obj\Debug\Form_list.Material.resources
+C:\Users\최한빈\Desktop\팀플\동욱0826\Form_list\obj\Debug\Form_list.Properties.Resources.resources
+C:\Users\최한빈\Desktop\팀플\동욱0826\Form_list\obj\Debug\Form_list.RowMaster.resources
+C:\Users\최한빈\Desktop\팀플\동욱0826\Form_list\obj\Debug\Form_list.SWorkOrder.resources
+C:\Users\최한빈\Desktop\팀플\동욱0826\Form_list\obj\Debug\Form_list.WF_performance.resources
+C:\Users\최한빈\Desktop\팀플\동욱0826\Form_list\obj\Debug\Form_list.Worker.resources
+C:\Users\최한빈\Desktop\팀플\동욱0826\Form_list\obj\Debug\Form_list.csproj.GenerateResource.cache
+C:\Users\최한빈\Desktop\팀플\동욱0826\Form_list\obj\Debug\Form_list.dll.licenses
+C:\Users\최한빈\Desktop\팀플\동욱0826\Form_list\obj\Debug\Form_list.csproj.CoreCompileInputs.cache
+C:\Users\최한빈\Desktop\팀플\동욱0826\Form_list\obj\Debug\Form_list.csproj.CopyComplete
+C:\Users\최한빈\Desktop\팀플\동욱0826\Form_list\obj\Debug\Form_list.dll
+C:\Users\최한빈\Desktop\팀플\동욱0826\Form_list\obj\Debug\Form_list.pdb
+E:\동욱0826\Form_list\bin\Debug\Form_list.dll
+E:\동욱0826\Form_list\bin\Debug\Form_list.pdb
+E:\동욱0826\Form_list\bin\Debug\Assamble.dll
+E:\동욱0826\Form_list\bin\Debug\Infragistics2.Shared.v11.1.dll
+E:\동욱0826\Form_list\bin\Debug\Infragistics2.Win.Misc.v11.1.dll
+E:\동욱0826\Form_list\bin\Debug\Infragistics2.Win.UltraWinGrid.v11.1.dll
+E:\동욱0826\Form_list\bin\Debug\Infragistics2.Win.v11.1.dll
+E:\동욱0826\Form_list\bin\Debug\Assamble.pdb
+E:\동욱0826\Form_list\bin\Debug\Infragistics2.Shared.v11.1.xml
+E:\동욱0826\Form_list\bin\Debug\Infragistics2.Win.Misc.v11.1.xml
+E:\동욱0826\Form_list\bin\Debug\Infragistics2.Win.UltraWinGrid.v11.1.xml
+E:\동욱0826\Form_list\bin\Debug\Infragistics2.Win.v11.1.xml
+E:\동욱0826\Form_list\bin\Debug\WorkFactory.pdb
+E:\동욱0826\Form_list\bin\Debug\WorkFactory.dll.config
+E:\동욱0826\Form_list\obj\Debug\Form_list.csproj.AssemblyReference.cache
+E:\동욱0826\Form_list\obj\Debug\Form_list.Form03_UserMaster.resources
+E:\동욱0826\Form_list\obj\Debug\Form_list.Material.resources
+E:\동욱0826\Form_list\obj\Debug\Form_list.Properties.Resources.resources
+E:\동욱0826\Form_list\obj\Debug\Form_list.StockMMRec2.resources
+E:\동욱0826\Form_list\obj\Debug\Form_list.RowMaster.resources
+E:\동욱0826\Form_list\obj\Debug\Form_list.SWorkOrder.resources
+E:\동욱0826\Form_list\obj\Debug\Form_list.WF_performance.resources
+E:\동욱0826\Form_list\obj\Debug\Form_list.Worker.resources
+E:\동욱0826\Form_list\obj\Debug\Form_list.csproj.GenerateResource.cache
+E:\동욱0826\Form_list\obj\Debug\Form_list.dll.licenses
+E:\동욱0826\Form_list\obj\Debug\Form_list.csproj.CoreCompileInputs.cache
+E:\동욱0826\Form_list\obj\Debug\Form_list.csproj.CopyComplete
+E:\동욱0826\Form_list\obj\Debug\Form_list.dll
+E:\동욱0826\Form_list\obj\Debug\Form_list.pdb
+E:\동욱0826\Form_list\obj\Debug\Form_list.MF_StockMMRec2.resources
+E:\동욱0826\Form_list\bin\Debug\Infragistics2.Win.UltraWinEditors.v11.1.dll
+E:\동욱0826\Form_list\bin\Debug\Infragistics2.Win.UltraWinSchedule.v11.1.dll
+E:\동욱0826\Form_list\bin\Debug\Infragistics2.Win.UltraWinTabControl.v11.1.dll
+E:\동욱0826\Form_list\bin\Debug\Infragistics2.Win.UltraWinToolbars.v11.1.dll
+E:\동욱0826\Form_list\bin\Debug\Infragistics2.Win.UltraWinStatusBar.v11.1.dll
+E:\동욱0826\Form_list\bin\Debug\Infragistics2.Win.UltraWinEditors.v11.1.xml
+E:\동욱0826\Form_list\bin\Debug\Infragistics2.Win.UltraWinSchedule.v11.1.xml
+E:\동욱0826\Form_list\bin\Debug\Infragistics2.Win.UltraWinTabControl.v11.1.xml
+E:\동욱0826\Form_list\bin\Debug\Infragistics2.Win.UltraWinToolbars.v11.1.xml
+E:\동욱0826\Form_list\bin\Debug\Infragistics2.Win.UltraWinStatusBar.v11.1.xml
+D:\동욱0826\Form_list\bin\Debug\Form_list.dll
+D:\동욱0826\Form_list\bin\Debug\Form_list.pdb
+D:\동욱0826\Form_list\bin\Debug\Assamble.dll
+D:\동욱0826\Form_list\bin\Debug\Infragistics2.Shared.v11.1.dll
+D:\동욱0826\Form_list\bin\Debug\Infragistics2.Win.Misc.v11.1.dll
+D:\동욱0826\Form_list\bin\Debug\Infragistics2.Win.UltraWinEditors.v11.1.dll
+D:\동욱0826\Form_list\bin\Debug\Infragistics2.Win.UltraWinGrid.v11.1.dll
+D:\동욱0826\Form_list\bin\Debug\Infragistics2.Win.UltraWinSchedule.v11.1.dll
+D:\동욱0826\Form_list\bin\Debug\Infragistics2.Win.UltraWinTabControl.v11.1.dll
+D:\동욱0826\Form_list\bin\Debug\Infragistics2.Win.UltraWinToolbars.v11.1.dll
+D:\동욱0826\Form_list\bin\Debug\Infragistics2.Win.v11.1.dll
+D:\동욱0826\Form_list\bin\Debug\Infragistics2.Win.UltraWinStatusBar.v11.1.dll
+D:\동욱0826\Form_list\bin\Debug\Assamble.pdb
+D:\동욱0826\Form_list\bin\Debug\Infragistics2.Shared.v11.1.xml
+D:\동욱0826\Form_list\bin\Debug\Infragistics2.Win.Misc.v11.1.xml
+D:\동욱0826\Form_list\bin\Debug\Infragistics2.Win.UltraWinEditors.v11.1.xml
+D:\동욱0826\Form_list\bin\Debug\Infragistics2.Win.UltraWinGrid.v11.1.xml
+D:\동욱0826\Form_list\bin\Debug\Infragistics2.Win.UltraWinSchedule.v11.1.xml
+D:\동욱0826\Form_list\bin\Debug\Infragistics2.Win.UltraWinTabControl.v11.1.xml
+D:\동욱0826\Form_list\bin\Debug\Infragistics2.Win.UltraWinToolbars.v11.1.xml
+D:\동욱0826\Form_list\bin\Debug\Infragistics2.Win.v11.1.xml
+D:\동욱0826\Form_list\bin\Debug\WorkFactory.pdb
+D:\동욱0826\Form_list\bin\Debug\WorkFactory.dll.config
+D:\동욱0826\Form_list\bin\Debug\Infragistics2.Win.UltraWinStatusBar.v11.1.xml
+D:\동욱0826\Form_list\obj\Debug\Form_list.csprojAssemblyReference.cache
+D:\동욱0826\Form_list\obj\Debug\Form_list.Form03_UserMaster.resources
+D:\동욱0826\Form_list\obj\Debug\Form_list.Material.resources
+D:\동욱0826\Form_list\obj\Debug\Form_list.MF_StockMM.resources
+D:\동욱0826\Form_list\obj\Debug\Form_list.Properties.Resources.resources
+D:\동욱0826\Form_list\obj\Debug\Form_list.MF_StockMMRec2.resources
+D:\동욱0826\Form_list\obj\Debug\Form_list.RowMaster.resources
+D:\동욱0826\Form_list\obj\Debug\Form_list.SWorkOrder.resources
+D:\동욱0826\Form_list\obj\Debug\Form_list.WF_performance.resources
+D:\동욱0826\Form_list\obj\Debug\Form_list.Worker.resources
+D:\동욱0826\Form_list\obj\Debug\Form_list.csproj.GenerateResource.cache
+D:\동욱0826\Form_list\obj\Debug\Form_list.dll.licenses
+D:\동욱0826\Form_list\obj\Debug\Form_list.csproj.CoreCompileInputs.cache
+D:\동욱0826\Form_list\obj\Debug\Form_list.csproj.CopyComplete
+D:\동욱0826\Form_list\obj\Debug\Form_list.dll
+D:\동욱0826\Form_list\obj\Debug\Form_list.pdb
+D:\동욱0826\Form_list\obj\Debug\Form_list.MM_StockOut.resources
+D:\동욱0826\Form_list\bin\Debug\DC00_assm.dll
+D:\동욱0826\Form_list\bin\Debug\DC00_Component.dll
+D:\동욱0826\Form_list\bin\Debug\DC00_PuMan.dll
+D:\동욱0826\Form_list\bin\Debug\DC00_WinForm.dll
+D:\동욱0826\Form_list\bin\Debug\DC_POPUP.dll
+D:\동욱0826\Form_list\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\동욱0826\Form_list\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\동욱0826\Form_list\bin\Debug\Infragistics2.Win.UltraWinGrid.ExcelExport.v11.1.dll
+D:\동욱0826\Form_list\bin\Debug\Infragistics2.Win.UltraWinTree.v11.1.dll
+D:\동욱0826\Form_list\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\동욱0826\Form_list\bin\Debug\Infragistics2.Documents.Excel.v11.1.dll
+D:\동욱0826\Form_list\bin\Debug\Infragistics2.Win.UltraWinChart.v11.1.dll
+D:\동욱0826\Form_list\bin\Debug\Infragistics3.Win.UltraWinGrid.ExcelExport.v11.1.dll
+D:\동욱0826\Form_list\bin\Debug\Infragistics2.Win.UltraWinGrid.DocumentExport.v11.1.dll
+D:\동욱0826\Form_list\bin\Debug\Infragistics2.Win.UltraWinPrintPreviewDialog.v11.1.dll
+D:\동욱0826\Form_list\bin\Debug\Infragistics3.Documents.Excel.v11.1.dll
+D:\동욱0826\Form_list\bin\Debug\Telerik.Reporting.dll
+D:\동욱0826\Form_list\bin\Debug\Telerik.ReportViewer.WinForms.dll
+D:\동욱0826\Form_list\bin\Debug\DataMatrix.net.dll
+D:\동욱0826\Form_list\bin\Debug\Microsoft.Practices.Unity.dll
+D:\동욱0826\Form_list\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\동욱0826\Form_list\bin\Debug\Infragistics2.Documents.Reports.v11.1.dll
+D:\동욱0826\Form_list\bin\Debug\DC_POPUP.pdb
+D:\동욱0826\Form_list\bin\Debug\Infragistics2.Win.UltraWinGrid.ExcelExport.v11.1.xml
+D:\동욱0826\Form_list\bin\Debug\Infragistics2.Win.UltraWinTree.v11.1.xml
+D:\동욱0826\Form_list\bin\Debug\Infragistics2.Documents.Excel.v11.1.xml
+D:\동욱0826\Form_list\bin\Debug\Infragistics2.Win.UltraWinChart.v11.1.xml
+D:\동욱0826\Form_list\bin\Debug\Infragistics3.Win.UltraWinGrid.ExcelExport.v11.1.xml
+D:\동욱0826\Form_list\bin\Debug\Infragistics2.Win.UltraWinGrid.DocumentExport.v11.1.xml
+D:\동욱0826\Form_list\bin\Debug\Infragistics2.Win.UltraWinPrintPreviewDialog.v11.1.xml
+D:\동욱0826\Form_list\bin\Debug\Infragistics3.Documents.Excel.v11.1.xml
+D:\동욱0826\Form_list\bin\Debug\Telerik.Reporting.pdb
+D:\동욱0826\Form_list\bin\Debug\Telerik.Reporting.xml
+D:\동욱0826\Form_list\bin\Debug\Telerik.ReportViewer.WinForms.pdb
+D:\동욱0826\Form_list\bin\Debug\Telerik.ReportViewer.WinForms.xml
+D:\동욱0826\Form_list\bin\Debug\Infragistics2.Documents.Reports.v11.1.xml
+D:\동욱0826\Form_list\obj\Debug\Form_list.MaterialOrder.resources
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Form_list.dll
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Form_list.pdb
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Assamble.dll
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Infragistics2.Shared.v11.1.dll
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Infragistics2.Win.Misc.v11.1.dll
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Infragistics2.Win.UltraWinEditors.v11.1.dll
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Infragistics2.Win.UltraWinGrid.v11.1.dll
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Infragistics2.Win.UltraWinSchedule.v11.1.dll
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Infragistics2.Win.UltraWinTabControl.v11.1.dll
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Infragistics2.Win.UltraWinToolbars.v11.1.dll
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Infragistics2.Win.v11.1.dll
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Infragistics2.Win.UltraWinGrid.ExcelExport.v11.1.dll
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Infragistics2.Win.UltraWinTree.v11.1.dll
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Infragistics2.Documents.Excel.v11.1.dll
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Infragistics2.Win.UltraWinChart.v11.1.dll
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Infragistics3.Win.UltraWinGrid.ExcelExport.v11.1.dll
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Infragistics2.Win.UltraWinGrid.DocumentExport.v11.1.dll
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Infragistics2.Win.UltraWinPrintPreviewDialog.v11.1.dll
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Infragistics3.Documents.Excel.v11.1.dll
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Telerik.Reporting.dll
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Telerik.ReportViewer.WinForms.dll
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\DataMatrix.net.dll
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Infragistics2.Win.UltraWinStatusBar.v11.1.dll
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Infragistics2.Documents.Reports.v11.1.dll
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Assamble.pdb
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\DC_POPUP.pdb
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Infragistics2.Shared.v11.1.xml
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Infragistics2.Win.Misc.v11.1.xml
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Infragistics2.Win.UltraWinEditors.v11.1.xml
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Infragistics2.Win.UltraWinGrid.v11.1.xml
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Infragistics2.Win.UltraWinSchedule.v11.1.xml
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Infragistics2.Win.UltraWinTabControl.v11.1.xml
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Infragistics2.Win.UltraWinToolbars.v11.1.xml
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Infragistics2.Win.v11.1.xml
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\WorkFactory.pdb
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\WorkFactory.dll.config
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Infragistics2.Win.UltraWinGrid.ExcelExport.v11.1.xml
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Infragistics2.Win.UltraWinTree.v11.1.xml
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Infragistics2.Documents.Excel.v11.1.xml
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Infragistics2.Win.UltraWinChart.v11.1.xml
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Infragistics3.Win.UltraWinGrid.ExcelExport.v11.1.xml
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Infragistics2.Win.UltraWinGrid.DocumentExport.v11.1.xml
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Infragistics2.Win.UltraWinPrintPreviewDialog.v11.1.xml
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Infragistics3.Documents.Excel.v11.1.xml
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Telerik.Reporting.pdb
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Telerik.Reporting.xml
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Telerik.ReportViewer.WinForms.pdb
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Telerik.ReportViewer.WinForms.xml
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Infragistics2.Win.UltraWinStatusBar.v11.1.xml
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\bin\Debug\Infragistics2.Documents.Reports.v11.1.xml
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\obj\Debug\Form_list.csproj.AssemblyReference.cache
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\obj\Debug\Form_list.Form03_UserMaster.resources
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\obj\Debug\Form_list.Material.resources
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\obj\Debug\Form_list.MaterialOrder.resources
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\obj\Debug\Form_list.MF_StockMM.resources
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\obj\Debug\Form_list.MM_StockOut.resources
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\obj\Debug\Form_list.Properties.Resources.resources
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\obj\Debug\Form_list.MF_StockMMRec2.resources
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\obj\Debug\Form_list.RowMaster.resources
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\obj\Debug\Form_list.SWorkOrder.resources
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\obj\Debug\Form_list.WF_performance.resources
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\obj\Debug\Form_list.Worker.resources
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\obj\Debug\Form_list.csproj.GenerateResource.cache
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\obj\Debug\Form_list.dll.licenses
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\obj\Debug\Form_list.csproj.CoreCompileInputs.cache
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\obj\Debug\Form_list.csproj.CopyComplete
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\obj\Debug\Form_list.dll
+C:\Users\syc\Documents\카카오톡 받은 파일\동욱0904\Form_list\obj\Debug\Form_list.pdb
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\obj\Debug\Form_list.csprojAssemblyReference.cache
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\obj\Debug\Form_list.Form03_UserMaster.resources
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\obj\Debug\Form_list.LotTracking.resources
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\obj\Debug\Form_list.Material.resources
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\obj\Debug\Form_list.MaterialOrder.resources
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\obj\Debug\Form_list.MF_StockMM.resources
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\obj\Debug\Form_list.MF_StockMMRec2.resources
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\obj\Debug\Form_list.MM_StockOut.resources
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\obj\Debug\Form_list.Properties.Resources.resources
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\obj\Debug\Form_list.RowMaster.resources
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\obj\Debug\Form_list.SWorkOrder.resources
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\obj\Debug\Form_list.TB_STOCK.resources
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\obj\Debug\Form_list.WF_performance.resources
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\obj\Debug\Form_list.Worker.resources
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\obj\Debug\Form_list.csproj.GenerateResource.cache
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\obj\Debug\Form_list.dll.licenses
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\obj\Debug\Form_list.csproj.CoreCompileInputs.cache
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\obj\Debug\Form_list.dll
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\obj\Debug\Form_list.pdb
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Form_list.dll
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Form_list.pdb
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Assamble.dll
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Infragistics2.Shared.v11.1.dll
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Infragistics2.Win.Misc.v11.1.dll
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Infragistics2.Win.UltraWinEditors.v11.1.dll
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Infragistics2.Win.UltraWinGrid.v11.1.dll
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Infragistics2.Win.UltraWinSchedule.v11.1.dll
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Infragistics2.Win.UltraWinTabControl.v11.1.dll
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Infragistics2.Win.UltraWinToolbars.v11.1.dll
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Infragistics2.Win.v11.1.dll
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Infragistics2.Win.UltraWinGrid.ExcelExport.v11.1.dll
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Infragistics2.Win.UltraWinTree.v11.1.dll
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Infragistics2.Documents.Excel.v11.1.dll
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Infragistics2.Win.UltraWinChart.v11.1.dll
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Infragistics3.Win.UltraWinGrid.ExcelExport.v11.1.dll
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Infragistics2.Win.UltraWinGrid.DocumentExport.v11.1.dll
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Infragistics2.Win.UltraWinPrintPreviewDialog.v11.1.dll
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Infragistics3.Documents.Excel.v11.1.dll
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Telerik.Reporting.dll
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Telerik.ReportViewer.WinForms.dll
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\DataMatrix.net.dll
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Infragistics2.Win.UltraWinStatusBar.v11.1.dll
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Infragistics2.Documents.Reports.v11.1.dll
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Assamble.pdb
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\DC_POPUP.pdb
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Infragistics2.Shared.v11.1.xml
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Infragistics2.Win.Misc.v11.1.xml
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Infragistics2.Win.UltraWinEditors.v11.1.xml
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Infragistics2.Win.UltraWinGrid.v11.1.xml
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Infragistics2.Win.UltraWinSchedule.v11.1.xml
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Infragistics2.Win.UltraWinTabControl.v11.1.xml
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Infragistics2.Win.UltraWinToolbars.v11.1.xml
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Infragistics2.Win.v11.1.xml
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\WorkFactory.pdb
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\WorkFactory.dll.config
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Infragistics2.Win.UltraWinGrid.ExcelExport.v11.1.xml
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Infragistics2.Win.UltraWinTree.v11.1.xml
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Infragistics2.Documents.Excel.v11.1.xml
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Infragistics2.Win.UltraWinChart.v11.1.xml
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Infragistics3.Win.UltraWinGrid.ExcelExport.v11.1.xml
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Infragistics2.Win.UltraWinGrid.DocumentExport.v11.1.xml
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Infragistics2.Win.UltraWinPrintPreviewDialog.v11.1.xml
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Infragistics3.Documents.Excel.v11.1.xml
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Telerik.Reporting.pdb
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Telerik.Reporting.xml
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Telerik.ReportViewer.WinForms.pdb
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Telerik.ReportViewer.WinForms.xml
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Infragistics2.Win.UltraWinStatusBar.v11.1.xml
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\bin\Debug\Infragistics2.Documents.Reports.v11.1.xml
+C:\Users\HOME\Desktop\LOT4팀 팀플\동욱0904 (4)\Form_list\obj\Debug\Form_list.csproj.CopyComplete
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Form_list.dll
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Form_list.pdb
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Assamble.dll
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Infragistics2.Shared.v11.1.dll
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Infragistics2.Win.Misc.v11.1.dll
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Infragistics2.Win.UltraWinEditors.v11.1.dll
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Infragistics2.Win.UltraWinGrid.v11.1.dll
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Infragistics2.Win.UltraWinSchedule.v11.1.dll
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Infragistics2.Win.UltraWinTabControl.v11.1.dll
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Infragistics2.Win.UltraWinToolbars.v11.1.dll
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Infragistics2.Win.v11.1.dll
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Infragistics2.Win.UltraWinGrid.ExcelExport.v11.1.dll
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Infragistics2.Win.UltraWinTree.v11.1.dll
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Infragistics2.Documents.Excel.v11.1.dll
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Infragistics2.Win.UltraWinChart.v11.1.dll
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Infragistics3.Win.UltraWinGrid.ExcelExport.v11.1.dll
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Infragistics2.Win.UltraWinGrid.DocumentExport.v11.1.dll
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Infragistics2.Win.UltraWinPrintPreviewDialog.v11.1.dll
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Infragistics3.Documents.Excel.v11.1.dll
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Telerik.Reporting.dll
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Telerik.ReportViewer.WinForms.dll
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\DataMatrix.net.dll
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Infragistics2.Win.UltraWinStatusBar.v11.1.dll
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Infragistics2.Documents.Reports.v11.1.dll
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Assamble.pdb
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\DC_POPUP.pdb
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Infragistics2.Shared.v11.1.xml
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Infragistics2.Win.Misc.v11.1.xml
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Infragistics2.Win.UltraWinEditors.v11.1.xml
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Infragistics2.Win.UltraWinGrid.v11.1.xml
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Infragistics2.Win.UltraWinSchedule.v11.1.xml
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Infragistics2.Win.UltraWinTabControl.v11.1.xml
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Infragistics2.Win.UltraWinToolbars.v11.1.xml
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Infragistics2.Win.v11.1.xml
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\WorkFactory.pdb
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\WorkFactory.dll.config
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Infragistics2.Win.UltraWinGrid.ExcelExport.v11.1.xml
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Infragistics2.Win.UltraWinTree.v11.1.xml
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Infragistics2.Documents.Excel.v11.1.xml
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Infragistics2.Win.UltraWinChart.v11.1.xml
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Infragistics3.Win.UltraWinGrid.ExcelExport.v11.1.xml
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Infragistics2.Win.UltraWinGrid.DocumentExport.v11.1.xml
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Infragistics2.Win.UltraWinPrintPreviewDialog.v11.1.xml
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Infragistics3.Documents.Excel.v11.1.xml
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Telerik.Reporting.pdb
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Telerik.Reporting.xml
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Telerik.ReportViewer.WinForms.pdb
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Telerik.ReportViewer.WinForms.xml
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Infragistics2.Win.UltraWinStatusBar.v11.1.xml
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\bin\Debug\Infragistics2.Documents.Reports.v11.1.xml
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\obj\Debug\Form_list.csproj.AssemblyReference.cache
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\obj\Debug\Form_list.Form03_UserMaster.resources
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\obj\Debug\Form_list.LotTracking.resources
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\obj\Debug\Form_list.Material.resources
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\obj\Debug\Form_list.MaterialOrder.resources
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\obj\Debug\Form_list.MF_StockMM.resources
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\obj\Debug\Form_list.MF_StockMMRec2.resources
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\obj\Debug\Form_list.MM_StockOut.resources
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\obj\Debug\Form_list.Properties.Resources.resources
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\obj\Debug\Form_list.RowMaster.resources
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\obj\Debug\Form_list.SWorkOrder.resources
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\obj\Debug\Form_list.TB_STOCK.resources
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\obj\Debug\Form_list.WF_performance.resources
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\obj\Debug\Form_list.Worker.resources
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\obj\Debug\Form_list.csproj.GenerateResource.cache
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\obj\Debug\Form_list.dll.licenses
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\obj\Debug\Form_list.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\obj\Debug\Form_list.csproj.CopyComplete
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\obj\Debug\Form_list.dll
+C:\Users\user\Documents\카카오톡 받은 파일\동욱09~1\Form_list\obj\Debug\Form_list.pdb
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\bin\Debug\Form_list.dll
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\bin\Debug\Form_list.pdb
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\bin\Debug\Assamble.dll
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\bin\Debug\Infragistics2.Win.UltraWinGrid.ExcelExport.v11.1.dll
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\bin\Debug\Infragistics2.Win.UltraWinTree.v11.1.dll
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\bin\Debug\Infragistics2.Documents.Excel.v11.1.dll
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\bin\Debug\Infragistics2.Win.UltraWinChart.v11.1.dll
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\bin\Debug\Infragistics3.Win.UltraWinGrid.ExcelExport.v11.1.dll
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\bin\Debug\Infragistics2.Win.UltraWinGrid.DocumentExport.v11.1.dll
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\bin\Debug\Infragistics2.Win.UltraWinPrintPreviewDialog.v11.1.dll
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\bin\Debug\Infragistics3.Documents.Excel.v11.1.dll
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\bin\Debug\Telerik.Reporting.dll
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\bin\Debug\Telerik.ReportViewer.WinForms.dll
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\bin\Debug\DataMatrix.net.dll
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\bin\Debug\Infragistics2.Win.UltraWinStatusBar.v11.1.dll
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\bin\Debug\Infragistics2.Documents.Reports.v11.1.dll
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\bin\Debug\Assamble.pdb
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\bin\Debug\DC_POPUP.pdb
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\bin\Debug\Infragistics2.Shared.v11.1.xml
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\bin\Debug\Infragistics2.Win.Misc.v11.1.xml
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\bin\Debug\Infragistics2.Win.UltraWinEditors.v11.1.xml
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\bin\Debug\Infragistics2.Win.UltraWinGrid.v11.1.xml
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\bin\Debug\Infragistics2.Win.UltraWinSchedule.v11.1.xml
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\bin\Debug\Infragistics2.Win.UltraWinTabControl.v11.1.xml
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\bin\Debug\Infragistics2.Win.UltraWinToolbars.v11.1.xml
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\bin\Debug\Infragistics2.Win.v11.1.xml
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\bin\Debug\WorkFactory.pdb
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\bin\Debug\WorkFactory.dll.config
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\bin\Debug\Infragistics2.Win.UltraWinGrid.ExcelExport.v11.1.xml
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\bin\Debug\Infragistics2.Win.UltraWinTree.v11.1.xml
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\bin\Debug\Infragistics2.Documents.Excel.v11.1.xml
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\bin\Debug\Infragistics2.Win.UltraWinChart.v11.1.xml
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\bin\Debug\Infragistics3.Win.UltraWinGrid.ExcelExport.v11.1.xml
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\bin\Debug\Infragistics2.Win.UltraWinGrid.DocumentExport.v11.1.xml
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\bin\Debug\Infragistics2.Win.UltraWinPrintPreviewDialog.v11.1.xml
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\bin\Debug\Infragistics3.Documents.Excel.v11.1.xml
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\bin\Debug\Telerik.Reporting.pdb
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\bin\Debug\Telerik.Reporting.xml
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\bin\Debug\Telerik.ReportViewer.WinForms.pdb
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\bin\Debug\Telerik.ReportViewer.WinForms.xml
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\bin\Debug\Infragistics2.Win.UltraWinStatusBar.v11.1.xml
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\bin\Debug\Infragistics2.Documents.Reports.v11.1.xml
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\obj\Debug\Form_list.csproj.AssemblyReference.cache
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\obj\Debug\Form_list.Form03_UserMaster.resources
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\obj\Debug\Form_list.LotTracking.resources
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\obj\Debug\Form_list.Material.resources
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\obj\Debug\Form_list.MaterialOrder.resources
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\obj\Debug\Form_list.MF_StockMM.resources
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\obj\Debug\Form_list.MF_StockMMRec2.resources
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\obj\Debug\Form_list.MM_StockOut.resources
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\obj\Debug\Form_list.Properties.Resources.resources
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\obj\Debug\Form_list.RowMaster.resources
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\obj\Debug\Form_list.SWorkOrder.resources
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\obj\Debug\Form_list.TB_STOCK.resources
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\obj\Debug\Form_list.WF_performance.resources
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\obj\Debug\Form_list.Worker.resources
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\obj\Debug\Form_list.csproj.GenerateResource.cache
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\obj\Debug\Form_list.dll.licenses
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\obj\Debug\Form_list.csproj.CoreCompileInputs.cache
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\obj\Debug\Form_list.csproj.CopyComplete
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\obj\Debug\Form_list.dll
+C:\Users\A\Desktop\최종발표\동욱09~1\Form_list\obj\Debug\Form_list.pdb

@@ -37,36 +37,35 @@ namespace Form_list
         {
             /*****************기본 그리드 내역 셋팅 *******************/
             DataTable dtGrid = new DataTable();
+            dtGrid.Columns.Add("PLANTCODE", typeof(string));               // 공장
             dtGrid.Columns.Add("WID", typeof(string));               // 작업지시 번호
-            dtGrid.Columns.Add("EDITOR", typeof(DateTime));          // 수정자
-            dtGrid.Columns.Add("EDITDATE", typeof(DateTime));        // 수정일시
-            dtGrid.Columns.Add("WPLAN", typeof(string));             // 수량
-            dtGrid.Columns.Add("MAKER", typeof(string));             // 생성자
-            dtGrid.Columns.Add("MAKEDATE", typeof(string));          // 생성일시
-            dtGrid.Columns.Add("FSPACE", typeof(string));            // 사업장
+            dtGrid.Columns.Add("ITEMCODE", typeof(string));                // 생산품목
+            dtGrid.Columns.Add("PLANQTY", typeof(string));                 // 계획수량
+            dtGrid.Columns.Add("MAKER", typeof(string));                   // 생성자
+            dtGrid.Columns.Add("MAKEDATE", typeof(string));                // 생성일시
+
 
             // 빈 컬럼 테이블 그리드에 매칭. (DataSource : 테이블 형식의 데이터를 표현하는 속성)
             Grid1.DataSource = dtGrid;
 
             // 그리드 컬럼 명칭(Text) 설정 // 번호로 지정 가능
-            Grid1.Columns["WID"].HeaderText =       "작업지시번호";
-            Grid1.Columns["FSPACE"].HeaderText =    "사업장";
-            Grid1.Columns["WPLAN"].HeaderText =     "생산수량";
-            Grid1.Columns["MAKER"].HeaderText =     "생성자";
-            Grid1.Columns["MAKEDATE"].HeaderText =  "생성일시";
-            Grid1.Columns["EDITOR"].HeaderText =    "수정자";
-            Grid1.Columns["EDITDATE"].HeaderText =  "수정일시";
-           
+            Grid1.Columns["PLANTCODE"].HeaderText = "공장";
+            Grid1.Columns["WID"].HeaderText = "작업지시 번호";
+            Grid1.Columns["ITEMCODE"].HeaderText = "생산품목";
+            Grid1.Columns["PLANQTY"].HeaderText = "계획수량";
+            Grid1.Columns["MAKER"].HeaderText = "생성자";
+            Grid1.Columns["MAKEDATE"].HeaderText = "생성일시";
+
+
 
 
             // 컬럼의 폭 지정
-            Grid1.Columns["WID"].Width = 200;
-            Grid1.Columns[1].Width = 200;
-            Grid1.Columns[2].Width = 100;
-            Grid1.Columns[3].Width = 150;
-            Grid1.Columns[4].Width = 200;
-            Grid1.Columns[5].Width = 100;
-            Grid1.Columns[6].Width = 200;
+            Grid1.Columns[0].Width = 200;
+            Grid1.Columns[1].Width = 100;
+            Grid1.Columns[2].Width = 150;
+            Grid1.Columns[3].Width = 200;
+            Grid1.Columns[4].Width = 100;
+            Grid1.Columns[5].Width = 200;
 
             //// 컬럼의 수정 여부를 지정
             //Grid1.Columns["MAKER"].ReadOnly = true;
@@ -74,11 +73,11 @@ namespace Form_list
             //Grid1.Columns["EDITOR"].ReadOnly = true;
             //Grid1.Columns["EDITDATE"].ReadOnly = true;
 
-            Commons Com = new Commons();
-            DataTable dtTemp = Com.Standard_Code("FSPACE");
-            cboWorkSpace.DataSource = dtTemp;
-            cboWorkSpace.ValueMember = "WORK_ORDER";
-            cboWorkSpace.DisplayMember = "FSPACE";
+            //Commons Com = new Commons();
+            //DataTable dtTemp = Com.Standard_Code("FSPACE");
+            //cboWorkSpace.DataSource = dtTemp;
+            //cboWorkSpace.ValueMember = "WORK_ORDER";
+            //cboWorkSpace.DisplayMember = "FSPACE";
         }
 
         // 메서드 오버라이드 (Override)
@@ -86,17 +85,7 @@ namespace Form_list
         // 각 화면에 맞는 기능으로 변경하여 메서드를 재 정의하고 사용하는 방식.
         public override void Inquire()
         {
-            /************* 사용자 내역 조회 *****************/
-            //// 1. 데이터 베이스 접속
-            //Connect = new SqlConnection(Commons.cDbCon);
 
-            //// 2. 데이터 베이스 OPEN
-            //Connect.Open();
-            //if (Connect.State != ConnectionState.Open)
-            //{
-            //    MessageBox.Show("데이터 베이스 연결에 실패하였습니다.");
-            //    return;
-            //}
             if (DBHelper(false) == false) return;
 
             try
@@ -109,7 +98,7 @@ namespace Form_list
 
                 // 파라미터의 개수 별로 함수에 아규먼트 등록
                 Adapter.SelectCommand.Parameters.AddWithValue("WID", txtUserId.Text);
-                Adapter.SelectCommand.Parameters.AddWithValue("FSPACE", cboWorkSpace.Text);
+
 
                 // 데이터 베이스 처리 시 C#으로 반환할 값을 담는 변수.
                 Adapter.SelectCommand.Parameters.AddWithValue("LANG", "KO");
@@ -170,16 +159,26 @@ namespace Form_list
                     {
                         case DataRowState.Deleted:
                             drrow.RejectChanges();
+
+                            DataGridViewRow dgvr3 = Grid1.SelectedRows[0];
+                            string bPLANTCODE = dgvr3.Cells[0].Value.ToString();
+                            string bWID = dgvr3.Cells[1].Value.ToString();
+                            string bITEMCODE = dgvr3.Cells[2].Value.ToString();
+                            string bPLANQTY = dgvr3.Cells[3].Value.ToString();
+                            string bMAKER = dgvr3.Cells[4].Value.ToString();
+                            string bMAKEDATE = dgvr3.Cells[5].Value.ToString();
+
                             // 사용자 정보를 변경하는 저장 프로시져 호출
-                            cmd.CommandText = "BM_WorkOrder_D";
+                            cmd.CommandText = "WF_WORKORDER_D";
                             //이 이름으로      이 값을 던지겠다
-                            cmd.Parameters.AddWithValue("WID" ,         drrow["WID"]);
-                            cmd.Parameters.AddWithValue("FSPACE",       drrow["FSPACE"]);
-                            cmd.Parameters.AddWithValue("WPLAN",        drrow["WPLAN"]);
-                            cmd.Parameters.AddWithValue("MAKER",        drrow["MAKER"]);
-                            cmd.Parameters.AddWithValue("MAKEDATE",     drrow["MAKEDATE"]);
-                            cmd.Parameters.AddWithValue("EDITOR",       drrow["EDITOR"]);
-                            cmd.Parameters.AddWithValue("EDITDATE"  ,   drrow["EDITDATE"]);
+
+                            cmd.Parameters.AddWithValue("PLANTCODE", bPLANTCODE);
+                            cmd.Parameters.AddWithValue("WID", bWID);
+                            cmd.Parameters.AddWithValue("ITEMCODE", bITEMCODE);
+                            cmd.Parameters.AddWithValue("PLANQTY", bPLANQTY);
+                            cmd.Parameters.AddWithValue("MAKER", bMAKER);
+                            cmd.Parameters.AddWithValue("MAKEDATE", bMAKEDATE);
+
 
 
 
@@ -189,15 +188,20 @@ namespace Form_list
 
                             cmd.ExecuteNonQuery();
                             break;
+
+
+
                         case DataRowState.Modified:
                             // 사용자 정보가 수정 된 상태이면
-                            if (Convert.ToString(drrow["WID"]) == "") sMessage += "작업지시번호";
 
-                            if (Convert.ToString(drrow["FSPACE"]) == "") sMessage += "작업장";
 
-                            if (Convert.ToString(drrow["WPlAN"]) == "") sMessage += "계획수량";
+                            if (Convert.ToString(drrow["PLANTCODE"]) == "") sMessage += "공장번호";
 
-                           
+                            if (Convert.ToString(drrow["ITEMCODE"]) == "") sMessage += "생산품목";
+
+                            if (Convert.ToString(drrow["PLANQTY"]) == "") sMessage += "계획수량";
+
+
 
 
 
@@ -206,16 +210,20 @@ namespace Form_list
                                 throw new Exception($"{sMessage}을(를) 입력하지 않았습니다.");
                             }
 
+                            DataGridViewRow dgvr2 = Grid1.SelectedRows[0];
+                            string aPLANTCODE = dgvr2.Cells[0].Value.ToString();
+                            string aITEMCODE = dgvr2.Cells[2].Value.ToString();
+                            string aPLANQTY = dgvr2.Cells[3].Value.ToString();
+                            string aMAKEDATE = dgvr2.Cells[5].Value.ToString();
+
                             // 사용자 정보를 변경하는 저장 프로시져 호출
-                            cmd.CommandText = "BM_WorkOrder_U";
+                            cmd.CommandText = "WS_WORKORDER_U";
                             //이 이름으로      이 값을 던지겠다
-                            cmd.Parameters.AddWithValue("WID" ,         drrow["WID"]);
-                            cmd.Parameters.AddWithValue("FSPACE",       drrow["FSPACE"]);
-                            cmd.Parameters.AddWithValue("WPLAN",        drrow["WPLAN"]);
-                            cmd.Parameters.AddWithValue("MAKER",        drrow["MAKER"]);
-                            cmd.Parameters.AddWithValue("MAKEDATE",     drrow["MAKEDATE"]);
-                            cmd.Parameters.AddWithValue("EDITOR",       drrow["EDITOR"]);
-                            cmd.Parameters.AddWithValue("EDITDATE"  ,   drrow["EDITDATE"]);
+                            cmd.Parameters.AddWithValue("PLANTCODE", aPLANTCODE);
+                            cmd.Parameters.AddWithValue("ITEMCODE", aITEMCODE);
+                            cmd.Parameters.AddWithValue("PLANQTY", aPLANQTY);
+                            cmd.Parameters.AddWithValue("MAKEDATE", aMAKEDATE);
+
 
 
                             cmd.Parameters.AddWithValue("LANG", "KO");
@@ -228,15 +236,25 @@ namespace Form_list
                         case DataRowState.Added:
 
 
-                            cmd.CommandText = "BM_WorkOrder_I";
+                            //cmd.CommandText = "WS_WORKORDER_I";
                             //이 이름으로      이 값을 던지겠다
-                            cmd.Parameters.AddWithValue("WID" ,         drrow["WID"]);
-                            cmd.Parameters.AddWithValue("FSPACE",       drrow["FSPACE"]);
-                            cmd.Parameters.AddWithValue("WPLAN",        drrow["WPLAN"]);
-                            cmd.Parameters.AddWithValue("MAKER",        drrow["MAKER"]);
-                            cmd.Parameters.AddWithValue("MAKEDATE",     drrow["MAKEDATE"]);
-                            cmd.Parameters.AddWithValue("EDITOR",       drrow["EDITOR"]);
-                            cmd.Parameters.AddWithValue("EDITDATE"  ,   drrow["EDITDATE"]);
+                            //cmd.Parameters.AddWithValue("PLANTCODE" ,       drrow["PLANTCODE"]);     
+                            //cmd.Parameters.AddWithValue("ITEMCODE",         drrow["ITEMCODE"]);
+                            //cmd.Parameters.AddWithValue("PLANQTY",          drrow["PLANQTY"]);
+
+                            DataGridViewRow dgvr = Grid1.SelectedRows[0];
+                            string sPLANTCODE = dgvr.Cells[0].Value.ToString();
+                            string sITEMCODE = dgvr.Cells[2].Value.ToString();
+                            string sPLANQTY = dgvr.Cells[3].Value.ToString();
+                            string sMAKEDATE = dgvr.Cells[5].Value.ToString();
+
+                            cmd.CommandText = "WS_WORKORDER_I";
+
+
+                            cmd.Parameters.AddWithValue("PLANTCODE", sPLANTCODE);
+                            cmd.Parameters.AddWithValue("ITEMCODE", sITEMCODE);
+                            cmd.Parameters.AddWithValue("PLANQTY", sPLANQTY);
+                            cmd.Parameters.AddWithValue("MAKEDATE", sMAKEDATE);
 
 
 
@@ -270,6 +288,92 @@ namespace Form_list
             }
 
         }
+
+
+        public bool DBHelper(bool Tran)
+        {
+            // 1. 데이터 베이스 접속
+            Connect = new SqlConnection(Commons.cDbCon);
+
+            // 2. 데이터 베이스 OPEN
+            Connect.Open();
+            if (Connect.State != ConnectionState.Open)
+            {
+                MessageBox.Show("데이터 베이스 연결에 실패하였습니다.");
+                return false;
+            }
+            if (Tran) tran = Connect.BeginTransaction();
+            return true;
+        }
+
+        /* public override void Save()
+         {
+
+             if (MessageBox.Show("발주 등록을 하시겠습니까?",
+                     "발주등록",
+                     MessageBoxButtons.YesNo) == DialogResult.No)
+             {
+                 return;
+             }
+
+
+             if (DBHelper(true) == false) return;
+
+             cmd = new SqlCommand();
+             cmd.Transaction = tran;
+             cmd.Connection = Connect;
+
+             cmd.CommandType = CommandType.StoredProcedure;
+
+
+             // 그리드조회 후 변경된 행의 정보만 추출.
+             DataTable dtChang = ((DataTable)Grid1.DataSource).GetChanges();
+             if (dtChang == null) return;
+
+             try
+             {
+                 if (this.Grid1.RowCount == 0) return;
+                 if (DBHelper(false) == false) return;
+                 DataGridViewRow dgvr = Grid1.SelectedRows[0];
+                 string sPLANTCODE = dgvr.Cells[0].Value.ToString();
+
+                 string sITEMCODE = dgvr.Cells[2].Value.ToString();
+                 string sPLANQTY = dgvr.Cells[3].Value.ToString();
+
+
+                 cmd = new SqlCommand();
+                 cmd.Connection = Connect;
+                 cmd.CommandType = CommandType.StoredProcedure;
+                 cmd.CommandText = "WS_WORKORDER_U";
+
+                 cmd.Parameters.AddWithValue("PLANTCODE", sPLANTCODE);
+                 cmd.Parameters.AddWithValue("ITEMCODE", sITEMCODE);
+                 cmd.Parameters.AddWithValue("PLANQTY", sPLANQTY);
+
+                 cmd.Parameters.AddWithValue("LANG", "KO");
+                 cmd.Parameters.AddWithValue("RS_CODE", "").Direction = ParameterDirection.Output;
+                 cmd.Parameters.AddWithValue("RS_MSG", "").Direction = ParameterDirection.Output;
+
+                 cmd.ExecuteNonQuery();
+
+                 MessageBox.Show("발주등록을 완료했습니다");
+
+                 Inquire();
+
+             }
+             catch (Exception ex)
+             {
+
+                 MessageBox.Show(ex.ToString());
+             }
+             finally
+             {
+                 Connect.Close();
+             }
+         }  */
+
+
+
 
         public override void DoNew()
         {
@@ -308,22 +412,10 @@ namespace Form_list
             dtTemp.Rows[iSelectRowIndex].Delete();
         }
 
-        public bool DBHelper(bool Tran)
+        private void Grid1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            // 1. 데이터 베이스 접속
-            Connect = new SqlConnection(Commons.cDbCon);
 
-            // 2. 데이터 베이스 OPEN
-            Connect.Open();
-            if (Connect.State != ConnectionState.Open)
-            {
-                MessageBox.Show("데이터 베이스 연결에 실패하였습니다.");
-                return false;
-            }
-            if (Tran) tran = Connect.BeginTransaction();
-            return true;
         }
-
-
     }
+
 }

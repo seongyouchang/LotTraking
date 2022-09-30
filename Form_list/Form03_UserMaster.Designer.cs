@@ -29,12 +29,14 @@
         private void InitializeComponent()
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label1 = new System.Windows.Forms.Label();
             this.tstUserId = new System.Windows.Forms.Label();
             this.txtUserName = new System.Windows.Forms.Label();
             this.txtUserId = new System.Windows.Forms.TextBox();
-            this.Grid1 = new System.Windows.Forms.DataGridView();
             this.cboWorkSpace = new System.Windows.Forms.ComboBox();
+            this.Grid1 = new System.Windows.Forms.DataGridView();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Grid1)).BeginInit();
@@ -86,24 +88,6 @@
             this.txtUserId.Size = new System.Drawing.Size(200, 21);
             this.txtUserId.TabIndex = 3;
             // 
-            // Grid1
-            // 
-            this.Grid1.AllowUserToAddRows = false;
-            this.Grid1.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.Aqua;
-            this.Grid1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.Grid1.BackgroundColor = System.Drawing.Color.White;
-            this.Grid1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.Grid1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Grid1.EnableHeadersVisualStyles = false;
-            this.Grid1.Location = new System.Drawing.Point(3, 17);
-            this.Grid1.Name = "Grid1";
-            this.Grid1.RowHeadersWidth = 51;
-            this.Grid1.RowTemplate.Height = 23;
-            this.Grid1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.Grid1.Size = new System.Drawing.Size(794, 330);
-            this.Grid1.TabIndex = 0;
-            // 
             // cboWorkSpace
             // 
             this.cboWorkSpace.FormattingEnabled = true;
@@ -111,6 +95,44 @@
             this.cboWorkSpace.Name = "cboWorkSpace";
             this.cboWorkSpace.Size = new System.Drawing.Size(121, 20);
             this.cboWorkSpace.TabIndex = 4;
+            // 
+            // Grid1
+            // 
+            this.Grid1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("휴먼모음T", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Navy;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.Grid1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.Grid1.ColumnHeadersHeight = 29;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("휴먼모음T", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.Grid1.DefaultCellStyle = dataGridViewCellStyle2;
+            this.Grid1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Grid1.GridColor = System.Drawing.SystemColors.ActiveCaption;
+            this.Grid1.Location = new System.Drawing.Point(3, 17);
+            this.Grid1.Name = "Grid1";
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.Navy;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("휴먼모음T", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Navy;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.Grid1.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            this.Grid1.RowHeadersWidth = 51;
+            this.Grid1.RowTemplate.Height = 23;
+            this.Grid1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.Grid1.Size = new System.Drawing.Size(794, 330);
+            this.Grid1.TabIndex = 39;
             // 
             // Form03_UserMaster
             // 
@@ -135,7 +157,7 @@
         private System.Windows.Forms.TextBox txtUserId;
         private System.Windows.Forms.Label txtUserName;
         private System.Windows.Forms.Label tstUserId;
-        private System.Windows.Forms.DataGridView Grid1;
         private System.Windows.Forms.ComboBox cboWorkSpace;
+        private System.Windows.Forms.DataGridView Grid1;
     }
 }

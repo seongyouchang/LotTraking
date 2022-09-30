@@ -35,9 +35,28 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Assamble\bin\Debug\Assamble.dll</HintPath>
     </Reference>
+    <Reference Include="DC00_assm">
+      <HintPath>..\..\MES_EDU_GNU_0831\MES_EDU_GNU\DC_POPUP\bin\Debug\DC00_assm.dll</HintPath>
+    </Reference>
+    <Reference Include="DC00_Component">
+      <HintPath>..\..\MES_EDU_GNU_0831\MES_EDU_GNU\DC_POPUP\bin\Debug\DC00_Component.dll</HintPath>
+    </Reference>
+    <Reference Include="DC00_PuMan">
+      <HintPath>..\..\MES_EDU_GNU_0831\MES_EDU_GNU\DC_POPUP\bin\Debug\DC00_PuMan.dll</HintPath>
+    </Reference>
+    <Reference Include="DC00_WinForm">
+      <HintPath>..\..\MES_EDU_GNU_0831\MES_EDU_GNU\DC_POPUP\bin\Debug\DC00_WinForm.dll</HintPath>
+    </Reference>
+    <Reference Include="DC_POPUP">
+      <HintPath>..\..\MES_EDU_GNU_0831\MES_EDU_GNU\DC_POPUP\bin\Debug\DC_POPUP.dll</HintPath>
+    </Reference>
     <Reference Include="Infragistics2.Shared.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" />
     <Reference Include="Infragistics2.Win.Misc.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" />
+    <Reference Include="Infragistics2.Win.UltraWinEditors.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" />
     <Reference Include="Infragistics2.Win.UltraWinGrid.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics2.Win.UltraWinSchedule.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics2.Win.UltraWinTabControl.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" />
+    <Reference Include="Infragistics2.Win.UltraWinToolbars.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" />
     <Reference Include="Infragistics2.Win.v11.1, Version=11.1.20111.2071, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" />
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
@@ -63,11 +82,41 @@
     <Compile Include="Form03_UserMaster.Designer.cs">
       <DependentUpon>Form03_UserMaster.cs</DependentUpon>
     </Compile>
+    <Compile Include="LotTracking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LotTracking.designer.cs">
+      <DependentUpon>LotTracking.cs</DependentUpon>
+    </Compile>
     <Compile Include="Material.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Material.Designer.cs">
       <DependentUpon>Material.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaterialOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MaterialOrder.designer.cs">
+      <DependentUpon>MaterialOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MF_StockMM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MF_StockMM.Designer.cs">
+      <DependentUpon>MF_StockMM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MF_StockMMRec2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MF_StockMMRec2.designer.cs">
+      <DependentUpon>MF_StockMMRec2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MM_StockOut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MM_StockOut.Designer.cs">
+      <DependentUpon>MM_StockOut.cs</DependentUpon>
     </Compile>
     <Compile Include="SWorkOrder.cs">
       <SubType>Form</SubType>
@@ -87,6 +136,19 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="TB_STOCK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TB_STOCK.designer.cs">
+      <DependentUpon>TB_STOCK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WF_performance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include=".Designer.cs">
+      <DependentUpon>WF_performance.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Worker.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,10 +160,24 @@
     <EmbeddedResource Include="Form03_UserMaster.resx">
       <DependentUpon>Form03_UserMaster.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="LotTracking.resx">
+      <DependentUpon>LotTracking.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Material.resx">
       <DependentUpon>Material.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="MaterialOrder.resx">
+      <DependentUpon>MaterialOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MF_StockMM.resx">
+      <DependentUpon>MF_StockMM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MF_StockMMRec2.resx">
+      <DependentUpon>MF_StockMMRec2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MM_StockOut.resx">
+      <DependentUpon>MM_StockOut.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -111,6 +187,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SWorkOrder.resx">
       <DependentUpon>SWorkOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TB_STOCK.resx">
+      <DependentUpon>TB_STOCK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WF_performance.resx">
+      <DependentUpon>WF_performance.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Worker.resx">
       <DependentUpon>Worker.cs</DependentUpon>
