@@ -1,4 +1,4 @@
-# LotTraking
+# LotTraking (최종파일은 브랜치 final에 있습니다)
 
 🏠 소개 및 기획 이유
 
